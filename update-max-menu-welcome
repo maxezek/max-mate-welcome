@@ -26,7 +26,7 @@ my $mode=shift;
 if( $mode eq "--help" )
 {
      print "Usage: $0 [--remove]\n";
-     print "       Add (or remove) \"Ubuntu MATE Welcome\" button to (from) MATE's Settings menu.\n";
+     print "       Add (or remove) \"MAX MATE Welcome\" button to (from) MATE's Settings menu.\n";
      exit;
 }
 my $menu;

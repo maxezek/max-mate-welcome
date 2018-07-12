@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 # -*- coding:utf-8 -*-
 
-"""  i18n helper for Ubuntu Mate Welcome
+"""  i18n helper for MAX Mate Welcome
 
 Perform one of the following functions depending on the command line args
 
@@ -28,22 +28,22 @@ def show_usage():
 
     print("\nwelcome-po usage")
     print("\nUsage: welcome-po [arguments]")
-    print("  --create-pot                Create a ubuntu-mate-welcome.pot in the po directory")
+    print("  --create-pot                Create a max-mate-welcome.pot in the po directory")
     print("                              (can also be used when whenever new translatable strings")
-    print("                               are added to ubuntu-mate-welcome.\n")
+    print("                               are added to max-mate-welcome.\n")
     print("  --update-pos                Update all .po files in the .po directory with new")
     print("                              translateable strings from the .pot file\n")
     print("  --install                   Compile all of the .po files in the po directory")        
     print("                              and install them under ./locale/\n")
     print("  --help                      Show this message\n")
-    print(" Requirements:                Must be run in the same directory as ubuntu-mate-welcome")
+    print(" Requirements:                Must be run in the same directory as max-mate-welcome")
     print("                              Requires xgettext, pot2po, msgmerge, msgfmt \n")
 
 
 
 ###########################################################
 def create_pot(po_dir):
-    """ Create .pot file for Ubuntu Mate Welcome
+    """ Create .pot file for MAX Mate Welcome
    
     Expect to find Welcome in the current directory...
     Create a po directory if one doesn't exist 
@@ -61,12 +61,12 @@ def create_pot(po_dir):
     if not (os.path.exists(po_dir)):
         os.mkdir(po_dir)
 
-    pot_file = os.path.join(po_dir,"ubuntu-mate-welcome.pot")
+    pot_file = os.path.join(po_dir,"max-mate-welcome.pot")
 
     subprocess.call(["xgettext",
-	             "-d", "ubuntu-mate-welcome",    # domain name
+	             "-d", "max-mate-welcome",    # domain name
 	             "-o", pot_file,                 # output file
-                     "ubuntu-mate-welcome",          # input file
+                     "max-mate-welcome",          # input file
                      "-L", "Python"])                # Language
 
     print ("%s created.\n" %pot_file)
@@ -83,9 +83,9 @@ def update_pos(po_dir):
     Args: po_dir - the directory containing the .po files
     """
 
-    pot_file = os.path.join(po_dir,"ubuntu-mate-welcome.pot")
+    pot_file = os.path.join(po_dir,"max-mate-welcome.pot")
     if not os.path.exists(pot_file):
-        print("Error: ubuntu-mate-welcome.pot does not exist")
+        print("Error: max-mate-welcome.pot does not exist")
         exit()
 
     po_files = glob.glob(os.path.join(po_dir, '*.po'))
@@ -128,7 +128,7 @@ def compile_and_install(po_dir, locale_dir):
         
         #now compile and install the .po
         print ("processing %s" %po_file)
-        output_file = os.path.join(lcm_dir, "ubuntu-mate-welcome.mo")
+        output_file = os.path.join(lcm_dir, "max-mate-welcome.mo")
 
         subprocess.call(["msgfmt", po_file,
 	             "--output-file", output_file])
@@ -141,8 +141,8 @@ if (len(sys.argv)==1) or (sys.argv[1]=="--help"):
     show_usage()
     exit()
 
-if not os.path.exists("./ubuntu-mate-welcome"):
-    print("Error: Need to be in the same directory as ubuntu-mate-welcome...")
+if not os.path.exists("./max-mate-welcome"):
+    print("Error: Need to be in the same directory as max-mate-welcome...")
     exit()
 
 source_dir = '.'

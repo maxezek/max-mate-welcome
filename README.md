@@ -1,26 +1,27 @@
-# ubuntu-mate-welcome
+# max-mate-welcome
 
-The Ubuntu MATE Welcome application to greet and assist new and
+The MAX MATE Welcome application, based on Ubuntu MATE, to greet and assist new and
 returning users.
 
 ## Features
 
   * **Introduce new users to the operating system.**
-    * Highlight key features of Ubuntu MATE and GNU/Linux.
+    * Highlight key features of MAX MATE and GNU/Linux.
     * Provide quick guidelines on getting started.
     * Provide quick installation guidance.
     * Inform users of their system's specifications.
-  * **Grow the Ubuntu MATE Community**
+  * **Grow the MAX MATE Community**
     * Links to the community forums and social networks.
-    * Inform of Ubuntu MATE branded products for sale.
+    * Inform of MAX MATE branded products for sale.
     * Provide details on donating to the project.
   * **Software Boutique**
-    * From a pick of Ubuntu MATE's recommended software tested for the distribution.
+    * From a pick of MAX MATE's recommended software tested for the distribution.
     * Simple tools to manage packages on the system.
-    * Install a package manager, such as *Ubuntu Software Center*.
+    * Install a package manager, such as *MAX Software Center*.
 
 Originally based on:
 
+  * https://launchpad.net/ubuntu/+source/ubuntu-mate-welcome
   * https://github.com/Antergos/antergos-welcome
   * http://blog.schlomo.schapiro.org/2014/01/apt-install.html
 
@@ -29,10 +30,10 @@ Originally based on:
 Welcome does not require parameters for general usage, but for debugging
 and testing purposes, the following can be specified:
 
-#### ubuntu-mate-welcome
+#### max-mate-welcome
 
 ```
-Usage: ubuntu-mate-welcome [arguments]
+Usage: max-mate-welcome [arguments]
   -d, --dev, --debug           Disables locales and is very verbose
                                intended for development purposes.
   --font-dpi=NUMBER            Adapt zoom setting based on DPI. Default 96.
@@ -74,20 +75,6 @@ Usage: ubuntu-mate-welcome [arguments]
   * inxi
   * humanity-icon-theme
 
-## Builds
-
-### Status
-[![Build Status](https://semaphoreci.com/api/v1/ubuntu-mate/ubuntu-mate-welcome/branches/master/shields_badge.svg)](https://semaphoreci.com/ubuntu-mate/ubuntu-mate-welcome) for **Artful**
-
-[![Build Status](https://semaphoreci.com/api/v1/ubuntu-mate/ubuntu-mate-welcome/branches/xenial-ppa/shields_badge.svg)](https://semaphoreci.com/ubuntu-mate/ubuntu-mate-welcome) for **Xenial**
-
-### Daily Builds
-
-Testers wanting the latest builds should use the [Daily PPA](https://launchpad.net/~ubuntu-mate-dev/+archive/ubuntu/welcome-daily):
-
-    sudo add-apt-repository ppa:ubuntu-mate-dev/welcome-daily
-    sudo apt update
-    sudo apt upgrade
 
 ## Tests
 
@@ -117,7 +104,7 @@ We are on Transifex!
 
 1. Navigate to the repository folder.
 2. Run `./create-translations.sh`
-3. Run `./ubuntu-mate-welcome --locale=<CODE>` (e.g. `fr_FR`, `es_ES`)
+3. Run `./max-mate-welcome --locale=<CODE>` (e.g. `fr_FR`, `es_ES`)
 
 ## Syncing Translations
 
