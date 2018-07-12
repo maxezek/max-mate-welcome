@@ -1,0 +1,100 @@
+# 
+# Translators:
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016,2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2018-04-18 06:23+0000\n"
+"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
+"Language-Team: Catalan (Spain) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/ca_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: index.html:15
+msgid "Main Menu"
+msgstr "Menú Principal"
+
+#: index.html:19
+msgid ""
+"Ensures Welcome's documentation, translations and software picks are always "
+"up-to-date."
+msgstr "Assegura que la documentació, les traduccions i seleccions de programari de la benvinguda estiguin sempre al dia."
+
+#: index.html:20
+msgid "Subscribe to Welcome updates"
+msgstr "Subscriure's a les actualitzacions de la Benvinguda"
+
+#: index.html:25
+msgid ""
+"This Welcome application and the Boutique are being updated and will re-open"
+" shortly."
+msgstr "Aquesta aplicació de benvinguda i la botiga s'estan actualitzant i es tornaran a obrir de seguida."
+
+#: index.html:42
+msgid "Choose an option to discover your new operating system."
+msgstr "Seleccioneu una opció per descobrir el vostre sistema operatiu nou."
+
+#: index.html:50
+msgid "Introduction"
+msgstr "Introducció"
+
+#: index.html:51
+msgid "Features"
+msgstr "Característiques"
+
+#: index.html:52
+msgid "Getting Started"
+msgstr "Com començar"
+
+#: index.html:53
+msgid "Installation Help"
+msgstr "Ajuda d'instal·lació"
+
+#: index.html:58
+msgid "Get Involved"
+msgstr "Involucrar-se"
+
+#: index.html:59
+msgid "Shop"
+msgstr "Botiga"
+
+#: index.html:60
+msgid "Donate"
+msgstr "Fer un donatiu"
+
+#: index.html:68
+msgid "Community"
+msgstr "Comunitat"
+
+#: index.html:69
+msgid "Chat Room"
+msgstr "Sala de xat"
+
+#: index.html:70
+msgid "Software"
+msgstr "Programari"
+
+#: index.html:71
+msgid "Install Now"
+msgstr "Instal·la ara"
+
+#: index.html:78
+msgid "Raspberry Pi Information"
+msgstr "Informació quant a la Raspberry Pi"
+
+#: index.html:91
+msgid "Open Welcome when I log on."
+msgstr "Obre la benvinguda quan em connecti."
+
+#: index.html:76
+msgid "Desktop Layout"
+msgstr "Disseny de l'escriptori"
+
+#: index.html:77
+msgid "Browser Selection"
+msgstr "Selecció del navegador"

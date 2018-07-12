@@ -1,0 +1,100 @@
+# 
+# Translators:
+# Helena S <ele@tutamail.com>, 2016-2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2018-04-17 18:35+0000\n"
+"Last-Translator: Luke Horwell <luke@ubuntu-mate.org>\n"
+"Language-Team: Slovenian (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/sl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: index.html:15
+msgid "Main Menu"
+msgstr "Glavni meni"
+
+#: index.html:19
+msgid ""
+"Ensures Welcome's documentation, translations and software picks are always "
+"up-to-date."
+msgstr "Zagotavlja, da so dokumentacija, prevodi in izbrani programi v Welcome vedno posodobljeni."
+
+#: index.html:20
+msgid "Subscribe to Welcome updates"
+msgstr "Naročite se na posodobitve programa Welcome"
+
+#: index.html:25
+msgid ""
+"This Welcome application and the Boutique are being updated and will re-open"
+" shortly."
+msgstr "Ta program Welcome in trgovina programov se posodabljata in se bosta kmalu spet odprla."
+
+#: index.html:42
+msgid "Choose an option to discover your new operating system."
+msgstr "Izberite možnost, da spoznate svoj nov operacijski sistem."
+
+#: index.html:50
+msgid "Introduction"
+msgstr "Uvod"
+
+#: index.html:51
+msgid "Features"
+msgstr "Zmožnosti"
+
+#: index.html:52
+msgid "Getting Started"
+msgstr "Kako začeti"
+
+#: index.html:53
+msgid "Installation Help"
+msgstr "Pomoč pri namestitvi"
+
+#: index.html:58
+msgid "Get Involved"
+msgstr "Sodelujte"
+
+#: index.html:59
+msgid "Shop"
+msgstr "Trgovina"
+
+#: index.html:60
+msgid "Donate"
+msgstr "Prispevajte"
+
+#: index.html:68
+msgid "Community"
+msgstr "Skupnost"
+
+#: index.html:69
+msgid "Chat Room"
+msgstr "Klepet"
+
+#: index.html:70
+msgid "Software"
+msgstr "Programi"
+
+#: index.html:71
+msgid "Install Now"
+msgstr "Namesti zdaj"
+
+#: index.html:78
+msgid "Raspberry Pi Information"
+msgstr "Informacije o Raspberry Pi"
+
+#: index.html:91
+msgid "Open Welcome when I log on."
+msgstr "Ob prijavi odpri Welcome."
+
+#: index.html:76
+msgid "Desktop Layout"
+msgstr ""
+
+#: index.html:77
+msgid "Browser Selection"
+msgstr ""

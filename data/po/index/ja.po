@@ -1,0 +1,101 @@
+# 
+# Translators:
+# raspi0124 <adores0124@yahoo.co.jp>, 2017
+# raspi0124 <adores0124@yahoo.co.jp>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2018-04-17 18:35+0000\n"
+"Last-Translator: Luke Horwell <luke@ubuntu-mate.org>\n"
+"Language-Team: Japanese (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: index.html:15
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: index.html:19
+msgid ""
+"Ensures Welcome's documentation, translations and software picks are always "
+"up-to-date."
+msgstr "「ようこそ」の文章や翻訳、ソフトウェアの画像などを常に最新に保ちます。"
+
+#: index.html:20
+msgid "Subscribe to Welcome updates"
+msgstr "「ようこそ」を更新する"
+
+#: index.html:25
+msgid ""
+"This Welcome application and the Boutique are being updated and will re-open"
+" shortly."
+msgstr "この「ようこそ」とBoutiqueは更新された後、再開します。"
+
+#: index.html:42
+msgid "Choose an option to discover your new operating system."
+msgstr "Ubuntu MATEについて紹介します。項目を選んでください。"
+
+#: index.html:50
+msgid "Introduction"
+msgstr "はじめに"
+
+#: index.html:51
+msgid "Features"
+msgstr "機能"
+
+#: index.html:52
+msgid "Getting Started"
+msgstr "始めましょう"
+
+#: index.html:53
+msgid "Installation Help"
+msgstr "インストールのお手伝い"
+
+#: index.html:58
+msgid "Get Involved"
+msgstr "もっと良くする"
+
+#: index.html:59
+msgid "Shop"
+msgstr "ショップ"
+
+#: index.html:60
+msgid "Donate"
+msgstr "寄付"
+
+#: index.html:68
+msgid "Community"
+msgstr "コミュニティ"
+
+#: index.html:69
+msgid "Chat Room"
+msgstr "チャットルーム"
+
+#: index.html:70
+msgid "Software"
+msgstr "ソフトウェア"
+
+#: index.html:71
+msgid "Install Now"
+msgstr "今すぐインストール"
+
+#: index.html:78
+msgid "Raspberry Pi Information"
+msgstr "Raspberry Piの情報"
+
+#: index.html:91
+msgid "Open Welcome when I log on."
+msgstr "ログインのたびに「ようこそ」を開く"
+
+#: index.html:76
+msgid "Desktop Layout"
+msgstr ""
+
+#: index.html:77
+msgid "Browser Selection"
+msgstr ""

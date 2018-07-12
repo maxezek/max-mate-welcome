@@ -1,0 +1,126 @@
+# Translators:
+# ToMáš Marný, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: ToMáš Marný, 2018\n"
+"Language-Team: Czech (https://www.transifex.com/ubuntu-mate/teams/61536/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: panel-selection.html:18
+msgid "Desktop Layout"
+msgstr "Rozložení pracovní plochy"
+
+#: panel-selection.html:26
+msgid "A desktop for everyone's tastes"
+msgstr "Plocha dle chutí každého"
+
+#: panel-selection.html:27
+msgid ""
+"Ubuntu MATE offers a wide range of customisation options, including the "
+"ability to choose a desktop layout that most suits your workflow. You can "
+"choose one as a starting point and make further changes to it later."
+msgstr ""
+"Ubuntu MATE nabízí širokou škálu možností přizpůsobení, včetně možnosti "
+"vybrat si rozvržení plochy, které nejvíce vyhovuje vašim pracovním návykům. "
+"Můžete si jedno vybrat jako výchozí bod a později ho změnit."
+
+#: panel-selection.html:32
+msgid ""
+"The default experience, a familiar two panel layout with a searchable menu"
+msgstr ""
+"Výchozí zážitek, známé rozložení dvou panelů s prohledávatelnou nabídkou"
+
+#: panel-selection.html34, 62, 67
+msgid "Ubuntu MATE optimised"
+msgstr "Optimalizováno pro Ubuntu MATE"
+
+#: panel-selection.html:37
+msgid ""
+"Application dock, searchable launcher and global menus similar to Unity 7"
+msgstr ""
+"Aplikační dock, prohledávatelný spouštěč a globální nabídky podobné Unity 7"
+
+#: panel-selection.html:39
+msgid "Inspired by Ubuntu Unity"
+msgstr "Inspirované Ubuntu Unity"
+
+#: panel-selection.html:42
+msgid ""
+"Single bottom panel with a searchable menu, similar to the taskbar in "
+"Windows"
+msgstr ""
+"Jeden spodní panel s prohledávatelnou nabídkou, podobné hlavnímu panelu v "
+"systému Windows"
+
+#: panel-selection.html:44
+msgid "Most familiar for Windows users"
+msgstr "Nejvíce povědomé uživatelům Windows"
+
+#: panel-selection.html:47
+msgid ""
+"A dock and top panel with searchable launcher and global menus similar to "
+"macOS"
+msgstr ""
+"Dock a horní panel s prohledávatelnými spouštěči a globálními nabídkami "
+"podobnými macOS"
+
+#: panel-selection.html:49
+msgid "Most familiar for macOS users"
+msgstr "Nejvíce povědomé uživatelům macOS"
+
+#: panel-selection.html:55
+msgid ""
+"Two panel layout featuring the iconic 'Applications, Places, System' menu"
+msgstr "Dvoupanelové rozložení s nabídkou \"Aplikace, Místa, Systém\""
+
+#: panel-selection.html:57
+msgid "Most familiar for GNOME 2 users"
+msgstr "Nejvíce povědomé uživatelům GNOME 2"
+
+#: panel-selection.html:60
+msgid ""
+"Modernised two panel layout featuring a searchable menu with global menus."
+msgstr ""
+"Modernizované dvoupanelové uspořádání s prohledávatelnou nabídkou a "
+"globálními nabídkami."
+
+#: panel-selection.html:65
+msgid "A compact, single top panel layout, ideal for small screens"
+msgstr ""
+"Kompaktní uspořádání s jedním horním panelem, ideální pro malé obrazovky"
+
+#: panel-selection.html:70
+msgid "A dock and top panel with a searchable menu"
+msgstr "Dock a horní panel s prohledávatelnou nabídkou"
+
+#: panel-selection.html:72
+msgid "Inspired by elementaryOS"
+msgstr "Inspirované elementaryOS"
+
+#: panel-selection.html:79
+msgid "Show More"
+msgstr "Zobrazit více"
+
+#: panel-selection.html:84
+msgid "Panel layouts can be changed later in"
+msgstr "Rozvržení panelů lze později změnit"
+
+#: panel-selection.html:84
+msgid "MATE Tweak"
+msgstr "MATE Tweak"
+
+#: panel-selection.html:98
+msgid "Keep Existing Settings"
+msgstr "Zachovat stávající nastavení"
+
+#: panel-selection.html:99
+msgid "Use These Settings"
+msgstr "Použít tato nastavení"

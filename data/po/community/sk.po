@@ -1,0 +1,54 @@
+# 
+# Translators:
+# tylnesh <kohutek.michal@gmail.com>, 2017
+# Tomáš Tomovčík <tomovcik.tomas@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2018-01-14 18:21+0000\n"
+"Last-Translator: tylnesh <kohutek.michal@gmail.com>\n"
+"Language-Team: Slovak (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/sk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: community.html:18
+msgid "Community"
+msgstr "Komunita"
+
+#: community.html:26
+msgid "Forum"
+msgstr "Fórum"
+
+#: community.html:27
+msgid ""
+"To play an active role and help shape the direction of Ubuntu MATE, the "
+"forum is the best place to go. From here, you can talk with the Ubuntu MATE "
+"team and other members of our growing community."
+msgstr "Fórum je to najlepšie miesto pre vás, ak sa chcete aktívne zapájať a pomôcť určovať smer vývoja Ubuntu MATE. Tam sa môžete rozprávať s tímom Ubuntu MATE a ostatnými členmi našej rastúcej komunity."
+
+#: community.html:31
+msgid ""
+"It appears you are not connected to the Internet. Please check your "
+"connection to access this content."
+msgstr "Zdá sa, že nie ste pripojení k Internetu. Prosím, skontrolujte si spojenia aby ste mohli pristupovať k tomuto obsahu."
+
+#: community.html:32
+msgid "Sorry, Welcome was unable to establish a connection."
+msgstr "Sorry, program Vitajte nebol schopnú uskutočniť spojenie."
+
+#: community.html:33
+msgid "Retry"
+msgstr "Opakovať"
+
+#: community.html:38
+msgid "Social Networks"
+msgstr "Sociálne siete"
+
+#: community.html:39
+msgid "Ubuntu MATE is active on the following social networks."
+msgstr "Ubuntu MATE je aktívne na následujúcich sociálnych sieťach."

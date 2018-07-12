@@ -1,0 +1,101 @@
+# 
+# Translators:
+# Marcus Larborg, 2016
+# Tobias Lekare <lekare@linux.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2018-04-17 18:35+0000\n"
+"Last-Translator: Luke Horwell <luke@ubuntu-mate.org>\n"
+"Language-Team: Swedish (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: index.html:15
+msgid "Main Menu"
+msgstr "Huvudmeny"
+
+#: index.html:19
+msgid ""
+"Ensures Welcome's documentation, translations and software picks are always "
+"up-to-date."
+msgstr "Garanterar Välkommens dokumentation, översättningar och utvald programvara alltid är uppdaterad"
+
+#: index.html:20
+msgid "Subscribe to Welcome updates"
+msgstr "Prenumerera på Välkommen-uppdateringar"
+
+#: index.html:25
+msgid ""
+"This Welcome application and the Boutique are being updated and will re-open"
+" shortly."
+msgstr "Välkomstapplikationen och Boutique uppdateras och kommer inom kort att startas om."
+
+#: index.html:42
+msgid "Choose an option to discover your new operating system."
+msgstr "Välj ett alternativ för att upptäcka ditt nya operativsystemet."
+
+#: index.html:50
+msgid "Introduction"
+msgstr "Introduktion"
+
+#: index.html:51
+msgid "Features"
+msgstr "Funktioner"
+
+#: index.html:52
+msgid "Getting Started"
+msgstr "Komma igång"
+
+#: index.html:53
+msgid "Installation Help"
+msgstr "Installationshjälp"
+
+#: index.html:58
+msgid "Get Involved"
+msgstr "Bli involverad"
+
+#: index.html:59
+msgid "Shop"
+msgstr "Affär"
+
+#: index.html:60
+msgid "Donate"
+msgstr "Donera"
+
+#: index.html:68
+msgid "Community"
+msgstr "Gemenskap"
+
+#: index.html:69
+msgid "Chat Room"
+msgstr "Chattrum"
+
+#: index.html:70
+msgid "Software"
+msgstr "Programvara"
+
+#: index.html:71
+msgid "Install Now"
+msgstr "Installera Nu"
+
+#: index.html:78
+msgid "Raspberry Pi Information"
+msgstr "Raspberry Pi Information"
+
+#: index.html:91
+msgid "Open Welcome when I log on."
+msgstr "Öppna Välkommen när jag loggar in."
+
+#: index.html:76
+msgid "Desktop Layout"
+msgstr ""
+
+#: index.html:77
+msgid "Browser Selection"
+msgstr ""

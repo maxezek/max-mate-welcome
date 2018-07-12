@@ -1,0 +1,54 @@
+# 
+# Translators:
+# Paul Iulian Gheorghe <paul.gheorghe@outlook.com>, 2016
+# Polihron Alexandru (APoliTech) <ppolihron@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2018-04-20 15:17+0000\n"
+"Last-Translator: Bogdan B. <bogdanke8@gmail.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: community.html:18
+msgid "Community"
+msgstr "Comunitate"
+
+#: community.html:26
+msgid "Forum"
+msgstr "Forum"
+
+#: community.html:27
+msgid ""
+"To play an active role and help shape the direction of Ubuntu MATE, the "
+"forum is the best place to go. From here, you can talk with the Ubuntu MATE "
+"team and other members of our growing community."
+msgstr "Pentru a juca un rol activ și de a ajuta la modelarea direcției sistemului Ubuntu MATE, forumul este cel mai bun loc pentru a merge. De aici, puteți vorbi cu echipa Ubuntu MATE și alți membri ai comunității noastre în creștere."
+
+#: community.html:31
+msgid ""
+"It appears you are not connected to the Internet. Please check your "
+"connection to access this content."
+msgstr "Se pare că nu sunteți conectat la Internet. Vă rugăm să verificați conexiunea pentru a avea acces la acest conținut."
+
+#: community.html:32
+msgid "Sorry, Welcome was unable to establish a connection."
+msgstr "Ne pare rău, dar Welcome nu a reușit să stabilească o conexiune."
+
+#: community.html:33
+msgid "Retry"
+msgstr "Reîncearca"
+
+#: community.html:38
+msgid "Social Networks"
+msgstr "Retele sociale"
+
+#: community.html:39
+msgid "Ubuntu MATE is active on the following social networks."
+msgstr "Ubuntu MATE este activ în cadrul rețelelor sociale."

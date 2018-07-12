@@ -1,0 +1,100 @@
+# 
+# Translators:
+# Bogdan B. <bogdanke8@gmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2018-04-20 14:38+0000\n"
+"Last-Translator: Bogdan B. <bogdanke8@gmail.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: index.html:15
+msgid "Main Menu"
+msgstr "Meniul principal"
+
+#: index.html:19
+msgid ""
+"Ensures Welcome's documentation, translations and software picks are always "
+"up-to-date."
+msgstr "Asigură documentația, traducerea și alegerile software sunt întotdeauna la zi."
+
+#: index.html:20
+msgid "Subscribe to Welcome updates"
+msgstr "Subscrie la actualizările Welcome"
+
+#: index.html:25
+msgid ""
+"This Welcome application and the Boutique are being updated and will re-open"
+" shortly."
+msgstr "Aplicația Welcome și Boutique sunt actualizate si vor fi redeschise în scurt timp."
+
+#: index.html:42
+msgid "Choose an option to discover your new operating system."
+msgstr "Alegeți o opțiune pentru a vă descoperi noul sistem de operare"
+
+#: index.html:50
+msgid "Introduction"
+msgstr "Introducere"
+
+#: index.html:51
+msgid "Features"
+msgstr "Caracteristici"
+
+#: index.html:52
+msgid "Getting Started"
+msgstr "Noțiuni de bază"
+
+#: index.html:53
+msgid "Installation Help"
+msgstr "Instalare Ajutor"
+
+#: index.html:58
+msgid "Get Involved"
+msgstr "Implică-te"
+
+#: index.html:59
+msgid "Shop"
+msgstr "Magazin"
+
+#: index.html:60
+msgid "Donate"
+msgstr "Donație"
+
+#: index.html:68
+msgid "Community"
+msgstr "Comunitate"
+
+#: index.html:69
+msgid "Chat Room"
+msgstr "Cameră de chat"
+
+#: index.html:70
+msgid "Software"
+msgstr "Software"
+
+#: index.html:71
+msgid "Install Now"
+msgstr "Instalează acum"
+
+#: index.html:78
+msgid "Raspberry Pi Information"
+msgstr "Informații Raspberry Pi"
+
+#: index.html:91
+msgid "Open Welcome when I log on."
+msgstr "Deschide Welcome când mă loghez"
+
+#: index.html:76
+msgid "Desktop Layout"
+msgstr "Aspectul desktopului"
+
+#: index.html:77
+msgid "Browser Selection"
+msgstr "Alege browser"

@@ -1,0 +1,634 @@
+# 
+# Translators:
+# Marcin Sedlak <fdmarcin@gmail.com>, 2016
+# MichalS, 2017
+# Robert Orzanna <robert@orzanna.de>, 2017
+# Paweł Pańczyk <pawelppanczyk@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2018-02-06 09:10+0000\n"
+"Last-Translator: Luke Horwell <luke@ubuntu-mate.org>\n"
+"Language-Team: Polish (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: software.html:18
+msgid "Software"
+msgstr "Software"
+
+#: software.html20, 20
+msgid "Bulk Queue"
+msgstr "Kolejka luzem"
+
+#: software.html:21
+msgid "Bulk Queue Disabled"
+msgstr "Luzem Kolejka niepełnosprawnych"
+
+#: software.html22, 22
+msgid "Search"
+msgstr "Szukaj"
+
+#: software.html23, 23, 347
+msgid "Boutique News"
+msgstr "Nowości w Boutique"
+
+#: software.html24, 24, 378, 470
+msgid "Preferences"
+msgstr "Preferencje"
+
+#: software.html31, 31, 142
+msgid "Accessories"
+msgstr "Akcesoria"
+
+#: software.html32, 32, 155
+msgid "Education"
+msgstr "Edukacja"
+
+#: software.html33, 33, 168
+msgid "Games"
+msgstr "Gry"
+
+#: software.html34, 34, 181
+msgid "Graphics"
+msgstr "Grafika"
+
+#: software.html35, 35, 194
+msgid "Internet"
+msgstr "Internet"
+
+#: software.html36, 36, 207
+msgid "Office"
+msgstr "Narzędzia biurowe"
+
+#: software.html37, 37, 220
+msgid "Programming"
+msgstr "Programowanie"
+
+#: software.html38, 38, 233
+msgid "Sound & Video"
+msgstr "Dźwięk i obraz"
+
+#: software.html39, 39, 246
+msgid "System Tools"
+msgstr "Narzędzia systemowe"
+
+#: software.html40, 40, 259
+msgid "Universal Access"
+msgstr "Ułatwienia dostępu"
+
+#: software.html41, 41, 269
+msgid "Servers"
+msgstr "Serwery"
+
+#: software.html42, 42
+msgid "More Software"
+msgstr "Więcej programów"
+
+#: software.html43, 43
+msgid "Fixes"
+msgstr "Poprawki"
+
+#: software.html:48
+msgid "Stocking the Boutique..."
+msgstr "Ładowanie Boutique"
+
+#: software.html:57
+msgid "Software Boutique"
+msgstr "Software Boutique"
+
+#: software.html:58
+msgid ""
+"There is an abundance of software available for Ubuntu MATE and some people "
+"find that choice overwhelming. The Boutique is a carefully curated selection"
+" of the best-in-class applications chosen because they integrate well, "
+"complement Ubuntu MATE and enable you to self style your computing "
+"experience."
+msgstr "Ubuntu MATE posiada nieprawdopodobną ilość dostępnego oprogramowania. Program Boutique to starannie wyselekcjonowana kolekcja najlepszych w swoim rodzaju aplikacji, wybranych dzięki dobrej integracji, dopasowaniu do Ubuntu MATE, które umożliwiają dostosowanie systemu do własnych potrzeb."
+
+#: software.html:65
+msgid "If you can't find what you're looking for, install one of the"
+msgstr "Jeśli masz problem ze znalezieniem tego, czego szukasz, zainstaluj jeden z programów z menu"
+
+#: software.html66, 364
+msgid "Get More Apps"
+msgstr "Więcej programów"
+
+#: software.html:67
+msgid "software centers"
+msgstr "Centra oprogramowania"
+
+#: software.html:68
+msgid "to explore the complete Ubuntu software catalog."
+msgstr "aby odkrywać pełny katalog programów Ubuntu."
+
+#: software.html:72
+msgid "More Apps Await."
+msgstr "Więcej Aplikacje czekają."
+
+#: software.html:73
+msgid ""
+"Connect your computer to the Internet to explore a wide selection of "
+"applications for Ubuntu MATE."
+msgstr "Podłącz komputer do Internetu, aby odkrywać szeroką gamę aplikacji dostępnych dla Ubuntu MATE."
+
+#: software.html:75
+msgid ""
+"Once online, you'll be able to download and install tried & tested software "
+"right here. Our picks ensure that the featured software integrates well on "
+"the Ubuntu MATE desktop."
+msgstr "Kiedy połączysz się z siecią, będziesz mógł pobierać i instalować wypróbowane i sprawdzone oprogramowanie. Nasz wybór zapewnia, że dostarczane programy dobrze współpracują z pulpitem Ubuntu MATE."
+
+#: software.html:81
+msgid ""
+"Sorry, Welcome could not establish a connection to the Ubuntu repository "
+"server. Please check your connection and try again."
+msgstr "Przepraszamy, program Welcome nie może nawiązać połączenia z serwerem repozytoriów Ubuntu. Proszę sprawdzić połączenie i spróbować ponownie."
+
+#: software.html:86
+msgid "Retry Connection"
+msgstr "Połącz ponownie"
+
+#: software.html:89
+msgid "Connection Troubleshooting"
+msgstr "Rozwiązywanie problemów z połączeniem"
+
+#: software.html:90
+msgid "Connection Help"
+msgstr "Pomoc z połączeniem"
+
+#: software.html:96
+msgid "Get Connected."
+msgstr "Połącz się."
+
+#: software.html:97
+msgid ""
+"Here's a few things you can check, depending on the type of connection you "
+"have:"
+msgstr "To kilka rzeczy, które możesz sprawdzić, zależnie od rodzaju połączenia, które posiadasz:"
+
+#: software.html:98
+msgid "Wired Connection"
+msgstr "Połączenie przewodowe"
+
+#: software.html:100
+msgid "Is the cable securely plugged in?"
+msgstr "Czy kabel jest prawidłowo podłączony?"
+
+#: software.html:101
+msgid ""
+"Is the router online and can other devices access the network? Try "
+"restarting the router."
+msgstr "Czy router jest połączony z siecią i czy inne urządzenia mają dostęp do Internetu? Spróbuj zrestartować router."
+
+#: software.html:104
+msgid "Wireless Connection"
+msgstr "Połączenie bezprzewodowe"
+
+#: software.html:105
+msgid "Have you entered the correct wireless password from the"
+msgstr "Czy podałeś prawidłowe hasło do sieci WiFi"
+
+#: software.html:105
+msgid "network indicator"
+msgstr "w aplecie sieci"
+
+#: software.html:105
+msgid "in the upper-right?"
+msgstr "w prawym górnym rogu?"
+
+#: software.html:107
+msgid "When disconnected, the applet looks like this:"
+msgstr "Kiedy nie ma połączenia, aplet wygląda tak:"
+
+#: software.html:109
+msgid ""
+"Is there a physical switch that may have accidentally switched off wireless "
+"functionality?"
+msgstr "Czy komputer posiada fizyczny przycisk, który może przypadkowo wyłączyć sieć bezprzewodową?"
+
+#: software.html:111
+msgid "Is there a soft (keyboard) switch that toggles it off?"
+msgstr "Czy istnieje miękki (klawiaturowy) przycisk funkcyjny wyłączający WiFI?"
+
+#: software.html:113
+msgid "You may need to hold the FN key while pressing the function key."
+msgstr "Być może musisz przytrzymać klawisz FN podczas naciskania klawisza funkcyjnego."
+
+#: software.html:114
+msgid "Here's an example:"
+msgstr "Na przykład:"
+
+#: software.html:118
+msgid "Not working at all or experiencing sluggish connections?"
+msgstr "Połączenie nie działa wcale lub jest powolne?"
+
+#: software.html:119
+msgid ""
+"Sorry to hear that. You will need a temporary wired connection to install "
+"working drivers."
+msgstr "Przykro to słyszeć. Będziesz potrzebować tymczasowego połączenia przewodowego, aby zainstalować sterowniki."
+
+#: software.html:121
+msgid "The"
+msgstr "Zakładka"
+
+#: software.html:121
+msgid "Additional Drivers"
+msgstr "Dodatkowe sterowniki"
+
+#: software.html:121
+msgid "tab may have them available for your system."
+msgstr "może zawierać je dostępne dla systemu."
+
+#: software.html:122
+msgid ""
+"Otherwise, you will need to manually install third party drivers for your "
+"hardware, or a download specific package containing the firmware. See"
+msgstr "W przeciwnym razie musisz ręcznie zainstalować niezależne sterowniki do Twojego sprzętu lub pobrać odpowiedni pakiet zawierający sterownik. Zobacz"
+
+#: software.html:123
+msgid "Drivers"
+msgstr "Sterowniki"
+
+#: software.html:123
+msgid "in the"
+msgstr "w sekcji"
+
+#: software.html:123
+msgid "Getting Started"
+msgstr "Wprowadzenie"
+
+#: software.html:124
+msgid "section for more details."
+msgstr "aby uzyskać więcej informacji."
+
+#: software.html:125
+msgid "Feel free to"
+msgstr "Nie wahaj się"
+
+#: software.html:125
+msgid "ask the community"
+msgstr "zapytać społeczności"
+
+#: software.html:125
+msgid "if you need assistance."
+msgstr "jeśli potrzebujesz pomocy."
+
+#: software.html:129
+msgid "Our Picks"
+msgstr "Nasz wybór"
+
+#: software.html:130
+msgid "OK"
+msgstr "OK"
+
+#: software.html144, 157, 170, 183, 196, 209, 222, 235, 248
+msgid "No Filter"
+msgstr "Bez filtra"
+
+#: software.html:146
+msgid "Handy utilities for your computing needs."
+msgstr "Przydatne narzędzia dla Twoich potrzeb."
+
+#: software.html:159
+msgid "For study and children."
+msgstr "Do nauki i dla dzieci."
+
+#: software.html:172
+msgid "A selection of 2D and 3D games for your enjoyment."
+msgstr "Trochę gier 2D i 3D dla Twojej rozrywki."
+
+#: software.html:185
+msgid "For producing and editing works of art."
+msgstr "Do tworzenia i edycji dzieł sztuki."
+
+#: software.html:198
+msgid "For staying connected and enjoying the features of your own cloud."
+msgstr "Do bycia w kontakcie i cieszenia się funkcjami Twojej własnej chmury."
+
+#: software.html:211
+msgid "For more then just documents and spreadsheets."
+msgstr "Więcej niż dokumenty i arkusze kalkulacyjne."
+
+#: software.html:224
+msgid "For the developers and system administrators out there."
+msgstr "Dla deweloperów i administratorów."
+
+#: software.html:237
+msgid "Multimedia software for listening and production."
+msgstr "Oprogramowanie multimedialne do słuchania i tworzenia."
+
+#: software.html:250
+msgid "Software that makes the most out of your system resources."
+msgstr "Oprogramowanie pomagające w pełni wykorzystać zasoby systemu."
+
+#: software.html:260
+msgid "Software that makes your computer more accessible."
+msgstr "Oprogramowanie dla większej dostępności komputera."
+
+#: software.html:270
+msgid "One-click installations for serving the network."
+msgstr "Jedno kliknięcie instalacji obsługujących sieć."
+
+#: software.html:279
+msgid "Discover More Software"
+msgstr "Odkryj więcej programów"
+
+#: software.html:280
+msgid ""
+"Graphical interfaces to browse a wide selection of software available for "
+"your operating system."
+msgstr "Interfejs graficzny pomagający przeszukiwać szeroką gamę programów dostępnych dla systemu."
+
+#: software.html:288
+msgid "Miscellaneous Fixes"
+msgstr "Rozwiązywanie różnych problemów"
+
+#: software.html:289
+msgid ""
+"This section contains operations that can fix common problems should you "
+"encounter an error while upgrading or installing new software."
+msgstr "Ta sekcja zawiera operacje, które mogą naprawić typowe problemy powodujące błędy przy aktualizowaniu lub instalacji oprogramowania."
+
+#: software.html:296
+msgid "Outdated Package Lists?"
+msgstr "Nieaktualna lista pakietów?"
+
+#: software.html:297
+msgid "Your repository lists may be out of date, which can cause"
+msgstr "Twoja lista repozytoriów może być nieaktualna, co może spowodować błędy typu"
+
+#: software.html:297
+msgid "Not Found"
+msgstr "nie znaleziono"
+
+#: software.html:297
+msgid "errors and"
+msgstr "albo"
+
+#: software.html:297
+msgid "outdated version"
+msgstr "nieaktualna wersja"
+
+#: software.html:298
+msgid ""
+"information when trying to install new or newer versions of software. This "
+"is particularly the case when Ubuntu MATE connects online for the first time"
+" after installation."
+msgstr "podczas próby instalacji lub aktualizacji oprogramowania. Zdarza się to często w przypadku, gdy Ubuntu MATE łączy się do sieci po raz pierwszy od zainstalowania."
+
+#: software.html:301
+msgid "Update the repository lists:"
+msgstr "Zaktualizuj listę repozytoriów:"
+
+#: software.html:305
+msgid "Update Sources List"
+msgstr "Zaktualizuj listę oprogramowania"
+
+#: software.html:306
+msgid "Upgrade Installed Packages"
+msgstr "Pobierz aktualne pakiety"
+
+#: software.html:310
+msgid "Broken Packages?"
+msgstr "Uszkodzone pakiety?"
+
+#: software.html:311
+msgid "When a previous installation or removal was interrupted"
+msgstr "Jeśli poprzednia instalacja lub odinstalowywanie zostało przerwane,"
+
+#: software.html:312
+msgid "(for instance, due to power failure or loss of Internet connection)"
+msgstr "(na przykład wskutek odcięcia zasilania lub utraty połączenia z siecią)"
+
+#: software.html:313
+msgid ""
+"further software cannot be added or removed without properly re-configuring "
+"these broken packages. If necessary, you may need to also resolve "
+"dependencies and install any missing packages in order for the software to "
+"run properly."
+msgstr "kolejne instalowanie albo usuwanie oprogramowania nie będzie możliwe bez wcześniejszej konfiguracji uszkodzonych pakietów. Być może będzie trzeba także rozwiązać zależności i zainstalować wszystkie brakujące pakiety, aby oprogramowanie działało poprawnie."
+
+#: software.html:319
+msgid "Configure packages that were unpacked but not configured:"
+msgstr "Skonfiguruj pakiety, które zostały rozpakowane, ale nie skonfigurowane:"
+
+#: software.html:323
+msgid "Download and install broken dependencies:"
+msgstr "Pobierz i napraw niespełnione zależności"
+
+#: software.html:327
+msgid "Configure Interrupted Packages"
+msgstr "Skonfiguruj pakiety, których instalacja została przerwana"
+
+#: software.html:328
+msgid "Resolve Broken Packages"
+msgstr "Napraw uszkodzone pakiety"
+
+#: software.html:332
+msgid ""
+"In addition, listed below are terminal equivalent commands that otherwise "
+"appear in the"
+msgstr "Dodatkowo, poniżej podano polecenia w terminalu, które są wykonywane w"
+
+#: software.html:333
+msgid "Software Updater"
+msgstr "Menedżerze aktualizacji"
+
+#: software.html:335
+msgid "Upgrade all packages that have a new version available:"
+msgstr "Zaktualizuj wszystkie pakiety, których nowa wersja jest dostępna:"
+
+#: software.html:339
+msgid "Upgrade to a new release of Ubuntu MATE:"
+msgstr "Zaktualizuj Ubuntu MATE do nowego wydania:"
+
+#: software.html:348
+msgid ""
+"Keeping you informed of the changes made to Ubuntu MATE's Software Boutique."
+msgstr "Informowanie o zmianach dokonanych w Software Boutique firmy Ubuntu MATE."
+
+#: software.html:353
+msgid "Search for Applications"
+msgstr "Szukaj programów"
+
+#: software.html:354
+msgid "Enter a keyword to search the Software Boutique."
+msgstr "Podaj słowo kluczowe, aby przeszukać program Software Boutique."
+
+#: software.html:356
+msgid "Name of Application"
+msgstr "Nazwa aplikacji"
+
+#: software.html:361
+msgid "No software matched your key words."
+msgstr "Nie znaleziono dopasowań."
+
+#: software.html:363
+msgid "The Boutique is just a collection of software."
+msgstr "Program Boutique jest kolekcją oprogramowania."
+
+#: software.html:365
+msgid "Install a software center"
+msgstr "Zainstaluj centrum oprogramowania,"
+
+#: software.html:367
+msgid "to explore the entire Ubuntu catalogue."
+msgstr "aby odkrywać pełny katalog programów Ubuntu."
+
+#: software.html:370
+msgid "Search again and include proprietary software."
+msgstr "Wyszukaj ponownie, włączając oprogramowanie własnościowe."
+
+#: software.html:379
+msgid "Fine-tune the Software Boutique to suit your preferred behaviors."
+msgstr "Skonfiguruj Software Boutique, aby dostosować go do Twoich potrzeb."
+
+#: software.html:384
+msgid "Boutique Selection"
+msgstr "Boutique Wybór"
+
+#: software.html:386
+msgid "Hide proprietary applications."
+msgstr "Ukryj oprogramowanie własnościowe."
+
+#: software.html392, 394
+msgid "Installation"
+msgstr "Instalacja"
+
+#: software.html:397
+msgid "Enable the Bulk Queue."
+msgstr "Włącz kolejkę zbiorczą."
+
+#: software.html:398
+msgid ""
+"Applications wait to be installed/removed, allowing you to continue "
+"browsing."
+msgstr "Oprogramowanie czeka na instalację lub usunięcie, pozwalając kontynuować wyszukiwanie."
+
+#: software.html:404
+msgid "Suppress Progress Dialog"
+msgstr "Tłumić dialogowe postępu"
+
+#: software.html:405
+msgid "Install/remove applications in the background."
+msgstr "Dodaj lub usuń programy w tle."
+
+#: software.html412, 414
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+#: software.html:416
+msgid "Show technical package details."
+msgstr "Pokaż szczegóły techniczne pakietu."
+
+#: software.html:417
+msgid ""
+"Displays an estimated install size, packages and the type of application"
+msgstr "Pokazuje szacowany rozmiar instalacji, pakiety i rodzaj aplikacji"
+
+#: software.html:423
+msgid "Show Software Sources"
+msgstr "Pokaż źródła oprogramowania"
+
+#: software.html424, 469
+msgid "Manage Repositories"
+msgstr "Zarządzaj repozytoriami"
+
+#: software.html:431
+msgid "Your Queued Changes"
+msgstr "Twoja kolejka zmian"
+
+#: software.html:432
+msgid ""
+"Decide which software to add or remove without committing straight away."
+msgstr "Zdecyduj, które oprogramowanie dodać lub usunąć bez natychmiastowego popełniania."
+
+#: software.html:436
+msgid "Apply Changes"
+msgstr "Zastosuj zmiany"
+
+#: software.html:437
+msgid "Clear"
+msgstr "Wyczyść"
+
+#: software.html:438
+msgid "Finished"
+msgstr "Ukończono"
+
+#: software.html:441
+msgid "Preparing to start..."
+msgstr "Przygotowanie do rozpoczęcia..."
+
+#: software.html:442
+msgid "Your changes are being applied."
+msgstr "Zmiany zostały wprowadzone."
+
+#: software.html:449
+msgid "Not all changes could be applied."
+msgstr "Nie wszystkie zmiany mogły zostać wprowadzone."
+
+#: software.html:450
+msgid "Please review the error dialog for further details."
+msgstr "Proszę przejrzeć okno błędu, aby uzyskać więcej informacji."
+
+#: software.html:454
+msgid "Nothing to see here -- There's no software in the queue yet."
+msgstr "Nie ma nic do wyświetlenia -- Kolejka jest jeszcze pusta."
+
+#: software.html:459
+msgid "Software Sources"
+msgstr "Źródła oprogramowania"
+
+#: software.html:460
+msgid ""
+"Your system and applications are obtained and kept up-to-date via the "
+"following repositories."
+msgstr "Twój system i aplikacje są utrzymywane aktualnymi poprzez te repozytoria."
+
+#: software.html:462
+msgid "Parsing lists..."
+msgstr "Parsowanie list..."
+
+#: software.html:470
+msgid "Update Package Lists"
+msgstr "Zaktualizuj listę pakietów"
+
+#: software.html:485
+msgid "Hide Proprietary Software"
+msgstr "Ukryj oprogramowanie własnościowe"
+
+#: software.html:487
+msgid "Show Terminal Commands"
+msgstr "Pokaż komendy terminala"
+
+#: software.html:493
+msgid "About Proprietary Software"
+msgstr "O oprogramowaniu własnościowym"
+
+#: software.html:495
+msgid "Proprietary Software"
+msgstr "Oprogramowanie własnościowe"
+
+#: software.html:496
+msgid ""
+"is owned by an individual or company. There may be restrictions on its usage"
+" (like a license agreement), and provides no access to the source code."
+msgstr "jest własnością twórcy lub firmy. Użytkowanie może być ograniczone (na przykład licencją), a kod źródłowy nie jest udostępniany."
+
+#: software.html:499
+msgid "Free and Open Source Software"
+msgstr "Wolne i otwarte oprogramowanie"
+
+#: software.html:500
+msgid ""
+"grants the user the freedom to share, study and modify the software without "
+"restriction. For instance, the GPL is an example of a 'Free Software' "
+"license."
+msgstr "gwarantuje użytkownikom wolność analizowania, modyfikowania i dzielenia się oprogramowaniem bez ograniczeń. Licencja GPL jest przykładem licencji „Wolnego Oprogramowania”."

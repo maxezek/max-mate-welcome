@@ -1,0 +1,100 @@
+# 
+# Translators:
+# nomen omen, 2017-2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2018-04-21 11:17+0000\n"
+"Last-Translator: nomen omen\n"
+"Language-Team: Finnish (Finland) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/fi_FI/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi_FI\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: index.html:15
+msgid "Main Menu"
+msgstr "Päävalikko"
+
+#: index.html:19
+msgid ""
+"Ensures Welcome's documentation, translations and software picks are always "
+"up-to-date."
+msgstr "Varmistaa, että Tervetuloa dokumentaatio, käännökset ja ohjelmisto valinnat ovat aina ajan tasalla."
+
+#: index.html:20
+msgid "Subscribe to Welcome updates"
+msgstr "Tilaa Tervetuloa päivitykset"
+
+#: index.html:25
+msgid ""
+"This Welcome application and the Boutique are being updated and will re-open"
+" shortly."
+msgstr "Tervetuloa-sovellus sekä Putiikki päivittyvät parhaillaan ja käynnistyvät pian uudestaan."
+
+#: index.html:42
+msgid "Choose an option to discover your new operating system."
+msgstr "Tutustu uuteen käyttöjärjestelmääsi valitsemalla alla olevista vaihtoehdoista."
+
+#: index.html:50
+msgid "Introduction"
+msgstr "Esittely"
+
+#: index.html:51
+msgid "Features"
+msgstr "Ominaisuudet"
+
+#: index.html:52
+msgid "Getting Started"
+msgstr "Käytön Aloitus"
+
+#: index.html:53
+msgid "Installation Help"
+msgstr "Asennus Opas"
+
+#: index.html:58
+msgid "Get Involved"
+msgstr "Osallistu"
+
+#: index.html:59
+msgid "Shop"
+msgstr "Kauppa"
+
+#: index.html:60
+msgid "Donate"
+msgstr "Lahjoita"
+
+#: index.html:68
+msgid "Community"
+msgstr "Yhteisö"
+
+#: index.html:69
+msgid "Chat Room"
+msgstr "Chat-huone"
+
+#: index.html:70
+msgid "Software"
+msgstr "Ohjelmisto"
+
+#: index.html:71
+msgid "Install Now"
+msgstr "Asenna"
+
+#: index.html:78
+msgid "Raspberry Pi Information"
+msgstr "Raspberry Pi Tietoa"
+
+#: index.html:91
+msgid "Open Welcome when I log on."
+msgstr "Avaa Tervetuloa sisäänkirjautuessa."
+
+#: index.html:76
+msgid "Desktop Layout"
+msgstr "Työpöytäasetelma"
+
+#: index.html:77
+msgid "Browser Selection"
+msgstr "Selaimen Valinta"

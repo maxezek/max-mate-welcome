@@ -1,0 +1,1937 @@
+# 
+# Translators:
+# Bogdan B. <bogdanke8@gmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2018-04-23 09:20+0000\n"
+"Last-Translator: Martin Wimpress <code@flexion.org>\n"
+"Language-Team: Romanian (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: gettingstarted.html:18
+msgid "Getting Started"
+msgstr "Noțiuni de bază"
+
+#: gettingstarted.html23, 36, 38
+msgid "Topic Selection"
+msgstr "Alege subiect"
+
+#: gettingstarted.html:26
+msgid "Previous"
+msgstr "Anteriorul"
+
+#: gettingstarted.html:27
+msgid "Next"
+msgstr "Următorul"
+
+#: gettingstarted.html:28
+msgid "Topics"
+msgstr "Subiecte"
+
+#: gettingstarted.html:42
+msgid "Prerequisites"
+msgstr "Cerinţe preliminare"
+
+#: gettingstarted.html46, 132
+msgid "System Requirements"
+msgstr "Cerinţe sistem"
+
+#: gettingstarted.html:51
+msgid "Installation Preparation"
+msgstr "Pregătire instalare"
+
+#: gettingstarted.html56, 231, 234
+msgid "Dual Booting"
+msgstr "Dual boot"
+
+#: gettingstarted.html:60
+msgid "Installation"
+msgstr "Instalare"
+
+#: gettingstarted.html:64
+msgid "Install Now"
+msgstr "Instalează acum"
+
+#: gettingstarted.html68, 1530
+msgid "Utilities"
+msgstr "Utilităţi"
+
+#: gettingstarted.html:72
+msgid "Disks (Simple Partition Editor)"
+msgstr "Discuri (Editorul simplu de partiţii)"
+
+#: gettingstarted.html:76
+msgid "GParted (Advanced Partition Editor)"
+msgstr "GParted (Editorul avansat de partiţii)"
+
+#: gettingstarted.html:83
+msgid "Post-Installation"
+msgstr "După instalare"
+
+#: gettingstarted.html87, 402, 405
+msgid "Updates & Extras"
+msgstr "Actualizări şi software suplimentar"
+
+#: gettingstarted.html92, 541, 544
+msgid "Drivers"
+msgstr "Drivere"
+
+#: gettingstarted.html97, 761
+msgid "Language & Input"
+msgstr "Limbă şi surse de intrare"
+
+#: gettingstarted.html102, 797
+msgid "Optional Tasks"
+msgstr "Aspecte opţionale"
+
+#: gettingstarted.html:106
+msgid "Familiarity"
+msgstr "Familiaritate"
+
+#: gettingstarted.html:110
+msgid "Customization"
+msgstr "Personalizare"
+
+#: gettingstarted.html115, 944
+msgid "Keyboard Shortcuts"
+msgstr "Scurtături tastatură"
+
+#: gettingstarted.html:119
+msgid "Troubleshooting"
+msgstr "Depanare"
+
+#: gettingstarted.html123, 1516
+msgid "System Specifications"
+msgstr "Specificaţii sistem"
+
+#: gettingstarted.html:135
+msgid "Modest System Requirements"
+msgstr "Cerinţe de sistem minime"
+
+#: gettingstarted.html:136
+msgid ""
+"Ubuntu MATE works well on both high-end to slow computers, optimized to be "
+"functional, while light on system resources."
+msgstr "Ubuntu MATE rulează bine atât pe calculatoare puternice, cât şi pe calculatoare mai lente, fiind optimizat să fie funcţional, însă în acelaşi timp să nu consume multe resurse."
+
+#: gettingstarted.html:139
+msgid "Minimum"
+msgstr "Minim"
+
+#: gettingstarted.html:141
+msgid "Pentium M 1.0 gigahertz (GHz)"
+msgstr "Pentium M 1.0 gigahertz (GHz)"
+
+#: gettingstarted.html:142
+msgid "1 gigabyte (GB) of RAM"
+msgstr "1 gigabyte (GB) de RAM"
+
+#: gettingstarted.html:143
+msgid "9 gigabytes (GB) of disk space"
+msgstr "9 gigabytes (GB) spaţiu pe disc"
+
+#: gettingstarted.html:146
+msgid "Recommended"
+msgstr "Recomandat"
+
+#: gettingstarted.html:148
+msgid "Core 2 Duo 1.6 gigahertz (GHz)"
+msgstr "Dual Core 2 1.6 gigahertz (GHz)"
+
+#: gettingstarted.html:149
+msgid "2 gigabytes (GB) of RAM"
+msgstr "2 gigabytes (GB) de RAM"
+
+#: gettingstarted.html:150
+msgid "16 gigabytes (GB) of disk space"
+msgstr "16 gigabytes (GB) spaţiu pe disc"
+
+#: gettingstarted.html:153
+msgid ""
+"The operating system will run much more efficiently if your computer meets "
+"or surpasses the recommended requirements."
+msgstr "Sistemul de operare va rula mult mai eficient dacă calculatorul dvs. îndeplineşte sau depăşeşte cerinţele recomandate."
+
+#: gettingstarted.html158, 1519
+msgid "What's inside my computer?"
+msgstr "Ce este în calculatorul meu?"
+
+#: gettingstarted.html:166
+msgid "Installation Preparations"
+msgstr "Înainte de instalare"
+
+#: gettingstarted.html:169
+msgid "Preparing to Install"
+msgstr "Pregatire pentru instalare"
+
+#: gettingstarted.html:170
+msgid ""
+"Ubuntu MATE is relatively simple to set up, whether you're looking to "
+"replace your existing operating system or install Ubuntu MATE alongside an "
+"existing one - such as"
+msgstr "Ubuntu MATE este relativ simplu de configurat, indiferent dacă vreţi să înlocuiţi sistemul de operare existent sau să instalaţi Ubuntu MATE alături de unul deja existent - cum ar fi"
+
+#: gettingstarted.html:173
+msgid "Microsoft Windows or another"
+msgstr "Microsoft Windows sau altul"
+
+#: gettingstarted.html:174
+msgid "GNU/Linux distribution."
+msgstr "Distribuţie GNU/Linux."
+
+#: gettingstarted.html:176
+msgid "For the best results:"
+msgstr "Pentru cele mai bune rezultate:"
+
+#: gettingstarted.html178, 247
+msgid "Back up"
+msgstr "Backup"
+
+#: gettingstarted.html:178
+msgid "any important data to another storage device."
+msgstr "orice date importante pe un alt dispozitiv de stocare."
+
+#: gettingstarted.html:179
+msgid ""
+"Connect to the Internet to install all available updates during "
+"installation."
+msgstr "Conectaţi-vă la Internet pentru a instala toate actualizările disponibile în timpul instalării."
+
+#: gettingstarted.html:180
+msgid "Stay connected to the Internet to install all available updates."
+msgstr "Rămâneţi conectat la Internet pentru a instala toate actualizările disponibile."
+
+#: gettingstarted.html:181
+msgid ""
+"Plug your device into a power source if it is running on battery power."
+msgstr "Conectaţi dispozitivul dvs. la o sursă de alimentare dacă funcţionează cu baterie."
+
+#: gettingstarted.html:186
+msgid ""
+"The live session you are currently in right now is a good opportunity to "
+"test Ubuntu MATE without modifying your computer, allowing you to test that "
+"all of your peripherals are working as intended before committing to "
+"installing it on your machine. Once you are ready, double click the "
+"installation icon on the desktop."
+msgstr "Sesiunea live în care vă aflaţi acum este o ocazie bună de a testa Ubuntu MATE fără a efectua modificări calculatorului, permiţându-vă să testaţi că toate perifericele funcţionează în mod adecvat înainte de a vă hotărî să îl instalaţi pe dispozitivul dvs. Odată ce sunteţi gata daţi dublu click pe pictograma de instalare de pe desktop."
+
+#: gettingstarted.html:193
+msgid "Modern UEFI-based computers"
+msgstr "Calculatoare moderne bazate pe UEFI"
+
+#: gettingstarted.html:194
+msgid ""
+"If you have a modern PC that uses the Unified Extended Firmware Interface "
+"(UEFI), you may need to disable"
+msgstr "Dacă aveţi un calculator modern care utilizează Interfaţa firmware extensibilă unificată (UEFI), este posibil să fie nevoie să o dezactivaţi"
+
+#: gettingstarted.html:195
+msgid "Secure Boot"
+msgstr "Secure Boot"
+
+#: gettingstarted.html:195
+msgid "(or enable the"
+msgstr "(sau activaţi"
+
+#: gettingstarted.html:195
+msgid "Unlock Bootloader"
+msgstr "Deblocare Bootloader"
+
+#: gettingstarted.html:196
+msgid ""
+"option) in the BIOS prior to installation, particularly if an operating "
+"system was pre-installed."
+msgstr "opţiunea) in BIOS înainte de instalare, în special dacă a fost instalat anterior un alt sistem de operare."
+
+#: gettingstarted.html:198
+msgid "If you are using a legacy BIOS machine, you do not need to do this."
+msgstr "Dacă folosiţi un dispozitiv cu BIOS-ul vechi nu este necesar să faceţi aceasta."
+
+#: gettingstarted.html:201
+msgid ""
+"Especially when dual booting, it is important that you boot your system in "
+"the correct mode and use the"
+msgstr "Mai ales când folosiţi dual boot este important să porniţi sistemul în mod corect şi să folosiţi"
+
+#: gettingstarted.html:202
+msgid "64-bit image"
+msgstr "imagine pe 64 biti "
+
+#: gettingstarted.html:202
+msgid ""
+", as you cannot boot an operating system installed in BIOS mode after "
+"installing a UEFI-enabled operating system or vice versa."
+msgstr ", deoarece nu puteţi porni un sistem de operare instalat in modul BIOS după instalarea unui sistem de operare cu modul UEFI activat, sau invers."
+
+#: gettingstarted.html:207
+msgid ""
+"Booting in BIOS mode on a UEFI system with a GPT-formatted disk will also "
+"show a \"protection layer\"."
+msgstr "Bootarea în modul BIOS pe un sistem UEFI cu un disc formatat cu GPT va afişa, de asemenea, un \"strat de protecţie\"."
+
+#: gettingstarted.html:208
+msgid "Do not worry,"
+msgstr "Nu-ţi face griji,"
+
+#: gettingstarted.html:208
+msgid "your data is not lost or corrupt!"
+msgstr "datele tale nu s-au pierdut şi nici nu sunt corupte!"
+
+#: gettingstarted.html:212
+msgid "Your system is currently running in"
+msgstr "Sistemul tău rulează acum în"
+
+#: gettingstarted.html:212
+msgid "mode"
+msgstr "modul"
+
+#: gettingstarted.html:217
+msgid "Swap"
+msgstr "swap"
+
+#: gettingstarted.html:218
+msgid ""
+"For computers that start to run low on memory (RAM), the operating system "
+"will start swapping content from memory to the hard disk. This is known as a"
+" \"paging file\" in Windows. Performance will decrease when running low on "
+"memory and could possibly freeze if you completely run out of memory without"
+" anywhere to swap."
+msgstr "Pentru calculatoarele care rulează cu memorie redusă (RAM), sistemul de operare va începe să mute conţinutul swap din memoria RAM pe disc. Acest lucru este cunoscut ca un \"fişier de paginare\" in Windows. Performanţa va scădea atunci când rulăm cu memorie redusă şi chiar ar putea să se blocheze dacă aţi epuizat complet memoria fără să existe un loc pentru swap. "
+
+#: gettingstarted.html:222
+msgid ""
+"By default, a swap partition is created based on the size of your RAM. For "
+"example, if you have 2 GiB of RAM, then 2 GiB of hard disk space will be "
+"reserved for swap at the end of the drive."
+msgstr "În mod implicit este creată o partiţie swap în funcţie de mărimea RAM-ului dvs. Spre exemplu, dacă aveţi 2GB de RAM, atunci 2 RAM de spaţiu de pe disc vor fi rezervate pentru swap la capătul discului."
+
+#: gettingstarted.html:224
+msgid ""
+"Swap space that's the size of your RAM is also required if you would like to"
+" hibernate the system (as known as suspending to disk)."
+msgstr "Spaţiul swap de dimensiunea memoriei dvs. RAM este, de asemenea, necesar dacă doriţi să hibernaţi sistemul (cunoscut ca suspendare pe disc). "
+
+#: gettingstarted.html:235
+msgid ""
+"Should you wish to install Ubuntu MATE alongside your existing operating "
+"system, your partitions need to be shrunk. This results in sections of your "
+"hard disk being split between multiple operating systems."
+msgstr "Dacă doriţi să instalaţi Ubuntu MATE alături de sistemul dvs. de operare existent, partiţiile dvs. vor fi reduse. Acest lucru duce la secţionarea discului dvs., fiind împărţit între mai multe sisteme de operare."
+
+#: gettingstarted.html:241
+msgid "I'm dual booting with"
+msgstr "Folosesc dual boot cu"
+
+#: gettingstarted.html:244
+msgid "To minimize the risk of data loss or failure, ensure that:"
+msgstr "Pentru a diminua riscul pierderii datelor sau un eventual eşec, asigură-te că:"
+
+#: gettingstarted.html:246
+msgid "There is enough free space. 10 GB minimum is recommended."
+msgstr "Este spaţiu liber suficient. Se recomandă un minim de 10 GB."
+
+#: gettingstarted.html:247
+msgid "important data to another drive."
+msgstr "datele importante pe alt disc."
+
+#: gettingstarted.html:248
+msgid "Defragment the hard drive."
+msgstr "Defragmentează discul."
+
+#: gettingstarted.html:249
+msgid "Ensure Windows has been cleanly shut down (not hibernated)."
+msgstr "Asiguraţi-vă că Windows a fost complet închis (nu este hibernat)."
+
+#: gettingstarted.html:253
+msgid "Which approach would you prefer?"
+msgstr "Ce abordare preferi?"
+
+#: gettingstarted.html255, 339
+msgid "Simple"
+msgstr "Simplu"
+
+#: gettingstarted.html256, 339
+msgid "Advanced"
+msgstr "Avansat"
+
+#: gettingstarted.html:257
+msgid "Safest"
+msgstr "Sigur"
+
+#: gettingstarted.html:262
+msgid "The simplest method is to use the installer."
+msgstr "Cea mai simplă metodă este să foloseşti meniul de instalare."
+
+#: gettingstarted.html:264
+msgid ""
+"The installer scans your disks for existing operating systems and provides a"
+" choice on what you'd like to do."
+msgstr "Aplicaţia de instalare scanează discurile dvs. pentru sistemele de operare existente şi oferă posibilitatea de a alege ce doriţi să faceţi."
+
+#: gettingstarted.html:267
+msgid "You will see an option similar to this:"
+msgstr "Veţi vedea o opţiune similară cu aceasta:"
+
+#: gettingstarted.html:271
+msgid "Followed by:"
+msgstr "Urmată de:"
+
+#: gettingstarted.html:277
+msgid "Do not interrupt or power off the computer during a resize operation."
+msgstr "Nu întrerupeţi sau nu închideţi calculatorul în timpul operaţiunii de redimensionare."
+
+#: gettingstarted.html:279
+msgid ""
+"If you do, data loss or a partition table corruption could occur. Please "
+"double check your changes before proceeding."
+msgstr "Dacă se întâmplă acest lucru ar putea apărea pierderi de date sau o eroare în tabela de partiţii. Vă rugăm să verificaţi din nou modificările înainte de a continua."
+
+#: gettingstarted.html:281
+msgid "The installer may show a"
+msgstr "Aplicaţia de instalare ar putea afişa un "
+
+#: gettingstarted.html:281
+msgid ""
+"spinner cursor for a long period of time, depending on the size of your disk"
+msgstr "cursor rotitor pentru o perioadă lungă de timp, în funcţie de dimensiunea discului dvs."
+
+#: gettingstarted.html:285
+msgid "When you next boot Windows, run"
+msgstr "Când veţi porni cu prima ocazie Windows, rulaţi"
+
+#: gettingstarted.html:286
+msgid ""
+"from the command prompt to check the file system for errors. Windows may "
+"schedule this automatically. This ensures consistency for the NTFS file "
+"system."
+msgstr "din linia de comandă pentru a verifica sistemul de fişiere de erori. Windows ar putea programa acest lucru automat. Acest lucru asigură coerenţă pentru sistemul de fişiere NTFS."
+
+#: gettingstarted.html:293
+msgid "Use GParted or the installer's \"Custom\" option."
+msgstr "Utilizaţi GParted sau opţiunea aplicaţiei de instalare \"Personalizat\". "
+
+#: gettingstarted.html296, 1769
+msgid "GParted"
+msgstr "GParted"
+
+#: gettingstarted.html:296
+msgid "is available during the live session only."
+msgstr "este disponibil doar în timpul sesiunii live."
+
+#: gettingstarted.html:297
+msgid "It is located under the"
+msgstr "Este localizat sub"
+
+#: gettingstarted.html297, 423, 666, 1542
+msgid "System"
+msgstr "Sistem"
+
+#: gettingstarted.html298, 423, 667
+msgid "Administration"
+msgstr "Administrare"
+
+#: gettingstarted.html:298
+msgid ""
+"menu. GParted provides complete flexibility over your partitions, primarily "
+"for power users who know how they'd like to layout their disks. This method "
+"makes changes to partitions prior to installation."
+msgstr "meniu. GParted oferă flexibilitate completă asupra partiţiilor dvs. în primul rând pentru utilizatorii experimentaţi care ştiu cum vor să structureze discurile. Această metodă face modificări asupra partiţiilor înainte de instalare."
+
+#: gettingstarted.html:306
+msgid ""
+"After completing operations to your disk, you can leave the remaining space "
+"unallocated,"
+msgstr "După ce aţi finalizat operaţiunile pe disc, puteţi lăsa spaţiul rămas nealocat, "
+
+#: gettingstarted.html:307
+msgid ""
+"whereby the installer will detect this unused space to install Ubuntu MATE "
+"to."
+msgstr "prin care aplicaţia de instalare va detecta acest spaţiu neutilizat pentru a instala pe el Ubuntu MATE."
+
+#: gettingstarted.html:309
+msgid "Using the Installer's \"Custom\" option."
+msgstr "Folosind opţiunea \"Personalizat\" a aplicaţiei de instalare. "
+
+#: gettingstarted.html:310
+msgid "Instead or in addition to GParted, the"
+msgstr "În locul sau în plus faţă de GParted, "
+
+#: gettingstarted.html:310
+msgid "Custom"
+msgstr "Personalizat"
+
+#: gettingstarted.html:310
+msgid ""
+"option during the installation wizard can also configure and resize your "
+"partitions as well as choose mount points. Dividing your disks can make it "
+"somewhat easier to re-install the operating system later if desired."
+msgstr "aveţi opţiunea de a configura sau de a redimensiona partiţiile dvs., precum şi să alegeţi punctele de montare, prin intermediul expertului de instalare. Împărţirea discurilor dvs. poate face mai uşoară reinstalarea sistemul de operare mai târziu, dacă doriţi."
+
+#: gettingstarted.html:315
+msgid "You can specify these mount points:"
+msgstr "Puteţi specifica aceste puncte de montare:"
+
+#: gettingstarted.html:317
+msgid "The base for Ubuntu MATE"
+msgstr "Baza pentru Ubuntu MATE"
+
+#: gettingstarted.html:318
+msgid "Bootloader and kernels"
+msgstr "Bootloadere şi kerneluri"
+
+#: gettingstarted.html:319
+msgid "Your personal files and folders"
+msgstr "Fişierele şi dosarele personale"
+
+#: gettingstarted.html:320
+msgid "Temporary files"
+msgstr "Fişiere temporare"
+
+#: gettingstarted.html:321
+msgid "Contains most of the applications"
+msgstr "Conţine majoritatea aplicaţiilor"
+
+#: gettingstarted.html:321
+msgid "(binaries, documentation, libraries, etc)"
+msgstr "(fişiere binare, documentaţie, biblioteci, etc.)"
+
+#: gettingstarted.html:322
+msgid "Variable data"
+msgstr "Date variabile"
+
+#: gettingstarted.html:322
+msgid "(such as system logs)"
+msgstr "(cum ar fi jurnalele de sistem)"
+
+#: gettingstarted.html:323
+msgid "Data for System Services"
+msgstr "Datele pentru serviciile de sistem"
+
+#: gettingstarted.html:323
+msgid "(typically used for server configurations)"
+msgstr "(de obicei utilizate pentru configuraţii de server)"
+
+#: gettingstarted.html:324
+msgid "Additional software unmanaged by the package manager"
+msgstr "Software suplimentar care nu este administrat de managerul de pachete"
+
+#: gettingstarted.html:325
+msgid "such as"
+msgstr "cum ar fi "
+
+#: gettingstarted.html:327
+msgid ""
+"Creating separate partitions for all above mount points is not necessary."
+msgstr "Nu este necesară crearea de partiţii separate pentru toate punctele de montare de mai sus."
+
+#: gettingstarted.html:328
+msgid "The commonly partitioned directories being"
+msgstr "Dosarele partiţionate în mod obişnuit sunt"
+
+#: gettingstarted.html:329
+msgid "and"
+msgstr "şi"
+
+#: gettingstarted.html:329
+msgid "These mount points can also be set across different"
+msgstr "Aceste puncte de montare pot fi de asemenea setate pe diferite"
+
+#: gettingstarted.html:330
+msgid "physical disks, for instance, if you'd like the OS"
+msgstr "discuri fizice, spre exemplu, daca doriţi sistemul de operare"
+
+#: gettingstarted.html:330
+msgid "on an SSD,"
+msgstr "pe un SSD, "
+
+#: gettingstarted.html:331
+msgid "but your personal files"
+msgstr "dar fişierele personale"
+
+#: gettingstarted.html:331
+msgid "on a mechanical hard drive."
+msgstr "pe un disc mecanic."
+
+#: gettingstarted.html:335
+msgid "Shrink your system disk within Windows."
+msgstr "Reduceţi discul dvs. din Windows."
+
+#: gettingstarted.html:337
+msgid "Applies to Windows Vista and later."
+msgstr "Se aplică la Windows Vista şi următoarele."
+
+#: gettingstarted.html:338
+msgid "If you are using Windows XP or earlier, you will need to use the"
+msgstr "Dacă utilizaţi Windows XP sau anterior acestuia, va trebui să găsiţi"
+
+#: gettingstarted.html:339
+msgid "or"
+msgstr "sau"
+
+#: gettingstarted.html:339
+msgid "method to shrink your disk."
+msgstr "metoda de reducere a discului dvs."
+
+#: gettingstarted.html:342
+msgid ""
+"Newer versions of Windows provide a tool to shrink the NTFS volume from "
+"within Windows. This is a safer bet if it's essential that Windows still "
+"boots on your computer while experiencing Ubuntu MATE."
+msgstr "Versiunile mai noi de Windows oferă un instrument de a reduce volumul NTFS din Windows. Aceasta este o metodă mai sigură dacă este important ca Windows să pornească în continuare pe calculatorul dvs. în timp ce utilizaţi Ubuntu MATE."
+
+#: gettingstarted.html346, 689, 711, 748, 1740, 1757, 1773, 1789, 1805, 1821
+msgid "Open"
+msgstr "Deschide"
+
+#: gettingstarted.html:346
+msgid "Disk Management"
+msgstr "Administrare discuri"
+
+#: gettingstarted.html:346
+msgid "from the start menu."
+msgstr "din meniul de start."
+
+#: gettingstarted.html:351
+msgid "Right click your desired drive and choose"
+msgstr "Click dreapta pe discul dorit şi alege"
+
+#: gettingstarted.html:351
+msgid "Shrink Partition"
+msgstr "Reduceţi partiţia"
+
+#: gettingstarted.html:351
+msgid "from the context menu."
+msgstr "din meniul contextual."
+
+#: gettingstarted.html:356
+msgid "Enter the amount to shrink your system partition by."
+msgstr "Introduceţi dimensiunea la care doriţi să reduceţi partiţia de sistem."
+
+#: gettingstarted.html:362
+msgid "Remember, Ubuntu MATE needs at minimum 8 GB of disk space."
+msgstr "Reţineţi că Ubuntu MATE are nevoie de cel puţin 8 GB de spaţiu pe disc."
+
+#: gettingstarted.html:367
+msgid "Further Reading"
+msgstr "Citeşte mai mult"
+
+#: gettingstarted.html:368
+msgid ""
+"For further information on the best practices to modify partitions "
+"containing Windows, see the following"
+msgstr "Pentru informaţii suplimentare despre cele mai bune practici în modificarea partiţiilor care conţin Windows, consultaţi următoarele"
+
+#: gettingstarted.html:371
+msgid "help article"
+msgstr "articole de ajutor"
+
+#: gettingstarted.html:371
+msgid "online"
+msgstr "online"
+
+#: gettingstarted.html:375
+msgid "Repairing Boot Problems"
+msgstr "Repararea problemelor de boot"
+
+#: gettingstarted.html:377
+msgid "Linux distributions use a boot loader known as"
+msgstr "Distribuţiile Linux utilizează un încărcător de boot cunoscut sub numele de "
+
+#: gettingstarted.html:378
+msgid ""
+"which looks for and bootstraps the operating system. However, some operating"
+" systems (such as Windows) do not integrate with existing boot loaders and "
+"will overwrite them, with the potential to lose access to Ubuntu MATE "
+"temporally."
+msgstr "care caută şi porneşte sistemul de operare. Cu toate acestea, unele sisteme de operare (cum ar fi Windows) nu se integrează cu încărcătoarele de boot existente şi le vor suprascrie, existând posibilitatea de a pierde temporar accesul la Ubuntu MATE."
+
+#: gettingstarted.html:383
+msgid "Fortunately, you can use the"
+msgstr "Din fericire, poţi folosi"
+
+#: gettingstarted.html:383
+msgid "Boot Repair"
+msgstr "Reparaţii de boot"
+
+#: gettingstarted.html:383
+msgid "tool to repair common problems caused by other operating systems."
+msgstr "instrument pentru remedierea problemelor obişnuite cauzate de alte sisteme de operare."
+
+#: gettingstarted.html:388
+msgid "Requires downloading a package."
+msgstr "Solicită descărcarea unor date"
+
+#: gettingstarted.html:389
+msgid "Please connect to the Internet to download and use this utility."
+msgstr "Conectaţi-vă la Internet pentru a descărca şi utiliza acest utilitar."
+
+#: gettingstarted.html:390
+msgid "Sorry, Welcome was unable to establish a connection."
+msgstr "Ne pare rău Welcome nu a reușit să stabilească o conexiune."
+
+#: gettingstarted.html:391
+msgid "Retry"
+msgstr "Reîncearcă"
+
+#: gettingstarted.html:394
+msgid "Download Boot Repair"
+msgstr "Descarcă Reparaţii de boot"
+
+#: gettingstarted.html:395
+msgid "Open Boot-Repair"
+msgstr "Deschide Reparaţii de boot"
+
+#: gettingstarted.html:408
+msgid "An Internet connection is required to download and install updates."
+msgstr "Este necesară o conexiune la Internet pentru a descărca şi instala actualizările."
+
+#: gettingstarted.html416, 422
+msgid "Software Updater"
+msgstr "Actualizator de soft"
+
+#: gettingstarted.html:417
+msgid ""
+"Ubuntu MATE periodically will check to see if new software and security "
+"updates are available for your computer. If you have just installed Ubuntu "
+"MATE, you might want to do this now."
+msgstr "Ubuntu MATE va verifica periodic pentru a vedea dacă sunt disponibile programe noi şi actualizări de scuritate pentru calculatorul dvs. Dacă tocmai aţi instalat Ubuntu MATE, aţi putea dori să faceţi acest lucru acum."
+
+#: gettingstarted.html:422
+msgid "can be found later in"
+msgstr "pot fi găsite mai târziu în"
+
+#: gettingstarted.html:428
+msgid "Check for Updates"
+msgstr "Verifică actualizări"
+
+#: gettingstarted.html:440
+msgid "Additional Codecs"
+msgstr "codecuri suplimentare"
+
+#: gettingstarted.html:441
+msgid ""
+"The codecs package include a complete, cross-platform solution to decode, "
+"encode, record, convert and stream audio and video. It also includes a MP3 "
+"audio decoder that permits the playback of MPEG 1 audio layer III (MP3)."
+msgstr "Pachetul de codecuri include o soluţie completă disponibilă pe mai multe platforme pentru a decoda, codifica, înregistra, converti şi reda audio şi video. Acesta include, de asemenea, un decodor audio MP3 care permite redarea fişierelor MPEG1 audio III (MP3)."
+
+#: gettingstarted.html446, 465, 485, 504, 523
+msgid "Applying Changes..."
+msgstr "Aplicarea modificărilor..."
+
+#: gettingstarted.html447, 466, 486, 505, 524, 690, 712, 730, 749, 822, 851,
+#: 874, 1741, 1758, 1774, 1790, 1806, 1822
+msgid "Install"
+msgstr "Instalează"
+
+#: gettingstarted.html448, 467, 487, 506, 525
+msgid "Remove"
+msgstr "Scoate"
+
+#: gettingstarted.html:459
+msgid "Blu-ray and DVD Playback Support"
+msgstr "Suport redare Blu-ray şi DVD"
+
+#: gettingstarted.html:460
+msgid ""
+"Installs libraries that enable Blu-ray and DVD playback in VLC. After "
+"install DVDs will work but for Blu-ray you will need to download"
+msgstr ""
+
+#: gettingstarted.html:463
+msgid "and save it to"
+msgstr ""
+
+#: gettingstarted.html:478
+msgid "Additional Screen Savers"
+msgstr ""
+
+#: gettingstarted.html:479
+msgid ""
+"Install over 200 screen savers for when your computer is idle for long "
+"periods of time. Screen savers were originally created to reduce burn-in for"
+" cathode ray tube (CRT) monitors displaying the same image for long periods "
+"of time."
+msgstr ""
+
+#: gettingstarted.html:488
+msgid "Change Screen Saver"
+msgstr ""
+
+#: gettingstarted.html:499
+msgid "Additional Themes"
+msgstr ""
+
+#: gettingstarted.html:500
+msgid ""
+"Install additional themes and icons, such as Numix and Arc, to expand the "
+"selection available so you can tweak the look and feel to your liking."
+msgstr ""
+
+#: gettingstarted.html507, 526
+msgid "Change Appearance"
+msgstr ""
+
+#: gettingstarted.html:518
+msgid "Additional Community Wallpapers"
+msgstr ""
+
+#: gettingstarted.html:519
+msgid ""
+"The Ubuntu MATE Community have contributed dozens of desktop wallpaper "
+"images over the years. Why not install them and find something that suits "
+"your tastes?"
+msgstr ""
+
+#: gettingstarted.html:531
+msgid ""
+"You'll need the Blu-ray AACS database in order to play AACS encrypted or BD+"
+" protected discs."
+msgstr ""
+
+#: gettingstarted.html:534
+msgid "Install Blu-ray AACS Database"
+msgstr ""
+
+#: gettingstarted.html:545
+msgid ""
+"While a wide range of hardware is compatible with Ubuntu MATE, there are "
+"some components and peripherals that require proprietary drivers to function"
+" properly. Installing the firmware package is often required to get some "
+"devices, typically Bluetooth and Wi-Fi, to work correctly."
+msgstr ""
+
+#: gettingstarted.html:551
+msgid "An Internet connection is required to download and install drivers."
+msgstr ""
+
+#: gettingstarted.html555, 563, 633
+msgid "Additional Drivers"
+msgstr ""
+
+#: gettingstarted.html:558
+msgid "Install Firmware Package"
+msgstr ""
+
+#: gettingstarted.html564, 773, 827, 879, 902, 925
+msgid "can be found later in the"
+msgstr ""
+
+#: gettingstarted.html564, 773, 827, 879, 902, 925, 929, 934
+msgid "Control Center"
+msgstr ""
+
+#: gettingstarted.html:568
+msgid "Graphics"
+msgstr ""
+
+#: gettingstarted.html:572
+msgid ""
+"Sorry, Welcome was unable to automatically identify the graphics vendor on "
+"this system."
+msgstr ""
+
+#: gettingstarted.html573, 579, 587, 593
+msgid "Card/Chipset:"
+msgstr ""
+
+#: gettingstarted.html573, 579, 587, 593
+msgid "Unknown"
+msgstr ""
+
+#: gettingstarted.html577, 583
+msgid "Graphics Card Detected."
+msgstr ""
+
+#: gettingstarted.html:578
+msgid ""
+"may have drivers for your card that can boost performance for 3D "
+"applications and games as well as deliver improvements to power management."
+msgstr ""
+
+#: gettingstarted.html:584
+msgid ""
+"AMD's drivers are no longer supported on Ubuntu. The open source drivers you"
+" are currently using will deliver the most stable performance out of your "
+"card."
+msgstr ""
+
+#: gettingstarted.html:591
+msgid "You're already good to go."
+msgstr ""
+
+#: gettingstarted.html:592
+msgid ""
+"Intel's drivers are open source and are maintained/updated in the kernel."
+msgstr ""
+
+#: gettingstarted.html:597
+msgid "VirtualBox Guest Additions"
+msgstr ""
+
+#: gettingstarted.html:598
+msgid ""
+"To accelerate graphics performance inside the virtual machine, please "
+"install Guest Additions."
+msgstr ""
+
+#: gettingstarted.html:602
+msgid "Proprietary or Open Source Drivers?"
+msgstr ""
+
+#: gettingstarted.html:603
+msgid "Proprietary drivers come directly from the manufacturer."
+msgstr ""
+
+#: gettingstarted.html:604
+msgid "As they are not open source, Ubuntu developers are"
+msgstr ""
+
+#: gettingstarted.html:604
+msgid "unable to review and improve their code"
+msgstr ""
+
+#: gettingstarted.html:604
+msgid "which means that you'll have to rely on the manufacturer for support."
+msgstr ""
+
+#: gettingstarted.html:607
+msgid "In addition, proprietary drivers can"
+msgstr ""
+
+#: gettingstarted.html:607
+msgid "significantly improve graphics performance"
+msgstr ""
+
+#: gettingstarted.html:607
+msgid "and as a result,"
+msgstr ""
+
+#: gettingstarted.html:608
+msgid "the entire system. Users may wish to install these drivers to:"
+msgstr ""
+
+#: gettingstarted.html:610
+msgid "Run 3D applications and games."
+msgstr ""
+
+#: gettingstarted.html:611
+msgid "Use Compiz's window effects."
+msgstr ""
+
+#: gettingstarted.html:612
+msgid ""
+"Improve power management, particularly if the device experiences overheating"
+" problems under open source drivers."
+msgstr ""
+
+#: gettingstarted.html:613
+msgid "Improve support for high resolutions and multiple monitors."
+msgstr ""
+
+#: gettingstarted.html:614
+msgid "Fix blank screen issues."
+msgstr ""
+
+#: gettingstarted.html:617
+msgid ""
+"Proprietary drivers are known as \"binary blobs\". Certain hardware may "
+"experience worse behavior,"
+msgstr ""
+
+#: gettingstarted.html:618
+msgid "causing more issues then the open source drivers, such as:"
+msgstr ""
+
+#: gettingstarted.html:620
+msgid "Failing to boot to the graphical desktop."
+msgstr ""
+
+#: gettingstarted.html:621
+msgid "Broken drivers after an upgrade."
+msgstr ""
+
+#: gettingstarted.html:622
+msgid "Severe graphical glitches."
+msgstr ""
+
+#: gettingstarted.html:623
+msgid "Problems with applications/games requiring hardware acceleration."
+msgstr ""
+
+#: gettingstarted.html:627
+msgid "is the open source driver for your card."
+msgstr ""
+
+#: gettingstarted.html:632
+msgid "What about the latest NVIDIA drivers?"
+msgstr ""
+
+#: gettingstarted.html:633
+msgid "fetches the latest tested driver from the Ubuntu repositories."
+msgstr ""
+
+#: gettingstarted.html:639
+msgid "Wireless, Bluetooth and Other Devices"
+msgstr ""
+
+#: gettingstarted.html:641
+msgid ""
+"If there were no additional drivers found for the hardware nor did it work "
+"after installing the firmware packages, you may need to research your device"
+" to find the appropriate driver."
+msgstr ""
+
+#: gettingstarted.html:645
+msgid ""
+"Unfortunately, this is due to the fact the manufacturer for your hardware "
+"hasn't provided any source code for developers to freely use, or there is "
+"insufficient documentation to create drivers for your particular brand and "
+"model."
+msgstr ""
+
+#: gettingstarted.html:651
+msgid ""
+"Some manufacturers may provide closed source drivers provided by themselves "
+"directly. If you require assistance, feel free to"
+msgstr ""
+
+#: gettingstarted.html:653
+msgid "ask the community"
+msgstr ""
+
+#: gettingstarted.html:656
+msgid "Read more on troubleshooting wireless hardware."
+msgstr ""
+
+#: gettingstarted.html660, 665
+msgid "Printers"
+msgstr ""
+
+#: gettingstarted.html:662
+msgid "When you set up a printer in the"
+msgstr ""
+
+#: gettingstarted.html:666
+msgid "utility"
+msgstr ""
+
+#: gettingstarted.html:666
+msgid "under"
+msgstr ""
+
+#: gettingstarted.html:667
+msgid ""
+"you will be presented with a list of drivers available to use, if "
+"applicable."
+msgstr ""
+
+#: gettingstarted.html:670
+msgid ""
+"Some manufacturers may provide their own drivers and require you to download"
+" them from their website."
+msgstr ""
+
+#: gettingstarted.html:673
+msgid "Read more on printing"
+msgstr ""
+
+#: gettingstarted.html:682
+msgid "HP Linux Printing and Imaging System"
+msgstr ""
+
+#: gettingstarted.html:683
+msgid ""
+"Recommended if you have an HP printer as it provides full support for "
+"printing on most HP SFP (single function peripheral) inkjets and many "
+"LaserJets, and for scanning, sending faxes and for photo-card access on most"
+" HP MFP (multi-function peripheral) printers."
+msgstr ""
+
+#: gettingstarted.html:697
+msgid "Software Utilities for Peripherals"
+msgstr ""
+
+#: gettingstarted.html:706
+msgid "Solaar"
+msgstr ""
+
+#: gettingstarted.html:707
+msgid ""
+"A device manager for Logitech’s Unifying Receiver peripherals. This enables "
+"features like managing paired devices and reading battery status."
+msgstr ""
+
+#: gettingstarted.html710, 729, 747
+msgid "Learn More"
+msgstr ""
+
+#: gettingstarted.html:725
+msgid "OpenRazer"
+msgstr ""
+
+#: gettingstarted.html:726
+msgid ""
+"A community-driven driver and daemon that utilities the full functionality "
+"of many Razer peripherals ranging from keyboards, mice and mouse mats."
+msgstr ""
+
+#: gettingstarted.html:744
+msgid ""
+"A front-end for managing Razer devices, with support for application "
+"profiles, setting effects and enabling features of the keyboard."
+msgstr ""
+
+#: gettingstarted.html:745
+msgid "Requires OpenRazer to be installed first."
+msgstr ""
+
+#: gettingstarted.html764, 769, 772
+msgid "Language Support"
+msgstr ""
+
+#: gettingstarted.html:765
+msgid ""
+"Your computer may require updates to your language and localization "
+"settings, or you may want to install additional language support."
+msgstr ""
+
+#: gettingstarted.html:779
+msgid "Complex Input"
+msgstr ""
+
+#: gettingstarted.html:780
+msgid "Some regions of the world require complex inputs."
+msgstr ""
+
+#: gettingstarted.html:785
+msgid "Chinese"
+msgstr ""
+
+#: gettingstarted.html:788
+msgid "Japanese"
+msgstr ""
+
+#: gettingstarted.html:791
+msgid "Korean"
+msgstr ""
+
+#: gettingstarted.html:800
+msgid "Backup, Firewall and User Management"
+msgstr ""
+
+#: gettingstarted.html:801
+msgid ""
+"Ubuntu MATE provides tools to backup your files, comes with a firewall pre-"
+"installed and supports multiple user accounts."
+msgstr ""
+
+#: gettingstarted.html812, 826
+msgid "Backups"
+msgstr ""
+
+#: gettingstarted.html:813
+msgid ""
+"Nothing is more important then having a backup of your personal files, just "
+"in case something disastrous happens to your computer."
+msgstr ""
+
+#: gettingstarted.html:817
+msgid ""
+"comes pre-installed and supports backups to local devices as well as online "
+"cloud-based services."
+msgstr ""
+
+#: gettingstarted.html:820
+msgid "Configure Backup"
+msgstr ""
+
+#: gettingstarted.html823, 875
+msgid "Installing..."
+msgstr "Instalează..."
+
+#: gettingstarted.html:838
+msgid "Network Shares"
+msgstr ""
+
+#: gettingstarted.html:839
+msgid "Need to access files and folders with multiple computers?"
+msgstr ""
+
+#: gettingstarted.html:842
+msgid "Samba"
+msgstr ""
+
+#: gettingstarted.html:842
+msgid ""
+"is available to install, which integrates with the Caja File Manager, "
+"allowing you to seamless retrieve data stored on another computer."
+msgstr ""
+
+#: gettingstarted.html:847
+msgid "Samba is installed."
+msgstr ""
+
+#: gettingstarted.html:848
+msgid "Choose a folder and select \"Sharing Options\"."
+msgstr ""
+
+#: gettingstarted.html:852
+msgid "Samba is available from the Software Boutique under \"Servers\"."
+msgstr ""
+
+#: gettingstarted.html:863
+msgid "Firewall"
+msgstr ""
+
+#: gettingstarted.html:864
+msgid ""
+"Firewalls prevent malicious connections entering and leaving your computer. "
+"By default, the firewall is disabled,"
+msgstr ""
+
+#: gettingstarted.html:866
+msgid "learn more about firewalls"
+msgstr ""
+
+#: gettingstarted.html:868
+msgid "provides a graphical frontend to"
+msgstr ""
+
+#: gettingstarted.html:869
+msgid "Uncomplicated Firewall"
+msgstr ""
+
+#: gettingstarted.html:869
+msgid "If security is important to you, there are"
+msgstr ""
+
+#: gettingstarted.html:870
+msgid "more ways to stay secure too"
+msgstr ""
+
+#: gettingstarted.html:872
+msgid "Configure Firewall"
+msgstr ""
+
+#: gettingstarted.html:878
+msgid "Firewall Configuration"
+msgstr ""
+
+#: gettingstarted.html:890
+msgid "Users"
+msgstr ""
+
+#: gettingstarted.html:892
+msgid ""
+"Share your computer with others? Set up a separate user account for each "
+"user to protect the individual privacy of each user sharing the same "
+"computer."
+msgstr ""
+
+#: gettingstarted.html:895
+msgid "You can also log in to a"
+msgstr ""
+
+#: gettingstarted.html:895
+msgid "Guest Session"
+msgstr ""
+
+#: gettingstarted.html:895
+msgid "if someone is using your computer as a one-off."
+msgstr ""
+
+#: gettingstarted.html:898
+msgid "Configure Users"
+msgstr ""
+
+#: gettingstarted.html:901
+msgid "Users and Groups"
+msgstr ""
+
+#: gettingstarted.html:909
+msgid "Customisation"
+msgstr ""
+
+#: gettingstarted.html913, 921
+msgid "User Interface"
+msgstr ""
+
+#: gettingstarted.html:914
+msgid ""
+"Ubuntu MATE provides a unique tool to transform the user interface. It can "
+"be used to quickly setup the user interface to broadly reflect how other "
+"popular operating systems look and feel. The"
+msgstr ""
+
+#: gettingstarted.html:917
+msgid "layout is similar to Microsoft Windows, while the"
+msgstr ""
+
+#: gettingstarted.html:918
+msgid "layout is similar to Apple Mac OS X."
+msgstr ""
+
+#: gettingstarted.html:924
+msgid "MATE Tweak"
+msgstr "MATE Tweak"
+
+#: gettingstarted.html:930
+msgid ""
+"The utilities mentioned above are all part of the extensive Control Center "
+"that Ubuntu MATE provides. You can configure just about every aspect of your"
+" computer from the Control Center."
+msgstr ""
+
+#: gettingstarted.html:941
+msgid "Keyboard & Mouse Shortcuts"
+msgstr ""
+
+#: gettingstarted.html:945
+msgid ""
+"Ubuntu MATE has many keyboard shortcuts that help make using your computer "
+"more efficient."
+msgstr ""
+
+#: gettingstarted.html:949
+msgid "The"
+msgstr ""
+
+#: gettingstarted.html:949
+msgid "Super"
+msgstr ""
+
+#: gettingstarted.html:949
+msgid "key is your Windows key. For Mac keyboards, this is the ⌘ Command key."
+msgstr ""
+
+#: gettingstarted.html:952
+msgid "Common application shortcuts"
+msgstr ""
+
+#: gettingstarted.html:953
+msgid "These shortcuts apply in most applications."
+msgstr ""
+
+#: gettingstarted.html958, 966, 974, 982, 990, 998, 1006, 1014, 1022, 1030,
+#: 1038, 1046, 1054, 1062, 1135, 1144, 1154, 1164, 1202, 1218, 1228, 1238,
+#: 1250, 1323, 1334, 1344, 1354, 1364, 1374, 1384, 1394
+msgid "Ctrl"
+msgstr ""
+
+#: gettingstarted.html:962
+msgid "Copy the selected text/object"
+msgstr ""
+
+#: gettingstarted.html:970
+msgid "Cut the selected text/object"
+msgstr ""
+
+#: gettingstarted.html:978
+msgid "Paste/insert the selected text/object"
+msgstr ""
+
+#: gettingstarted.html:986
+msgid "Select all text"
+msgstr ""
+
+#: gettingstarted.html:994
+msgid "Find and replace words"
+msgstr ""
+
+#: gettingstarted.html:1002
+msgid "Make the selected text bold"
+msgstr ""
+
+#: gettingstarted.html:1010
+msgid "Make the selected text italic"
+msgstr ""
+
+#: gettingstarted.html:1018
+msgid "Underline the selected text"
+msgstr ""
+
+#: gettingstarted.html:1026
+msgid "Open a new document or window"
+msgstr ""
+
+#: gettingstarted.html:1034
+msgid "Save the current document"
+msgstr ""
+
+#: gettingstarted.html:1042
+msgid "Open another document"
+msgstr ""
+
+#: gettingstarted.html:1050
+msgid "Print the current document"
+msgstr ""
+
+#: gettingstarted.html:1058
+msgid "Undo the last change you made"
+msgstr ""
+
+#: gettingstarted.html:1068
+msgid "Redo a change that you just undid"
+msgstr ""
+
+#: gettingstarted.html:1074
+msgid "Toggle the current application between full-screen and windowed"
+msgstr ""
+
+#: gettingstarted.html:1078
+msgid "Desktop shortcuts"
+msgstr ""
+
+#: gettingstarted.html:1079
+msgid ""
+"This section lists common keyboard shortcuts which you can use to operate "
+"parts of the desktop."
+msgstr ""
+
+#: gettingstarted.html1085, 1176, 1429, 1437, 1445, 1455, 1463, 1471, 1479
+msgid "Super Key"
+msgstr ""
+
+#: gettingstarted.html:1087
+msgid "Activate Brisk Menu or MATE Menu launcher"
+msgstr ""
+
+#: gettingstarted.html:1093
+msgid "Activate Heads-up Display (HUD), if enabled in MATE Tweak."
+msgstr ""
+
+#: gettingstarted.html:1101
+msgid "Open the Applications menu"
+msgstr ""
+
+#: gettingstarted.html:1109
+msgid "Run an application by typing its name in the box which appears"
+msgstr ""
+
+#: gettingstarted.html:1113
+msgid "Prt Sc"
+msgstr ""
+
+#: gettingstarted.html:1115
+msgid "Take a screenshot of the whole screen"
+msgstr ""
+
+#: gettingstarted.html:1123
+msgid "Take a screenshot of the current window"
+msgstr ""
+
+#: gettingstarted.html:1131
+msgid "Take a screenshot of a selected area"
+msgstr ""
+
+#: gettingstarted.html:1139
+msgid "Delete"
+msgstr ""
+
+#: gettingstarted.html:1141
+msgid "Open the dialog box to shutdown, restart or suspend."
+msgstr ""
+
+#: gettingstarted.html:1150
+msgid "Toggles 'Show Desktop'."
+msgstr ""
+
+#: gettingstarted.html:1160
+msgid "Lock your screen."
+msgstr ""
+
+#: gettingstarted.html:1170
+msgid "Open a terminal."
+msgstr ""
+
+#: gettingstarted.html:1180
+msgid "Screen reader enable/disable."
+msgstr ""
+
+#: gettingstarted.html:1184
+msgid "Window shortcuts"
+msgstr ""
+
+#: gettingstarted.html:1189
+msgid "Tab"
+msgstr ""
+
+#: gettingstarted.html:1192
+msgid "Switch between currently-open windows."
+msgstr ""
+
+#: gettingstarted.html:1194
+msgid "Press Alt + Tab and then release Tab (but continue to hold Alt)."
+msgstr ""
+
+#: gettingstarted.html1195, 1211
+msgid ""
+"Press Tab repeatedly to cycle through the list of available windows which "
+"appears on the screen."
+msgstr ""
+
+#: gettingstarted.html:1196
+msgid "Release the Alt key to switch to the selected window."
+msgstr ""
+
+#: gettingstarted.html:1209
+msgid "Switch between currently-open windows in all Workspaces."
+msgstr ""
+
+#: gettingstarted.html:1212
+msgid "Release the Ctrl and Alt keys to switch to the selected window."
+msgstr ""
+
+#: gettingstarted.html1222, 1244
+msgid "Left"
+msgstr ""
+
+#: gettingstarted.html:1224
+msgid "Switch to the previous workspace."
+msgstr ""
+
+#: gettingstarted.html1232, 1255
+msgid "Right"
+msgstr ""
+
+#: gettingstarted.html:1234
+msgid "Switch to the next workspace."
+msgstr ""
+
+#: gettingstarted.html1242, 1253, 1447
+msgid "Shift"
+msgstr ""
+
+#: gettingstarted.html:1246
+msgid "Move the current window to the previous workspace."
+msgstr ""
+
+#: gettingstarted.html:1257
+msgid "Move the current window to the next workspace."
+msgstr ""
+
+#: gettingstarted.html:1265
+msgid "Closes window."
+msgstr ""
+
+#: gettingstarted.html:1273
+msgid "Returns window to 'normal' or previous size."
+msgstr ""
+
+#: gettingstarted.html:1281
+msgid "Moves the current window (can be moved with mouse or keyboard)."
+msgstr ""
+
+#: gettingstarted.html:1289
+msgid "Resizes current window (again, can be moved with mouse or keyboard)."
+msgstr ""
+
+#: gettingstarted.html:1297
+msgid "Minimizes current window."
+msgstr ""
+
+#: gettingstarted.html:1305
+msgid "Maximizes current window."
+msgstr ""
+
+#: gettingstarted.html:1311
+msgid "Pulldown Terminal, if enabled in MATE Tweak."
+msgstr ""
+
+#: gettingstarted.html:1317
+msgid "Space"
+msgstr ""
+
+#: gettingstarted.html:1319
+msgid ""
+"Displays the window menu with options such as 'Always on Top' and 'Minimize'"
+" and 'Maximize' and above commands."
+msgstr ""
+
+#: gettingstarted.html:1329
+msgid "Toggle shaded state."
+msgstr ""
+
+#: gettingstarted.html1338, 1348, 1358, 1368, 1378, 1388, 1398
+msgid "Numpad"
+msgstr ""
+
+#: gettingstarted.html:1340
+msgid "Place window in top left corner of screen."
+msgstr ""
+
+#: gettingstarted.html:1350
+msgid "Place window in top half of screen."
+msgstr ""
+
+#: gettingstarted.html:1360
+msgid "Place window in top right corner of screen."
+msgstr ""
+
+#: gettingstarted.html:1370
+msgid "Center/Maximize the window in the middle of the screen."
+msgstr ""
+
+#: gettingstarted.html:1380
+msgid "Place window in the bottom left corner of the screen."
+msgstr ""
+
+#: gettingstarted.html:1390
+msgid "Place window in the bottom half of the screen."
+msgstr ""
+
+#: gettingstarted.html:1400
+msgid "Place window in the bottom right corner of the screen."
+msgstr ""
+
+#: gettingstarted.html:1404
+msgid "Mouse Shortcuts"
+msgstr "Scurtături mouse"
+
+#: gettingstarted.html:1410
+msgid "Left-click while dragging mouse"
+msgstr ""
+
+#: gettingstarted.html:1412
+msgid "Moves the window."
+msgstr "Mută fereastra."
+
+#: gettingstarted.html:1418
+msgid "Right-click while dragging mouse"
+msgstr ""
+
+#: gettingstarted.html:1420
+msgid "Resizes the window (closest window edge)."
+msgstr ""
+
+#: gettingstarted.html:1424
+msgid "Compiz Effects Shortcuts"
+msgstr ""
+
+#: gettingstarted.html:1425
+msgid ""
+"All of the shortcuts listed in this section require Compiz to be enabled."
+msgstr ""
+
+#: gettingstarted.html:1433
+msgid "Zoom out, show workspace switcher."
+msgstr ""
+
+#: gettingstarted.html:1441
+msgid ""
+"Enables the 'scale' effect, it shows all windows from the current workspace."
+msgstr ""
+
+#: gettingstarted.html:1451
+msgid "Enables the 'scale' effect, it shows all windows from all workspaces."
+msgstr ""
+
+#: gettingstarted.html:1459
+msgid "Invert colors of the focused window."
+msgstr ""
+
+#: gettingstarted.html:1467
+msgid "Invert colors for the whole screen."
+msgstr ""
+
+#: gettingstarted.html:1473
+msgid "Scroll Wheel"
+msgstr ""
+
+#: gettingstarted.html:1475
+msgid "Zooms in on the screen."
+msgstr ""
+
+#: gettingstarted.html1481, 1497
+msgid "Middle Click"
+msgstr ""
+
+#: gettingstarted.html:1483
+msgid "Select a region to zoom into, using a rectangle."
+msgstr ""
+
+#: gettingstarted.html:1489
+msgid "Left Click"
+msgstr "Click stânga"
+
+#: gettingstarted.html:1491
+msgid "Move focused window."
+msgstr ""
+
+#: gettingstarted.html:1499
+msgid "Resize focused window."
+msgstr ""
+
+#: gettingstarted.html:1505
+msgid "Right Click"
+msgstr "Click dreapta"
+
+#: gettingstarted.html:1507
+msgid "Show window menu."
+msgstr ""
+
+#: gettingstarted.html:1520
+msgid ""
+"Your machine is made up of various components that interact with one "
+"another. This information is useful when providing support to ensure "
+"hardware and software works on your machine."
+msgstr ""
+
+#: gettingstarted.html:1524
+msgid "View System Requirements"
+msgstr ""
+
+#: gettingstarted.html:1528
+msgid "Basic"
+msgstr "De bază"
+
+#: gettingstarted.html:1529
+msgid "Detailed"
+msgstr "Detaliate"
+
+#: gettingstarted.html:1545
+msgid "Distribution:"
+msgstr "Distribuţie:"
+
+#: gettingstarted.html:1549
+msgid "Kernel:"
+msgstr "Kernel:"
+
+#: gettingstarted.html:1552
+msgid "The Linux kernel is the heart of Ubuntu."
+msgstr "Kernelul Linux este elementul principal la Ubuntu."
+
+#: gettingstarted.html:1558
+msgid "Motherboard:"
+msgstr "Placa de bază:"
+
+#: gettingstarted.html:1562
+msgid "Boot Mode:"
+msgstr ""
+
+#: gettingstarted.html:1565
+msgid "Displays the mode that Ubuntu MATE is communicating with the firmware."
+msgstr ""
+
+#: gettingstarted.html:1573
+msgid "Processor"
+msgstr ""
+
+#: gettingstarted.html:1576
+msgid "Model:"
+msgstr "Model:"
+
+#: gettingstarted.html:1580
+msgid "Speed:"
+msgstr "Viteza:"
+
+#: gettingstarted.html:1584
+msgid "Architecture in use:"
+msgstr ""
+
+#: gettingstarted.html:1587
+msgid ""
+"The operating system's architecture in use. For instance, i386 = 32-bit."
+msgstr ""
+
+#: gettingstarted.html:1593
+msgid "Architecture(s) supported:"
+msgstr ""
+
+#: gettingstarted.html:1596
+msgid "Architectures that are supported by this processor."
+msgstr ""
+
+#: gettingstarted.html:1604
+msgid "Components"
+msgstr "Componente"
+
+#: gettingstarted.html:1607
+msgid "Memory (RAM):"
+msgstr "Memorie (RAM):"
+
+#: gettingstarted.html:1610
+msgid "More RAM allows more applications to run simultaneously."
+msgstr ""
+
+#: gettingstarted.html:1616
+msgid "Graphics:"
+msgstr ""
+
+#: gettingstarted.html:1620
+msgid "Internet Access:"
+msgstr "Acces la Internet:"
+
+#: gettingstarted.html:1622
+msgid "Connected"
+msgstr "Conectat"
+
+#: gettingstarted.html:1623
+msgid "Not Connected"
+msgstr "Nu este conectat"
+
+#: gettingstarted.html:1630
+msgid "Storage"
+msgstr "Spaţiu stocare"
+
+#: gettingstarted.html:1634
+msgid "Root File System:"
+msgstr ""
+
+#: gettingstarted.html:1637
+msgid "The file system where Ubuntu MATE is installed."
+msgstr ""
+
+#: gettingstarted.html:1643
+msgid "Entire Disk Capacity:"
+msgstr ""
+
+#: gettingstarted.html:1648
+msgid "Ubuntu MATE Usage"
+msgstr "Utilizare Ubuntu MATE"
+
+#: gettingstarted.html:1657
+msgid "Allocated for Ubuntu MATE:"
+msgstr "Alocat pentru Ubuntu MATE"
+
+#: gettingstarted.html:1660
+msgid "The size of your operating system partition."
+msgstr ""
+
+#: gettingstarted.html:1666
+msgid "Used Space:"
+msgstr "Spaţiu folosit:"
+
+#: gettingstarted.html:1672
+msgid "Free Space:"
+msgstr "Spaţiu liber:"
+
+#: gettingstarted.html:1678
+msgid "Other Usage:"
+msgstr "Alte utilizări:"
+
+#: gettingstarted.html:1681
+msgid "Reserved by system, other partitions, unallocated or swap."
+msgstr ""
+
+#: gettingstarted.html:1689
+msgid "Why do I see two units?"
+msgstr "De ce sunt două elemente?"
+
+#: gettingstarted.html:1695
+msgid "SI or IEC Units?"
+msgstr ""
+
+#: gettingstarted.html:1697
+msgid "Decimal (SI Standard)"
+msgstr ""
+
+#: gettingstarted.html:1699
+msgid "1 KB = 1000 bytes"
+msgstr "1 KB = 1000 bytes"
+
+#: gettingstarted.html:1700
+msgid "Pronounced as \"ga\" - like \"Mega\", \"Giga\"."
+msgstr ""
+
+#: gettingstarted.html:1701
+msgid "Common in every day applications and file storage."
+msgstr ""
+
+#: gettingstarted.html:1705
+msgid "Binary (IEC Standard)"
+msgstr ""
+
+#: gettingstarted.html:1707
+msgid "1 KiB = 1024 bytes"
+msgstr "1 KiB = 1024 bytes"
+
+#: gettingstarted.html:1708
+msgid "Pronounced as \"bi\" - like \"Mebi\", \"Gibi\"."
+msgstr ""
+
+#: gettingstarted.html:1709
+msgid "Common in RAM, drives and partitions, including tools like GParted."
+msgstr ""
+
+#: gettingstarted.html:1718
+msgid ""
+"The following information is retrieved directly from the inxi command line "
+"program."
+msgstr ""
+
+#: gettingstarted.html:1719
+msgid "Gathering data..."
+msgstr "Colectez date..."
+
+#: gettingstarted.html:1720
+msgid ""
+"Detailed specifications cannot be displayed as 'inxi' is not installed."
+msgstr ""
+
+#: gettingstarted.html:1736
+msgid "System Profiler and Benchmark"
+msgstr ""
+
+#: gettingstarted.html:1737
+msgid ""
+"See more specific system information in a graphical window, including "
+"connected USBs, PCI devices and a simple CPU benchmark."
+msgstr ""
+
+#: gettingstarted.html:1752
+msgid "Disks"
+msgstr "Discuri"
+
+#: gettingstarted.html:1753
+msgid ""
+"A utility that allows basic configuration to your disks and partitions, "
+"including formatting, partitioning, mounting, viewing S.M.A.R.T data and "
+"writing images to SD cards/USB drives."
+msgstr ""
+
+#: gettingstarted.html:1770
+msgid ""
+"An advanced tool for viewing, creating, modifying and deleting partitions. "
+"It also has features to expand/shrink file systems and supports a wide range"
+" of formats."
+msgstr ""
+
+#: gettingstarted.html:1785
+msgid "Disk Usage Analyser"
+msgstr "Analizator folosire disc"
+
+#: gettingstarted.html:1786
+msgid ""
+"A graphical tool for exploring your file system or individual folders to "
+"determine how much space is being used."
+msgstr ""
+
+#: gettingstarted.html:1801
+msgid "System Monitor"
+msgstr "Monitorizare sistem"
+
+#: gettingstarted.html:1802
+msgid ""
+"Views currently running processes, resource usage, and the amount of space "
+"used and free for currently mounted file systems."
+msgstr ""
+
+#: gettingstarted.html:1817
+msgid "Psensor"
+msgstr ""
+
+#: gettingstarted.html:1818
+msgid ""
+"Views and graphs the current temperature of components attached to the "
+"system. Including: Motherboard, CPU, GPU and hard disks."
+msgstr ""

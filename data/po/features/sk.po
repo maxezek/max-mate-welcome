@@ -1,0 +1,302 @@
+# 
+# Translators:
+# tylnesh <kohutek.michal@gmail.com>, 2017
+# peter, 2018
+# Tomáš Tomovčík <tomovcik.tomas@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2018-01-15 09:18+0000\n"
+"Last-Translator: peter\n"
+"Language-Team: Slovak (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/sk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: features.html:18
+msgid "Features"
+msgstr "Funkcie"
+
+#: features.html:26
+msgid "Modern and Full-Featured"
+msgstr "Moderný a plne vybavený"
+
+#: features.html:27
+msgid ""
+"Ubuntu MATE is a modern computer operating system, with an attractive and "
+"easy to understand user interface. Its update manager keeps not only the "
+"operating system itself, but all of its installed applications updated to "
+"the current release. The operating system is more secure, and better "
+"supported than operating systems that come pre-installed on most home "
+"computer hardware today."
+msgstr "Ubuntu MATE je moderný počítačový operačný systém s atraktívnym a ľahko pochopiteľným používateľským rozhraním. Jeho manažér aktualizácií udržuje nielen systém samotný, ale aj všetky nainštalované aplikácie aktualizované na najnovšie vydanie. Tento operačný systém je bezpečnejší a lepšie podporovaný ako operačné systémy, ktoré sú bežne predinštalované na počítačovom hardvéri."
+
+#: features.html:37
+msgid "Pre-Configured Yet Flexible"
+msgstr "Prednastavený, Avšak Flexibilný"
+
+#: features.html:43
+msgid ""
+"Using Ubuntu MATE provides you with the freedom to run a complete, full-"
+"featured operating system, pre-configured with most, if not all, of the "
+"applications you will need for your daily computing - or to change anything "
+"about the way it looks, the way it works, or the applications it runs to "
+"suit your taste."
+msgstr "Ubuntu MATE vám prináša slobodu používania kompletného, plno funkčného operačného systému, prednastaveného s väčšinou, ak nie všetkými aplikáciami, ktoré budete dennodenne potrebovať, alebo zmeniť čokoľvek vo vzhľade, fungovaní, alebo aplikáciach aby išlo presne tak, ako chcete."
+
+#: features.html:52
+msgid "Built-In Security"
+msgstr "Vstavaná Bezpečnosť"
+
+#: features.html:58
+msgid ""
+"Ubuntu MATE is designed with security in mind. Unlike operating systems that"
+" update only once a month, Ubuntu MATE receives updates continuously. The "
+"updates include security patches for Ubuntu MATE and all of its components. "
+"Security updates for all of its installed applications are also provided on "
+"the same schedule. This ensures that you have the latest protection for all "
+"of your computer's software -- as soon as it's available!"
+msgstr "Ubuntu MATE je dizajnované bezpečne. Na rozdiel od operačnýc systémov, ktoré sa aktualizujú len raz za mesiac, Ubuntu MATE dostáva aktualizácie neustále. Aktualizácie obsahujú bezpečnostné záplaty pre Ubuntu MATE a všetky jeho komponenty. Bezpečnostné aktualizácie všetkých aplikácii sú tiež poskytované s rovnakým rozvrhom. Toto zaručuje, že máte najnovšiu ochranu pre všetok softvér na počítači, tak rýchlo ako sú vydané."
+
+#: features.html:74
+msgid ""
+"Ubuntu MATE can get viruses and other infections... but it doesn't. Rapid "
+"and timely updates ensure that there are very few, if any threats to Linux "
+"systems like Ubuntu MATE that persist in the wild. In reality, there have "
+"been very few \"public\" infections in the last 10 years that can affect "
+"Ubuntu MATE. They are no longer a threat to anyone installing or using a "
+"modern Linux distribution today. Ubuntu MATE is designed to make it "
+"difficult for viruses, root kits and other malware to be installed and run "
+"without conscious intervention by you, the user. Even if you do accidentally"
+" invite in an infection, chances are it's designed to attack Windows and "
+"won't do much, if any damage to Ubuntu MATE."
+msgstr "Ubuntu MATE môže dostať vírusy a iné infekcie... ale nedostáva. Rýchle a skoré aktualizácie zabezpečujú, že je veľmi málo, ak vôbec nejaké sú, hrozieb pre Linuxové systémy ako Ubuntu MATE. V skutočnosti bolo veľmi málo \"uverejnených\" infekcií z posledných 10 rokov, ktoré môžu ovplyvniť Ubuntu MATE. Už nie sú hrozbou pre nikoho, kto inštaluje alebo používa modernú Linuxovú distribúciu. Ubuntu MATE je navrhnuté tak, abu bolo ťažké pre vírusy, root kity a iný malware sa dostať a fungovať bez vášho vedomého zásahu. Aj keď náhodou natrafíte na infekciu, pravepodobne bude navrhnutá pre útok na systémy Windows a nespraví veľkú, alebo žiadnu škodu pre Ubuntu MATE."
+
+#: features.html:94
+msgid ""
+"Another significant security feature of Ubuntu MATE is that its users are "
+"not administrators by default. Administrators (\"root\" users) on any "
+"computer system have permission to do anything they want, including the "
+"ability to damage the system."
+msgstr "Ďašiou bezpečnostnou črtou Ubuntu MATE je fakt, že používatelia nie sú štandardne administrátormi. Administrátori (\"root\") majú v ktoromkoľvek počítačovom systéme povolenie robiť čokoľvek chcú, vrátane schopnosti poškodiť systém."
+
+#: features.html:98
+msgid ""
+"For example, other operating systems look at the name of a file to determine"
+" which program should open it, then immediately attempt to open it. That "
+"design makes it easy for an intruder to attack a computer. Ubuntu MATE opens"
+" a file based on what the file is, not based on its name. So even if a "
+"malicious program disguises its identity by using the name \"Last Will and "
+"Testament.txt\" Ubuntu MATE will recognize the file as a program. The system"
+" provides a warning that the file is not a text file, but that it is a "
+"program that will be run if you give it permission to continue. To be extra "
+"secure, Ubuntu MATE requires you to provide your administrator password "
+"before that permission is granted. Every single time."
+msgstr "Iné operačné systémy, napríklad, skontrolujú názov súboru aby rozhodli, ktorý program ho má otvoriť a okamžite sa o to pokúsia. Takýto prístup uľahčuje útočníkovi útok na počítač. Ubuntu MATE otvára súbory podľa toho, akého typu sú, nie podľa jeho názvu. Preto aj keby sa škodlivý program ukríval pod názvom \"Posledná vôľa.txt\", Ubuntu MATE ho rozpozná ako program. Systém upozorní používateľa, že sa jedná o program a že sa vykoná, ak mu dáte povolenie pokračovať. Pre ešte väčšie zabezpečenie, Ubuntu MATE požaduje aby ste sa prihlásili heslom administrátora, než udelíte povolenie. Každý krát."
+
+#: features.html:116
+msgid "Powerful Applications"
+msgstr "Mocné Aplikácie"
+
+#: features.html:117
+msgid ""
+"While MATE Desktop provides the essential user interfaces to control and use"
+" a computer, Ubuntu MATE adds a collection of additional applications to "
+"turn your computer into a truly powerful workstation."
+msgstr "Kým Prostredie MATE poskytuje základné používateľské rozhrania na ovládanie a používanie počítača, Ubuntu MATE pridáva zbierku dodatočných aplikacií aby sa z vášho počítača stala skutočne užitočná pracovná stanica."
+
+#: features.html:122
+msgid "Productivity"
+msgstr "Produktivita"
+
+#: features.html:131
+msgid ""
+"Firefox delivers safe, easy web browsing. A familiar user interface, "
+"enhanced security features including protection from online identity theft, "
+"and an integrated search to let you get the most out of the web."
+msgstr "Firefox poskytuje bezpečné a ľahké prehliadanie webu. Známe používateľské rozhranie, bohaté bezpečnostné funkcie, vrátane ochany proti online krádeźi identity a integrované vyhľadávanie uľahčujú využívanie webu naplno."
+
+#: features.html:143
+msgid ""
+"Thunderbird is a full-featured email, RSS and newsgroup client that makes "
+"emailing safer, faster and easier than ever before. It supports different "
+"mail accounts (POP, IMAP, Gmail), has a simple mail account setup wizard, "
+"one-click address book, tabbed interface, an integrated learning spam "
+"filter, advanced search and indexing capabilities, and offers easy "
+"organization of mails with tagging and virtual folders. It also features "
+"unrivalled extensibility."
+msgstr "Thunderbird je plnohodnotný emailový, RSS a diskusný klient, ktorý robí email bezpečnejším, rýchlejším a jednoduchším ako kedykoľvek predtým. Podporuje rôzne mailové účty (POP, IMAP, Gmail), má jednoduchého sprievodca nastavením účtu, zoznam kontaktov, rozhranie podporujúce záložky, integrovaný spamový filter, pokročilé vyhľadávanie a indexovanie a ponúka jednoduchú organizáciu pošty štítkovaním a virtuálnymi priečinkami. Taktiež ponúka bezkonkurenčnú ponuku rozšírení."
+
+#: features.html:159
+msgid ""
+"LibreOffice is a full-featured office productivity suite that provides a "
+"near drop-in replacement for Microsoft(R) Office; its clean interface and "
+"powerful tools let you unleash your creativity and grow your productivity. "
+"LibreOffice embeds several applications that make it the most powerful Free "
+"and Open Source Office suite on the market:"
+msgstr "Libre-office je plnohodnotný kancelársky balík, ktorý poskyuje takmer stopercentnú náhradu za Microsoft(R) Offce. Jeho jednoduché rozhranie a mocné nástroje vám umožnia využiť svoju kreativitu a rozšíriť svoju produktivitu. LibreOffice obsahuje viacero aplikácií, ktoré ho činia najmocnejším slobodným a Open Source kancelárskym balíkom na trhu:"
+
+#: features.html:166
+msgid "Writer, the word processor."
+msgstr "Writer, textový procesor."
+
+#: features.html:167
+msgid "Calc, the spreadsheet application."
+msgstr "Calc, tabuľkový procesor."
+
+#: features.html:168
+msgid "Impress, the presentation engine."
+msgstr "Impress, nástroj na tvorby prezentácií."
+
+#: features.html:169
+msgid "Draw, the drawing and flowcharting application."
+msgstr "Draw, aplikácia na kreslenie a tvorbu vývojových diagramov."
+
+#: features.html:170
+msgid "Base, the database and database frontend."
+msgstr "Base, databáza a databázový frontend."
+
+#: features.html:171
+msgid "Math, for editing mathematics."
+msgstr "Math, na úpravu matematických rovníc."
+
+#: features.html:178
+msgid "Entertainment"
+msgstr "Zábava"
+
+#: features.html:184
+msgid ""
+"Rhythmbox is a very easy to use music playing and management program which "
+"supports a wide range of audio formats (including mp3 and ogg). Originally "
+"inspired by Apple's iTunes, the current version also supports Internet "
+"Radio, iPod integration and generic portable audio player support, Audio CD "
+"burning, Audio CD playback, music sharing, and Podcasts."
+msgstr "Rhythmbox je veľmi ľahko použiteľný prehrávač hudby, ktorý podporuje širokú ponuku audio formátov (vrátane mp3 a ogg). Bol pôvodne inšpirovaný programom iTunes od Apple, jeho súčasná verzia tiež podporuje internetové rádia, integráciu iPodov a ostatných prenosných prehrávačov, napaľovanie Hudobných CD, prehrávanie Hudobných CD, zdieľanie hudby a Podcasty."
+
+#: features.html:198
+msgid ""
+"Shotwell is a digital photo organizer. It allows you to import photos from "
+"disk or camera, organize them in various ways, view them in full-window or "
+"fullscreen mode, and export them to share with others. It is able to manage "
+"a lot of different image formats, also including raw CR2 files."
+msgstr "Shotwell je správca Vašich digitálnych fotografií. Umožní Vám importovať fotografie z disku alebo fotoaparátu, usporiadať ich rôznymi spôsobmi, zobrazovať ich v jednom okne aj v režimu celej obrazovky, exportovať ich a zdielať s ostatnými. Je schopný zvládnuť veľa rôznych obrazových formátov a to aj súborov raw CR2."
+
+#: features.html:211
+msgid ""
+"VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4, "
+"DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs, "
+"podcasts, and multimedia streams from various network sources."
+msgstr "VLC je video prehrávač z projektu VideoLAN. Prehráva MPEG, MPEG-2, MPEG-4, DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis súbory, DVD, VCD, podcasty a multimediálne streamy z rôznych  sieťových zdrojov."
+
+#: features.html:215
+msgid ""
+"VLC can also be used as a streaming server that duplicates the stream it "
+"reads and multicasts them through the network to other clients, or serves "
+"them through HTTP."
+msgstr "VLC môže byť tiež použitý ako streamovací server, ktorý kopíruje tok, ktorý prečíta a vysiela ako multicast cez sieť k ostatným klientom alebo serverom pomocou HTTP."
+
+#: features.html:218
+msgid ""
+"VLC has support for on-the-fly transcoding of audio and video formats, "
+"either for broadcasting purposes or for movie format transformations."
+msgstr "VLC podporuje on-the-fly prekódovania audio a video formátov a to pre účely vysielania alebo transformovanie filmových formátov."
+
+#: features.html:226
+msgid "... And a whole lot more!"
+msgstr "... A omnoho viac!"
+
+#: features.html:228
+msgid ""
+"Naturally you'll also find a firewall, backup application, document/photo "
+"scanner and printer management all included in Ubuntu MATE. And this is just"
+" the start. The"
+msgstr "V Ubuntu MATE samozrejme nájdete aj firewall, aplikáciou pre zálohovanie, skener dokumentov/fotiek a správu tlačiarne. A to je len začiatok."
+
+#: features.html:231
+msgid "Software"
+msgstr "Softvér"
+
+#: features.html:231
+msgid ""
+"sections includes best-in-class applications for most tasks and a one-click "
+"installer for an"
+msgstr "sekcia obsahuje najlepšie aplikácie vo svojej triede pre väčšinu  úloh a inštalačný program na jedno kliknutie."
+
+#: features.html:233
+msgid ""
+"that will give you access to thousands of applications suitable for just "
+"about any professional or recreational pursuit."
+msgstr ", čím získate prístup k tisíckam aplikáciám vhodných pre akúkoľvek profesionálnu alebo amatérsku činnosť."
+
+#: features.html:240
+msgid "Games"
+msgstr "Hry"
+
+#: features.html:246
+msgid ""
+"In the last couple of years Linux has become a first class gaming platform "
+"thanks to"
+msgstr "V posledných niekoľko rokov sa Linux stal prvotriednou platformou vďaka tomu, že"
+
+#: features.html:249
+msgid "bringing the"
+msgstr "prinieslo"
+
+#: features.html:251
+msgid ""
+"platform to Linux. At the time of writing Steam has more than 1000 high "
+"quality indie and AAA titles available for Linux. Ubuntu MATE is fully "
+"compatible with Steam for Linux."
+msgstr "platformu pre Linux. V dobe písania ma Steam viac než 1000 vysoko kvalitných indie a AAA titulov, ktoré sú k dispozícii pre Linux. Ubuntu MATE je plne kompatibilné so Steam pre Linux."
+
+#: features.html:256
+msgid ""
+"While Steam is a major step forward for gaming on Linux, there are also many"
+" high quality and enjoyable Open Source games titles available for Ubuntu "
+"MATE. It doesn't matter if you like flight simulators, motor racing, first "
+"person shooters, jump and run or card games, you'll find something to keep "
+"you entertained."
+msgstr "Zatiaľ čo Steam je významným krokom vpred pred hranie hier na Linuxu, existuje tiež množstvo kvalitných a príjemných open source herných titulov, ktoré sú k dispozícii pre Ubuntu MATE. Nezáleží na tom či sa Vám páčia letecké simulátory, automobilové preteky, strielačky, skoky, beh alebo kartové hry, vždy nájdete niečo, čo Vás bude baviť."
+
+#: features.html:266
+msgid "Accessibility"
+msgstr "Prístupnosť"
+
+#: features.html:272
+msgid ""
+"Making an accessible operating system was a key priority when the Ubuntu "
+"MATE founders initially set out the goals of the project."
+msgstr "Vytvoriť prístupný operačný systém bolo kľúčovou prioritou pre zakladateľov Ubuntu MATE, keď si stanovili ciele projektu."
+
+#: features.html:276
+msgid ""
+"Ubuntu MATE is never going to be able to offer the comprehensive integration"
+" of assistive technologies that"
+msgstr "Ubuntu MATE nikdy nebude schopná ponúknuť takú komplexnú integráciu podporných technológií, akú poskytuje distribúcia"
+
+#: features.html:278
+msgid "Sonar GNU/Linux"
+msgstr "Sonar GNU/Linux"
+
+#: features.html:279
+msgid ""
+"provides. But Ubuntu MATE will continue to follow their lead so that Ubuntu "
+"MATE is a viable desktop solution where computer access is shared within a "
+"household or business where individual needs differ."
+msgstr " Ale Ubuntu MATE bude i naďalej nasledovať ich príkladom, takže Ubuntu MATE je realizovateľným riešením pre zdielaný prístup k počítaču v rámci domácnosti či firmy, kde sa individuálne potreby líšia."
+
+#: features.html:287
+msgid "Mobile Integration"
+msgstr "Mobilná integrácia"
+
+#: features.html:293
+msgid ""
+"Currently Ubuntu MATE has the essential mobile device support you'd expect. "
+"You can plug in a phone, media player or digital camera and the device is "
+"automatically detected and mounted. You can then access the files on it or "
+"sync its contents."
+msgstr "Ubuntu MATE podporuje širokú škálu mobilných zariadení. Môžete použiť telefón, prehrávač médií alebo digitálny fotoaparát a prístroj sa automaticky detekuje a pripojí. Potom môžete pristupovať k súborom na ňom alebo synchronizovať jeho obsah."

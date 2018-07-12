@@ -1,0 +1,100 @@
+# 
+# Translators:
+# Kristoffer Ulseth <ulseth85@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2018-04-17 18:35+0000\n"
+"Last-Translator: Luke Horwell <luke@ubuntu-mate.org>\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/nb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: index.html:15
+msgid "Main Menu"
+msgstr "Hovedmeny"
+
+#: index.html:19
+msgid ""
+"Ensures Welcome's documentation, translations and software picks are always "
+"up-to-date."
+msgstr ""
+
+#: index.html:20
+msgid "Subscribe to Welcome updates"
+msgstr "Abonner på Velkommen oppdateringer"
+
+#: index.html:25
+msgid ""
+"This Welcome application and the Boutique are being updated and will re-open"
+" shortly."
+msgstr ""
+
+#: index.html:42
+msgid "Choose an option to discover your new operating system."
+msgstr "Velg et alternativ til å oppdage ditt nye operativsystemet."
+
+#: index.html:50
+msgid "Introduction"
+msgstr "Introduksjon"
+
+#: index.html:51
+msgid "Features"
+msgstr "Funksjoner"
+
+#: index.html:52
+msgid "Getting Started"
+msgstr "Kom i gang"
+
+#: index.html:53
+msgid "Installation Help"
+msgstr "Installasjonshjelp"
+
+#: index.html:58
+msgid "Get Involved"
+msgstr "Bli Involvert"
+
+#: index.html:59
+msgid "Shop"
+msgstr "Butikk"
+
+#: index.html:60
+msgid "Donate"
+msgstr "Donere"
+
+#: index.html:68
+msgid "Community"
+msgstr "Samfunnet"
+
+#: index.html:69
+msgid "Chat Room"
+msgstr "Chatterom"
+
+#: index.html:70
+msgid "Software"
+msgstr "Programvare"
+
+#: index.html:71
+msgid "Install Now"
+msgstr "Installer Nå"
+
+#: index.html:78
+msgid "Raspberry Pi Information"
+msgstr "Raspberry Pi Informasjon"
+
+#: index.html:91
+msgid "Open Welcome when I log on."
+msgstr "Åpne Velkommen når jeg logger på."
+
+#: index.html:76
+msgid "Desktop Layout"
+msgstr ""
+
+#: index.html:77
+msgid "Browser Selection"
+msgstr ""

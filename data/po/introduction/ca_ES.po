@@ -1,0 +1,340 @@
+# 
+# Translators:
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu MATE Welcome\n"
+"POT-Creation-Date: 2016-02-27 12:48+0100\n"
+"PO-Revision-Date: 2017-09-22 21:40+0000\n"
+"Last-Translator: Luke Horwell <luke@ubuntu-mate.org>\n"
+"Language-Team: Catalan (Spain) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/ca_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Report-Msgid-Bugs-To : you@example.com\n"
+
+#: introduction.html:18
+msgid "Introduction"
+msgstr "Introducció"
+
+#: introduction.html:28
+msgid "For a retrospective future."
+msgstr "Per un futur retrospectiu."
+
+#: introduction.html:31
+msgid "Scroll down to learn more."
+msgstr "Desplaceu-vos cap avall per obtenir més informació."
+
+#: introduction.html:52
+msgid ""
+"Ubuntu MATE is an operating system -- the core software that runs your "
+"computer, similar to"
+msgstr "Ubuntu MATE és un sistema operatiu -- el programari principal que s'executa al vostre equip, similar a"
+
+#: introduction.html:55
+msgid "Microsoft's Windows"
+msgstr "Windows de Microsoft"
+
+#: introduction.html:57
+msgid "Apple's OS X"
+msgstr "OS X d'Apple"
+
+#: introduction.html57, 130
+msgid "and"
+msgstr "i"
+
+#: introduction.html:59
+msgid "Google's Chrome OS"
+msgstr "Chrome OS de Google"
+
+#: introduction.html:61
+msgid ""
+"Ubuntu MATE is a desktop distribution (variation) of GNU/Linux -- a "
+"dependable, secure, capable, and modern computer system that rivals all "
+"others in popularity and usage."
+msgstr "Ubuntu MATE és una distribució (variació) de GNU/Linux d'escriptori -- un sistema informàtic fiable, segur, capaç i modern que rivalitza amb tots els altres en popularitat i ús."
+
+#: introduction.html:64
+msgid "Unlike other operating systems, Linux is used:"
+msgstr "A diferència d'altres sistemes operatius, Linux s'utilitza:"
+
+#: introduction.html:66
+msgid "on most of the world's fastest and most powerful supercomputers"
+msgstr "en la majoria dels superordinadors més ràpids i potents del món"
+
+#: introduction.html:68
+msgid ""
+"on many of, if not most of, the computers that make up the backbone of "
+"Internet"
+msgstr "en molts, si no la majoria, dels equips que conformen la columna vertebral d'Internet"
+
+#: introduction.html:70
+msgid "and on corporate servers that require stability and reliability"
+msgstr "i en els servidors corporatius que requereixen estabilitat i fiabilitat"
+
+#: introduction.html:75
+msgid ""
+"Ubuntu MATE is a stable, easy-to-use operating system with a configurable "
+"desktop environment. It is ideal for those who want the most out of their "
+"computers and prefer a traditional desktop metaphor. With modest hardware "
+"requirements, it is suitable for modern desktops and laptops, single board "
+"computers (such as the Raspberry Pi) and older hardware alike."
+msgstr "Ubuntu MATE és un sistema operatiu estable i fàcil d'usar amb un entorn d'escriptori configurable. És ideal per a aquells que volen el màxim rendiment dels seus ordinadors i prefereixen una metàfora d'escriptori tradicional. Amb requisits de maquinari modests, és adequat per als equips de sobretaula i portàtils moderns, per als ordinadors de placa única (com ara Raspberry Pi) i per al maquinari antic."
+
+#: introduction.html:83
+msgid ""
+"The operating system is more secure, and better supported than the operating"
+" system pre-installed on most home computer hardware today."
+msgstr "El sistema operatiu és més segur i té una millor compatibilitat que el sistema operatiu preinstal·lat en la majoria del maquinari dels ordinadors de casa d'avui en dia."
+
+#: introduction.html:87
+msgid ""
+"Using Ubuntu MATE provides you with the freedom to run a complete, full-"
+"featured operating system, pre-configured with most (if not all) of the "
+"applications you will need for your daily computing. Change anything about "
+"the way it looks, the way it works, or the applications it runs to suit your"
+" taste."
+msgstr "L'ús d'Ubuntu MATE us proporciona la llibertat d'executar un sistema operatiu complet, amb totes les funcions, preconfigurat amb la majoria (si no totes) de les aplicacions que necessiteu per a la vostra informàtica quotidiana. Canvieu qualsevol cosa de l'aparença, de la forma en què funciona, o les aplicacions que executa al vostre gust."
+
+#: introduction.html:97
+msgid "Objectives"
+msgstr "Objectius"
+
+#: introduction.html:98
+msgid "Ubuntu MATE has a number of guiding objectives and goals:"
+msgstr "Ubuntu MATE té una sèrie d'objectius i de fites:"
+
+#: introduction.html:100
+msgid "Accessible to all, regardless of language and physical ability."
+msgstr "Accessible a tothom, independentment de l'idioma i de les capacitats físiques."
+
+#: introduction.html:101
+msgid "Increase both Ubuntu and MATE Desktop user adoption."
+msgstr "Augment de l'adopció de l'usuari tant d'Ubuntu MATE i com de l'escriptori MATE."
+
+#: introduction.html:102
+msgid ""
+"Ubuntu alternative for computers that aren't powerful enough to run a "
+"composited desktop."
+msgstr "Alternativa d'Ubuntu per als ordinadors que no són prou potents per a executar un escriptori compost."
+
+#: introduction.html:103
+msgid ""
+"First choice Ubuntu platform for remote workstation solutions such as LTSP "
+"and X2Go."
+msgstr "Primera elecció de plataforma Ubuntu per a les solucions d'estacions de treball remotes com LTSP i X2Go."
+
+#: introduction.html:104
+msgid ""
+"Recreate the halcyon days of Ubuntu for users who prefer a traditional "
+"desktop metaphor."
+msgstr "Recreació dels dies feliços d'Ubuntu per als usuaris que prefereixen una metàfora d'escriptori tradicional."
+
+#: introduction.html:105
+msgid ""
+"Use themes and artwork similar to Ubuntu so that Ubuntu MATE is immediately "
+"familiar."
+msgstr "Ús de temes i treballs artístics similars a Ubuntu pel que Ubuntu MATE us és immediatament familiar."
+
+#: introduction.html:106
+msgid ""
+"When possible, contribute to Debian so both the Debian and Ubuntu "
+"communities benefit."
+msgstr "Quan sigui possible, contribuir a Debian per tant es beneficia la comunitat de Debian i d'Ubuntu."
+
+#: introduction.html:107
+msgid ""
+"Software favors functionality and stability, as opposed to being fancy or "
+"light on features."
+msgstr "El programari afavoreix la funcionalitat i l'estabilitat sobre la lleugeresa i la fantasia."
+
+#: introduction.html:113
+msgid "What is Ubuntu MATE?"
+msgstr "Què és Ubuntu MATE?"
+
+#: introduction.html:124
+msgid "is one of, if not the, largest deployed"
+msgstr "és un, si no el més gran, dels grans sistemes operatius d'escriptori "
+
+#: introduction.html:127
+msgid ""
+"based desktop operating systems in the world. Linux is at the heart of "
+"Ubuntu and makes it possible to create secure, powerful and versatile "
+"operating systems, such as"
+msgstr "desplegats al món. Linux està al cor d'Ubuntu i fa que sigui possible crear sistemes operatius segurs, potents i versàtils, com ara"
+
+#: introduction.html:131
+msgid ""
+"Android is now in the hands of billions of people around the world and it's "
+"also powered by Linux."
+msgstr "Android ara està a les mans de milers de milions de persones de tot el món i també està potenciat per Linux."
+
+#: introduction.html:134
+msgid "Ubuntu is available in a number of different"
+msgstr "Ubuntu està disponible en una varietat de"
+
+#: introduction.html:135
+msgid "flavors"
+msgstr "sabors"
+
+#: introduction.html:135
+msgid ""
+"each coming with its own desktop environment. Ubuntu MATE takes the Ubuntu "
+"base operating system and adds the"
+msgstr "cadascun ve amb el seu propi entorn d'escriptori. Ubuntu MATE  porta el sistema operatiu base d'Ubuntu i afegeix"
+
+#: introduction.html138, 144
+msgid "MATE Desktop"
+msgstr "l'escriptori MATE"
+
+#: introduction.html:151
+msgid "Wikipedia says that a"
+msgstr "La Wikipedia diu que un"
+
+#: introduction.html:153
+msgid "Desktop Environment"
+msgstr "Entorn d'escriptori"
+
+#: introduction.html:153
+msgid "is"
+msgstr "és"
+
+#: introduction.html:155
+msgid ""
+"an implementation of the desktop metaphor made of a bundle of programs "
+"running on top of a computer operating system, which share a common "
+"graphical user interface (GUI). Desktop GUIs help the user to easily access "
+"and edit files."
+msgstr "una implementació de la metàfora de l'escriptori feta d'un conjunt de programes que s'executen a la part superior del sistema operatiu d'un ordinador, que comparteixen una interfície gràfica d'usuari (GUI) comuna. Les GUI de l'escriptori ajuden a l'usuari a l'accés fàcil i a l'edició de fitxers."
+
+#: introduction.html:161
+msgid ""
+"The MATE Desktop implements essential features that you'd expect in a "
+"desktop environment, such as:"
+msgstr "L'escriptori MATE implementa les característiques essencials que espereu en un entorn d'escriptori, com ara:"
+
+#: introduction.html:174
+msgid "File Browser"
+msgstr "Gestor de fitxers"
+
+#: introduction.html:175
+msgid "Calculator"
+msgstr "Calculadora"
+
+#: introduction.html:176
+msgid "Archive Manager"
+msgstr "Gestor d'arxius"
+
+#: introduction.html:177
+msgid "Image Viewer"
+msgstr "Visualitzador d'imatges"
+
+#: introduction.html:178
+msgid "Document Viewer"
+msgstr "Visualitzador de documents"
+
+#: introduction.html:179
+msgid "MATE System Monitor"
+msgstr "Monitor del sistema de MATE"
+
+#: introduction.html:180
+msgid "MATE Terminal"
+msgstr "Terminal de MATE"
+
+#: introduction.html:192
+msgid "All of which are highly customisable and managed via the"
+msgstr "Tots els quals són força personalitzables i gestionats a través del"
+
+#: introduction.html:195
+msgid "Control Center"
+msgstr "centre de control"
+
+#: introduction.html:197
+msgid ""
+"MATE Desktop provides an intuitive and attractive desktop environment using "
+"traditional metaphors, which means if you've ever used"
+msgstr "L'escriptori MATE proporciona un entorn d'escriptori intuïtiu i atractiu que utilitza les metàfores tradicionals, que significa que si alguna vegada heu utilitzat"
+
+#: introduction.html:201
+msgid "or"
+msgstr "o"
+
+#: introduction.html:204
+msgid "it will feel very familiar."
+msgstr "farà que us sentiu en un escriptori molt familiar."
+
+#: introduction.html:206
+msgid ""
+"The MATE Desktop has a rich history and is the continuation of the GNOME 2 "
+"desktop, which was the default desktop environment on many Linux and Unix "
+"operating systems for over a decade. This means that MATE Desktop is tried, "
+"tested and very reliable."
+msgstr "L'escriptori MATE té una història rica i és la continuació de l'escriptori GNOME 2, que era l'entorn d'escriptori predeterminat en molts sistemes operatius Linux i Unix des de fa més d'una dècada. Això vol dir que l'escriptori MATE ha estat provat i revisat i és molt fiable."
+
+#: introduction.html:215
+msgid "Open Source"
+msgstr "Codi obert"
+
+#: introduction.html:222
+msgid ""
+"What Linux, Ubuntu and MATE Desktop all have in common is they are Open "
+"Source. This software can be freely used, changed, and shared (in modified "
+"or unmodified form) by anyone. In a nutshell Ubuntu MATE is free, in the "
+"truest sense of the word."
+msgstr "El que tenen en comú Linux, Ubuntu i l'escriptori MATE és que tots són de codi obert. Aquest programari es pot utilitzar, canviar i compartir lliurement (de forma modificada o sense modificar) per qualsevol persona. En poques paraules Ubuntu MATE és lliure, en el veritable sentit de la paraula."
+
+#: introduction.html:228
+msgid ""
+"Although you will find some distributions (variations) of Linux for "
+"purchase, the vast majority are provided free of charge, like Ubuntu MATE. "
+"The distribution is licensed in a way that allows anyone to give it away for"
+" free, with no strings attached. For example, the licence gives any member "
+"of the user community the freedom to use Linux for any purpose, to "
+"distribute, modify, redistribute, or even sell the operating system. If you "
+"do modify and then redistribute Linux with your modifications, you are "
+"required by the licence to submit your modifications for possible inclusion "
+"into future versions. There is no guarantee that this will ever happen, but "
+"if you have made it better, then your changes just might be included in the "
+"next release of Ubuntu MATE."
+msgstr "Encara que trobeu algunes distribucions (variacions) de Linux per a la seva compra, la immensa majoria es proporcionen de forma gratuïta, com Ubuntu MATE. La distribució està llicenciada d'una manera que permet que qualsevol la pugui llançar lliurement, sense cap compromís. Per exemple, la llicència li dóna a qualsevol membre de la comunitat d'usuaris la llibertat d'utilitzar Linux per a qualsevol propòsit, distribució, modificació, redistribució, o fins i tot la venda del sistema operatiu. Si modifiqueu i després redistribuïu Linux amb les seves modificacions, per part de la llicència se us requerirà que envieu les vostres modificacions per a la seva possible inclusió en futures versions. No hi ha cap garantia que això passi sempre, però si ho heu fet millor, aleshores, els vostres canvis tan sols es poden incloure en el pròxim llançament d'Ubuntu MATE."
+
+#: introduction.html:243
+msgid ""
+"Many of the users of Linux are corporations that use the operating system to"
+" run their businesses, or include it within their products. Many of these "
+"corporations provide fixes and new features for Linux as they use the "
+"software for their businesses."
+msgstr "Molts dels usuaris de Linux són corporacions que utilitzen el sistema operatiu per executar els seus negocis, o l'inclouen dins dels seus productes. Moltes d'aquestes corporacions proporcionen correccions i noves característiques per a Linux, ja que utilitzen el programari per als seus negocis."
+
+#: introduction.html:249
+msgid "These improvements are given back"
+msgstr "Aquestes millores es retornen"
+
+#: introduction.html:250
+msgid ""
+"to the Linux community and Ubuntu MATE improves as a result. This is how we "
+"can continually improve and grow without having to charge our users money."
+msgstr "a la comunitat de Linux i Ubuntu MATE millora com a resultat. Així és com podem millorar i créixer de forma contínua sense haver de recórrer en despeses als nostres usuaris."
+
+#: introduction.html:254
+msgid ""
+"Unlike Windows and OS X, Linux is not created and supported by just one "
+"company. It is supported by Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas"
+" Instruments, Google, Canonical, Oracle, AMD, and Microsoft. Over 4,000 "
+"developers contributed to Linux over the last 15 years."
+msgstr "A diferència de Windows i d'OS X, Linux no el crea ni li dóna suport una única empresa. Li dóna suport Intel, Redhat, Linaro, Samsung, IBM, SUSE, Texas Instruments, Google, Canonical, Oracle, AMD i Microsoft. Més de 4.000 desenvolupadors de Linux han contribuït al llarg dels últims 15 anys."
+
+#: introduction.html:260
+msgid ""
+"Whether you are a home user of Ubuntu MATE, an Ubuntu MATE software or "
+"application developer, or an employee of an organization that uses the "
+"operating system, you are a member of the Linux and Open Source communities "
+"and benefit from the efforts of the developers who contribute to Ubuntu MATE"
+" and its related projects: Linux, MATE, and Ubuntu. Members of the community"
+" run Linux on almost any hardware, from the prettiest Macbook to the "
+"cheapest netbook, from the newest Chromebook to some very old machines "
+"designed for Windows, and from the most powerful Internet servers to the "
+"smallest smart thermostat."
+msgstr "Si sou un usuari domèstic d'Ubuntu MATE, un desenvolupador de programari o d'aplicacions d'Ubuntu MATE, o un empleat d'una organització que utilitza el sistema operatiu, sou un membre de les comunitats de Linux i de codi obert i us beneficieu dels esforços dels desenvolupadors que contribueixen a Ubuntu MATE i als seus projectes relacionats: Linux, MATE i Ubuntu. Els membres de la comunitat executen Linux en gairebé qualsevol maquinari, des del Macbook més bonic fins a l'ordinador portàtil més barat, des del Chromebook més nou fins a algunes màquines molt antigues dissenyades per a Windows, i des dels servidors més potents d'Internet fins al termòstat intel·ligent més petit."
