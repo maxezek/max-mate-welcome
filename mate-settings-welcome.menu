@@ -2,12 +2,12 @@
 <Menu>
     <Name>Desktop</Name>
     <Include>
-            <Filename>ubuntu-mate-welcome.desktop</Filename>
+            <Filename>max-mate-welcome.desktop</Filename>
     </Include>
     <Layout>
         <Merge type="menus"/>
         <Separator/>
-        <Filename>ubuntu-mate-welcome.desktop</Filename>
+        <Filename>max-mate-welcome.desktop</Filename>
         <Merge type="files"/>
     </Layout>
 </Menu>

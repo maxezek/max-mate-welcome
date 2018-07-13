@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # This script will regenerate the translations
-# for Ubuntu MATE Welcome. Intended for debugging.
+# for MAX MATE Welcome. Intended for debugging.
 #
 rm -rf ./locale/
 rm -rf ./data/i18n/

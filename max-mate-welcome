@@ -108,14 +108,14 @@ def whereami():
     if( os.path.exists( os.path.join(current_folder, 'data/' ) ) ):
         dbg.stdout('Welcome', 'Using relative path for data source. Non-production testing.', 1, 0)
         data_path = os.path.join(current_folder, 'data/')
-    elif( os.path.exists('/usr/share/ubuntu-mate-welcome/') ):
-        dbg.stdout('Welcome', 'Using /usr/share/ubuntu-mate-welcome/ path.', 1, 0)
-        data_path = '/usr/share/ubuntu-mate-welcome/'
-    elif( os.path.exists(os.environ.get('SNAP') + '/usr/share/ubuntu-mate-welcome/') ):
-        dbg.stdout('Welcome', 'Using ' + os.environ.get('SNAP') + '/usr/share/ubuntu-mate-welcome/ path.', 1, 0)
-        data_path = os.environ.get('SNAP') + '/usr/share/ubuntu-mate-welcome/'
+    elif( os.path.exists('/usr/share/max-mate-welcome/') ):
+        dbg.stdout('Welcome', 'Using /usr/share/max-mate-welcome/ path.', 1, 0)
+        data_path = '/usr/share/max-mate-welcome/'
+    elif( os.path.exists(os.environ.get('SNAP') + '/usr/share/max-mate-welcome/') ):
+        dbg.stdout('Welcome', 'Using ' + os.environ.get('SNAP') + '/usr/share/max-mate-welcome/ path.', 1, 0)
+        data_path = os.environ.get('SNAP') + '/usr/share/max-mate-welcome/'
     else:
-        dbg.stdout('Welcome', 'Unable to source the ubuntu-mate-welcome data directory.', 0, 1)
+        dbg.stdout('Welcome', 'Unable to source the max-mate-welcome data directory.', 0, 1)
         sys.exit(1)
     return data_path
 
@@ -251,17 +251,17 @@ class SimpleApt(object):
             dbg.stdout('Apps', 'Changed status for "' + self.program_id + '": ' + status, 0, 3)
 
             # Show a different notification for Welcome Updates
-            if self.program_id == 'ubuntu-mate-welcome' and status == 'exit-success':
+            if self.program_id == 'max-mate-welcome' and status == 'exit-success':
                 notify_send( _("Welcome will stay up-to-date."), \
                              _("Welcome and the Software Boutique are set to receive the latest updates."), \
-                             os.path.join(data_path, 'img', 'welcome', 'ubuntu-mate-icon.svg'))
+                             os.path.join(data_path, 'img', 'welcome', 'max-mate-icon.svg'))
                 return
 
             # Show a different notification for "Upgrade Installed Packages" fix
             if self.program_id == 'ubuntu-standard' and status == 'exit-success':
                 notify_send( _("Everything is up-to-date"), \
                              _("All packages have been upgraded to the latest versions."), \
-                             os.path.join(data_path, 'img', 'welcome', 'ubuntu-mate-icon.svg'))
+                             os.path.join(data_path, 'img', 'welcome', 'max-mate-icon.svg'))
                 return
 
             if self.action == 'install':
@@ -523,9 +523,9 @@ class PreInstallation(object):
         # Function to run privileged commands.
         def run_task(function):
             if os.environ.get('SNAP'):
-                subprocess.call(['pkexec', os.environ.get('SNAP') + '/usr/lib/ubuntu-mate/ubuntu-mate-welcome-repository-installer', os.path.abspath(os.path.join(data_path, 'js/applications.json')), function, category, program_id, target])
+                subprocess.call(['pkexec', os.environ.get('SNAP') + '/usr/lib/ubuntu-mate/max-mate-welcome-repository-installer', os.path.abspath(os.path.join(data_path, 'js/applications.json')), function, category, program_id, target])
             else:
-                subprocess.call(['pkexec', '/usr/lib/ubuntu-mate/ubuntu-mate-welcome-repository-installer', os.path.abspath(os.path.join(data_path, 'js/applications.json')), function, category, program_id, target])
+                subprocess.call(['pkexec', '/usr/lib/ubuntu-mate/max-mate-welcome-repository-installer', os.path.abspath(os.path.join(data_path, 'js/applications.json')), function, category, program_id, target])
 
         # Determine if any pre-configuration is specific to a codename.
         try:
@@ -691,11 +691,11 @@ class Translations(object):
                 self.relative_i18n = True
                 dbg.stdout('i18n', 'Locale Set: ' + self.locale + ' (using relative path)', 1, 0)
                 return os.path.join(data_path, 'i18n', self.locale)
-            elif (os.path.exists(os.path.join('/usr/share/ubuntu-mate-welcome/i18n/', self.locale))):
+            elif (os.path.exists(os.path.join('/usr/share/max-mate-welcome/i18n/', self.locale))):
                 self.localized = True
                 self.relative_i18n = False
                 dbg.stdout('i18n', 'Locale Set: ' + self.locale + ' (using /usr/share/ path)', 1, 0)
-                return os.path.join('/usr/share/ubuntu-mate-welcome/i18n/', self.locale)
+                return os.path.join('/usr/share/max-mate-welcome/i18n/', self.locale)
             else:
                 self.localized = False
                 self.relative_i18n = False
@@ -740,20 +740,20 @@ class Translations(object):
 
         # Initalise i18n for Python translations.
         if self.relative_i18n:
-            i18n_path = '/usr/share/locale/'
+            i18n_path = os.path.join(os.path.dirname(os.path.normpath(data_path)), 'locale/')
         else:
-            i18n_path = os.path.join(data_path, 'locale/')
+            i18n_path = '/usr/share/locale/'
 
         global t, _
         dbg.stdout('i18n', 'Using locale for gettext: ' + self.locale, 1, 0)
         dbg.stdout('i18n', 'Using path for gettext: ' + i18n_path, 1, 0)
         try:
-            t = gettext.translation('ubuntu-mate-welcome', localedir=i18n_path, languages=[self.locale], fallback=True)
+            t = gettext.translation('max-mate-welcome', localedir=i18n_path, languages=[self.locale], fallback=True)
             _ = t.gettext
             dbg.stdout('i18n', 'Translation found for gettext.', 1, 2)
         except:
             dbg.stdout('i18n', 'No translation exists for gettext. Using default.', 1, 2)
-            t = gettext.translation('ubuntu-mate-welcome', localedir='/usr/share/locale/', fallback=True)
+            t = gettext.translation('max-mate-welcome', localedir='/usr/share/locale/', fallback=True)
             _ = t.gettext
 
 class Strings(object):
@@ -848,6 +848,33 @@ class Strings(object):
         self.status_install = str(_("To be installed"))
         self.status_remove = str(_("To be removed"))
 
+
+class Inspector(Gtk.Window):
+    def __init__(self, view, *args, **kwargs):
+        super(Inspector, self).__init__(*args, **kwargs)
+        self.set_size_request(1200,700)
+        self.webview = view
+        # settings = WebKit2.WebSettings()   
+        # settings.set_property('enable-developer-extras', True)
+        # view.set_settings(settings)
+        self.webview.get_settings().set_property('enable-developer-extras', True)
+
+        self.webview = WebKit2.WebView()
+        self.inspector = view.get_inspector()
+
+        # self.inspector.connect("inspect-web-view", self.inspect)
+
+        self.scrolled_window = Gtk.ScrolledWindow()
+        self.add(self.scrolled_window)
+        self.scrolled_window.show()
+
+        self.webview = WebKit2.WebView()
+        self.scrolled_window.add(self.webview)
+
+    def inspect(self, inspector, view, *a, **kw):
+        self.scrolled_window.show_all()
+        self.show()
+        return self.webview
 
 ##################################
 #  WebKit + Python Communications
@@ -1393,7 +1420,7 @@ class AppView(WebKit2.WebView):
             dbg.stdout('Welcome', 'Subscribing to Ubuntu MATE Welcome Updates...', 0, 3)
             app.update_page('#update-notification', 'hide')
             app.update_page('#update-subscribing', 'show')
-            dynamicapps.modify_app(self, 'install', 'ubuntu-mate-welcome')
+            dynamicapps.modify_app(self, 'install', 'max-mate-welcome')
             # Verify if the PPA was successfully added.
             if os.path.exists(systemstate.welcome_ppa_file):
                 if os.path.getsize(systemstate.welcome_ppa_file) > 0:
@@ -1486,16 +1513,21 @@ class WelcomeApp(object):
         self.webkit = None
         self.load_app()
 
-        ## Social Links ##
-        self.footer_left = '<div id="social" class="pull-left"> \
-        <button onclick="cmd(\'link?https://ubuntu-mate.org\')" title="' + _("Ubuntu MATE Website") + '"><img src="' + trans.res_dir + 'img/welcome/ubuntu-mate-icon.svg"></button> \
+        """
         <button onclick="cmd(\'link?https://plus.google.com/communities/108331279007926658904\')" title="Google+"><img src="' + trans.res_dir + 'img/social/google+.svg"></button> \
         <button onclick="cmd(\'link?https://www.facebook.com/UbuntuMATEedition/\')" title="Facebook"><img src="' + trans.res_dir + 'img/social/facebook.svg"></button> \
-        <button onclick="cmd(\'link?https://twitter.com/ubuntu_mate\')" title="Twitter"><img src="' + trans.res_dir + 'img/social/twitter.svg"></button> \
         <button onclick="cmd(\'link?https://www.youtube.com/channel/UCqRwuzCjj2UN5aAX_PENIfQ\')" title="YouTube"><img src="' + trans.res_dir + 'img/social/youtube.svg"></button> \
         <button onclick="cmd(\'link?https://ubuntu-mate.org/donate/\')" title="' + _("Donate to Ubuntu MATE") + '"><img src="' + trans.res_dir + 'img/welcome/donate.svg"></button> \
+        """
+
+        ## Social Links ##
+        self.footer_left = '<div id="social" class="pull-left"> \
+        <button onclick="cmd(\'link?https://www.educa2.madrid.org/web/max/\')" title="' + _("MAdrid_linuX Website") + '"><img src="' + trans.res_dir + 'img/welcome/maxinside.png"></button> \
+        <button onclick="cmd(\'link?https://twitter.com/MAX_MAdridlinuX\')" title="Twitter"><img src="' + trans.res_dir + 'img/social/twitter.svg"></button> \
+        <button onclick="cmd(\'link?https://www.educa2.madrid.org/educamadrid/\')" title="' + _("Educamadrid") + '"><img src="' + trans.res_dir + 'img/welcome/educamadrid.png"></button> \
         </div>'
-        self.footer_close = '<button onclick="cmd(\'quit\')" class="btn btn-inverse">' + string.close + '&zwnj;</button>'
+        # self.footer_close = '<button onclick="cmd(\'quit\')" class="btn btn-inverse">' + string.close + '&zwnj;</button>'
+        self.footer_close = '<button onclick="cmd(\'quit\')" class="btn btn-inverse">' + string.close + '</button>'
 
         self.boutique_footer = '<div id="boutique-footer" class="pull-left"> \
         <p hidden id="update-subscribed"><span class="fa fa-check"></span> ' + string.subscribed + '</p> \
@@ -1514,7 +1546,7 @@ class WelcomeApp(object):
         else:
             title = string.welcome
             width = 800
-            height = 552
+            height = 582
             load_file = 'splash.html'
 
         # Enlarge the window should the text be any larger.
@@ -1541,21 +1573,24 @@ class WelcomeApp(object):
         # Build window
         w = Gtk.Window()
         w.set_position(Gtk.WindowPosition.CENTER)
-        w.set_wmclass('ubuntu-mate-welcome', 'ubuntu-mate-welcome')
+        w.set_wmclass('max-mate-welcome', 'max-mate-welcome')
         w.set_title(title)
 
         # http://askubuntu.com/questions/153549/how-to-detect-a-computers-physical-screen-size-in-gtk
         s = Gdk.Screen.get_default()
         if s.get_height() <= 600:
+            dbg.stdout('WelcomeApp', "height=%s width=%s FIXED" % (768, 528), 0, 1)
             w.set_size_request(768, 528)
         else:
+            dbg.stdout('WelcomeApp', "height=%s width=%s" % (height, width), 0, 1)
             w.set_size_request(width, height)
 
-        icon_dir = os.path.join(data_path, 'img', 'welcome', 'ubuntu-mate-icon.svg')
+        icon_dir = os.path.join(data_path, 'img', 'welcome', 'max-mate-icon.svg')
         w.set_icon_from_file(icon_dir)
 
         # Build WebKit2 container
         self.webkit = AppView()
+        inspector = Inspector(self.webkit)
 
         # Load the starting page
         path = os.path.abspath(os.path.join(trans.pages_dir, load_file))
@@ -2160,7 +2195,7 @@ class SystemState(object):
 
     def rpi_resize(self, action, webkit=None):
         if action == 'do-resize':
-            subprocess.call(['pkexec', '/usr/lib/ubuntu-mate/ubuntu-mate-welcome-rpi2-partition-resize'])
+            subprocess.call(['pkexec', '/usr/lib/ubuntu-mate/max-mate-welcome-rpi2-partition-resize'])
 
             def notify(subject, body, icon):
                 Notify.init(_('Raspberry Pi Partition Resize'))
@@ -2261,9 +2296,9 @@ class DynamicApps(object):
         # Get the version of Welcome in use.
         if not os.environ.get('SNAP'):
             for pkgname in systemstate.apt_cache.keys():
-                if 'ubuntu-mate-welcome' in pkgname:
+                if 'max-mate-welcome' in pkgname:
                     try:
-                        systemstate.welcome_version = systemstate.apt_cache['ubuntu-mate-welcome'].installed.version
+                        systemstate.welcome_version = systemstate.apt_cache['max-mate-welcome'].installed.version
                     except AttributeError:
                         dbg.stdout("Welcome", ".deb is not installed. Version could not be detected. Falling back to __VERSION__", 0, 1)
                         systemstate.welcome_version = __VERSION__
@@ -3615,7 +3650,7 @@ class Arguments(object):
         for arg in sys.argv:
           if arg == '--help' or arg == '-h':
               print('\nUbuntu MATE Welcome Parameters\n  Intended for debugging and testing purposes only!\n')
-              print('\nUsage: ubuntu-mate-welcome [arguments]')
+              print('\nUsage: max-mate-welcome [arguments]')
               #     | Command                      | Help Text                                     |
               print('  -a, --autostart              Use when started via an autostart desktop file.')
               print('  -d, --dev, --debug           Disables locales and is very verbose')
@@ -3754,7 +3789,7 @@ def should_offer_to_change_panels():
 ##################################
 if __name__ == "__main__":
     if proctitle_available:
-        setproctitle.setproctitle('ubuntu-mate-welcome')
+        setproctitle.setproctitle('max-mate-welcome')
 
     # Process any parameters passed to the program.
     dbg = Debug()
@@ -3766,7 +3801,7 @@ if __name__ == "__main__":
 
         # If an old style autostart is present, remove it.
         old_autostart_dir = os.path.expanduser('~/.config/autostart/')
-        old_autostart_path = os.path.expanduser(os.path.join(old_autostart_dir, 'ubuntu-mate-welcome.desktop'))
+        old_autostart_path = os.path.expanduser(os.path.join(old_autostart_dir, 'max-mate-welcome.desktop'))
         if os.path.exists(old_autostart_path):
             os.remove(old_autostart_path)
 

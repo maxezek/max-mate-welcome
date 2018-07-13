@@ -71,7 +71,8 @@ button {
   font: inherit;
   border: 1px solid transparent;
   cursor: default !important;
-  color: #758A53;
+  /*color: #758A53;*/
+  color: #13244b;
 }
 
 button:focus {
@@ -97,8 +98,10 @@ button:focus {
 
 ::-webkit-scrollbar-thumb {
   height: 6px;
-  border: 1px solid #7e9b4f;
-  background-color: #86A551;
+  /*border: 1px solid #7e9b4f;*/
+  border: 1px solid #4464AD;
+  /*background-color: #86A551;*/
+  background-color: #13244B;
   background-clip: padding-box;
   -webkit-border-radius: 0px;
   z-index: 100;
@@ -178,7 +181,8 @@ button:focus {
   margin-bottom: 8px;
   z-index: 10;
   /* Ambience Theme Integration */
-  background-color: #3C3B37;
+  /*background-color: #3C3B37;*/
+  background-color: #12234b;
 	font-size: 24px;
 	font-weight: normal;
   color: #DED9CB;
@@ -226,7 +230,8 @@ button:focus {
 #navigation-sub-title {
   font-weight: normal;
   font-size: 18px;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
+  vertical-align: top;
   display: inline-table;
   color: #959595;
 }
@@ -322,7 +327,8 @@ img, a {
  * Footer
 *************************/
 #footer {
-  background-color: #3C3B37;
+  /*background-color: #3C3B37;*/
+  background-color: #12234b;
   position: fixed;
   bottom: 0;
   height: 64px;
@@ -369,7 +375,7 @@ img, a {
   margin-right: 2px;
   opacity: 0.7;
 
-  -webkit-filter: grayscale(1);
+  /*-webkit-filter: grayscale(1);*/
 
   -webkit-backface-visibility: hidden;
   transition: all 0.2s ease-in-out;
@@ -383,7 +389,7 @@ img, a {
 #social img:hover, .social-large img:hover {
   top: -4px;
   opacity: 1.0;
-  -webkit-filter: grayscale(0);
+  /*-webkit-filter: grayscale(0);*/
 }
 
 .social-large img {
@@ -455,7 +461,29 @@ hr.soften-light {
 
 /* Feedback with button interactions */
 .btn:active, .btn:focus, .btn:hover {
-  border: 1px solid #87A556;
+  /*border: 1px solid #87A556;*/
+  border: 1px solid #5A6943;
+}
+
+/*max*/
+.btn-success {
+  color: #FFFFFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #4464AD;
+  *background-color: #4464AD;
+  background-image: -moz-linear-gradient(top, #13244B, #4464AD);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#13244B), to(#4464AD));
+  background-image: -webkit-linear-gradient(top, #13244B, #4464AD);
+  background-image: -o-linear-gradient(top, #13244B, #4464AD);
+  background-image: linear-gradient(to bottom, #13244B, #4464AD);
+  background-repeat: repeat-x;
+  border-color: #4464AD;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#13244B', endColorstr='#4464AD', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+    background-color: #4464ad;
 }
 
 /* Alert Box for Facts */
@@ -801,7 +829,8 @@ blockquote.terminal {
   vertical-align: bottom;
   font-weight: bold;
   font-size: 18px;
-  color: #5A6943;
+  /*color: #5A6943;*/
+  color: #13244b;
 }
 
 .main-menu-version {
@@ -1380,7 +1409,8 @@ blockquote.terminal {
   line-height: 8px;
   white-space: nowrap;
   vertical-align: baseline;
-  background-color: #3C3B37;
+  /*background-color: #3C3B37;*/
+  background-color: #12234b;
   color: white;
 }
 

@@ -5,7 +5,7 @@ current_page = document.location.href.match(/[^\/]+$/)[0];
 $(window).on("error", function(evt) {
     // Gets JavaScript Event
     var e = evt.originalEvent;
-    friendly_txt = "Oops! Welcome encountered an internal error.\n\nPlease tell the Ubuntu MATE Developers so this can fixed right away.";
+    friendly_txt = "Oops! Welcome encountered an internal error.\n\nPlease tell the MAX MATE Developers so this can fixed right away.";
     if (e.message) {
         alert(friendly_txt + "\n\nError:\n\t" + e.message + "\nLine:\n\t" + e.lineno + "\nFile:\n\t" + e.filename);
     } else {
