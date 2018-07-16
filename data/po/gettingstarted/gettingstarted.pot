@@ -739,7 +739,7 @@ msgstr ""
 #: gettingstarted.html:460
 msgid ""
 "Installs libraries that enable Blu-ray and DVD playback in VLC. After "
-"install DVDs will work but for Blu-ray you will need to download"
+"install DVDs will work but for Blu-ray you will need to obtain a copy of"
 msgstr ""
 
 #: gettingstarted.html:463

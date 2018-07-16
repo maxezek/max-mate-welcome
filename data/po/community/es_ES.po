@@ -1,4 +1,4 @@
-# 
+#
 # Translators:
 # Nacho Gaitán <nachogaitan@gmail.com>, 2016
 msgid ""
@@ -7,11 +7,12 @@ msgstr ""
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
 "PO-Revision-Date: 2017-09-22 21:35+0000\n"
 "Last-Translator: Nacho Gaitán <nachogaitan@gmail.com>\n"
-"Language-Team: Spanish (Spain) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/es_ES/)\n"
+"Language-Team: Spanish (Spain) (http://www.transifex.com/ubuntu-mate/ubuntu-"
+"mate-welcome/language/es_ES/)\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Report-Msgid-Bugs-To : you@example.com\n"
 
@@ -25,16 +26,21 @@ msgstr "Foro"
 
 #: community.html:27
 msgid ""
-"To play an active role and help shape the direction of Ubuntu MATE, the "
-"forum is the best place to go. From here, you can talk with the Ubuntu MATE "
-"team and other members of our growing community."
-msgstr "Para tomar un papel activo y ayudar a definir la dirección de Ubuntu MATE, el foro es el mejor sitio para empezar. Ahí podrás hablar con el equipo de Ubuntu MATE y otros miembros de nuestra creciente comunidad."
+"To play an active role and help shape the direction of MAX, the forum is the "
+"best place to go. From here, you can talk with the MAX team and other "
+"members of our growing community."
+msgstr ""
+"Para tomar un papel activo y ayudar a definir la dirección de MAX, "
+"el foro es el mejor sitio para empezar. Ahí podrás hablar con el equipo de "
+"MAX y otros miembros de nuestra creciente comunidad."
 
 #: community.html:31
 msgid ""
 "It appears you are not connected to the Internet. Please check your "
 "connection to access this content."
-msgstr "Parece que no estás conectado a Internet. Por favor, comprueba tu conexión para acceder a este contenido."
+msgstr ""
+"Parece que no estás conectado a Internet. Por favor, comprueba tu conexión "
+"para acceder a este contenido."
 
 #: community.html:32
 msgid "Sorry, Welcome was unable to establish a connection."
@@ -44,10 +50,14 @@ msgstr "Lo sentimos, Bienvenido fue incapaz de establecer conexión"
 msgid "Retry"
 msgstr "Reintentar"
 
+#: community.html:36
+msgid "EducaMadrid forums."
+msgstr "Foros de EducaMadrid"
+
 #: community.html:38
 msgid "Social Networks"
 msgstr "Redes Sociales"
 
 #: community.html:39
-msgid "Ubuntu MATE is active on the following social networks."
-msgstr "Ubuntu MATE está presente en las siguientes redes sociales"
+msgid "MAX is active on the following social networks."
+msgstr "MAX está presente en las siguientes redes sociales"

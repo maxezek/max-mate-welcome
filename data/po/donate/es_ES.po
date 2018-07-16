@@ -1,4 +1,4 @@
-# 
+#
 # Translators:
 # Edgar Payes <espayesgt@gmail.com>, 2016
 # Asta1986 <freudian_order@yahoo.es>, 2016
@@ -11,11 +11,12 @@ msgstr ""
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
 "PO-Revision-Date: 2018-02-25 02:39+0000\n"
 "Last-Translator: Miguel Salgado Herrero <gallegomsh@gmail.com>\n"
-"Language-Team: Spanish (Spain) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/es_ES/)\n"
+"Language-Team: Spanish (Spain) (http://www.transifex.com/ubuntu-mate/ubuntu-"
+"mate-welcome/language/es_ES/)\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Report-Msgid-Bugs-To : you@example.com\n"
 
@@ -35,7 +36,9 @@ msgstr "Nuestros Patrocinadores"
 msgid ""
 "It appears you are not connected to the Internet. Please check your "
 "connection to access this content."
-msgstr "Parece que no estás conectado a Internet. Por favor, comprueba tu conexión para acceder a este contenido."
+msgstr ""
+"Parece que no estás conectado a Internet. Por favor, comprueba tu conexión "
+"para acceder a este contenido."
 
 #: donate.html:31
 msgid "Sorry, Welcome was unable to establish a connection."
@@ -48,7 +51,9 @@ msgstr "Reintentar"
 #: donate.html:41
 msgid ""
 "Ubuntu MATE is funded by our community. Your donations help pay towards:"
-msgstr "Ubuntu MATE es financiado por nuestra comunidad. Tus donaciones ayudan a abonar:"
+msgstr ""
+"Ubuntu MATE es financiado por nuestra comunidad. Tus donaciones ayudan a "
+"abonar:"
 
 #: donate.html:43
 msgid "Web hosting and bandwidth costs."
@@ -61,7 +66,9 @@ msgstr "Apoyo a proyectos de código abierto en los que Ubuntu MATE depende."
 #: donate.html:45
 msgid ""
 "Eventually pay for full time developers of Ubuntu MATE and MATE Desktop."
-msgstr "Eventualmente pagar por los desarrolladores de tiempo completo de Ubuntu MATE y el escritorio MATE."
+msgstr ""
+"Eventualmente pagar por los desarrolladores de tiempo completo de Ubuntu "
+"MATE y el escritorio MATE."
 
 #: donate.html:47
 msgid "Patreon"
@@ -70,10 +77,15 @@ msgstr "Patreon"
 #: donate.html:47
 msgid ""
 "is a unique way to fund an Open Source project. A regular monthly income "
-"ensures sustainability for the Ubuntu MATE project. Patrons will be rewarded"
-" with exclusive project news, updates and invited to participate in video "
+"ensures sustainability for the Ubuntu MATE project. Patrons will be rewarded "
+"with exclusive project news, updates and invited to participate in video "
 "conferences where you can talk to the developers directly."
-msgstr "es una forma única para financiar un proyecto de código abierto. Un ingreso mensual regular asegura la sostenibilidad del proyecto MATE Ubuntu. Los patrocinadores serán recompensados con exclusivas noticias de los proyectos, actualizaciones y serán invitados a participar en videoconferencias donde se puede hablar con los desarrolladores directamente."
+msgstr ""
+"es una forma única para financiar un proyecto de código abierto. Un ingreso "
+"mensual regular asegura la sostenibilidad del proyecto MATE Ubuntu. Los "
+"patrocinadores serán recompensados con exclusivas noticias de los proyectos, "
+"actualizaciones y serán invitados a participar en videoconferencias donde se "
+"puede hablar con los desarrolladores directamente."
 
 #: donate.html:52
 msgid "If you would prefer to use"
@@ -83,13 +95,15 @@ msgstr "Si usted prefiere usar"
 msgid ""
 "then we have options to donate monthly or make a one off donation. Finally, "
 "we also accept donations via"
-msgstr "entonces tenemos opciones para donar mensualmente o hacer una única donación. Por último, también aceptamos donaciones a través de"
+msgstr ""
+"entonces tenemos opciones para donar mensualmente o hacer una única "
+"donación. Por último, también aceptamos donaciones a través de"
 
 #: donate.html:54
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
-#: donate.html59, 72
+#: donate.html:59, 72
 msgid "Become a Patron"
 msgstr "Conviértete en un Patrocinador"
 
@@ -121,7 +135,9 @@ msgstr "¡Gracias!"
 msgid ""
 "Every month, we compile a list of our donations and detail how they are "
 "spent."
-msgstr "Cada mes, compilamos una lista de nuestras donaciones y detallamos la forma en que se gastan."
+msgstr ""
+"Cada mes, compilamos una lista de nuestras donaciones y detallamos la forma "
+"en que se gastan."
 
 #: donate.html:82
 msgid "This information is published monthly to the"

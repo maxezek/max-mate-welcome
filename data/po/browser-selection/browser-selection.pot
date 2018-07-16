@@ -22,7 +22,7 @@ msgstr ""
 #: browser-selection.html:27
 msgid ""
 "Many computer users have a preferred web browser when accessing content on "
-"the Internet. Ubuntu MATE offers these browsers for your convenience."
+"the Internet. MAX offers these browsers for your convenience."
 msgstr ""
 
 #: browser-selection.html:31

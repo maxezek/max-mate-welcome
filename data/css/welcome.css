@@ -545,7 +545,8 @@ hr.soften-light {
   margin-left: -20px;
   margin-right: -20px;
   height: 530px;
-  background: #5C8F3A;
+  /*background: #5C8F3A;*/
+  background: #4464ad;
   -webkit-mask-image: -webkit-gradient(linear, left 85%, left bottom, from(rgba(0,0,0,1)), to(rgba(244,244,244,0)));
 }
 

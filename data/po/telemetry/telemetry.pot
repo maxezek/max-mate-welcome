@@ -11,11 +11,11 @@ msgstr ""
 "Language-Team:: LANGUAGE <LL@li.org>\n"
 "Report-Msgid-Bugs-To : you@example.com\n"
 
-#: telemetry.html:15, 26
+#: telemetry.html:15, 27
 msgid "Help Improve Ubuntu MATE"
 msgstr ""
 
-#: telemetry.html:28
+#: telemetry.html:29
 msgid ""
 "Ubuntu MATE can submit anonymised system information that will help the "
 "developers better understand what devices Ubuntu MATE is being used on. This"
@@ -23,22 +23,44 @@ msgid ""
 " but nothing that is uniquely identifiable."
 msgstr ""
 
-#: telemetry.html:34
+#: telemetry.html:35
 msgid "Would you like to send this information?"
 msgstr ""
 
-#: telemetry.html:36
+#: telemetry.html:37
 msgid "Preview data"
 msgstr ""
 
-#: telemetry.html:37
+#: telemetry.html:38
 msgid "This is the data that will be sent:"
 msgstr ""
 
-#: telemetry.html:41
+#: telemetry.html:42
 msgid "Send Telemetry"
 msgstr ""
 
-#: telemetry.html:42
+#: telemetry.html:43
 msgid "Do Not Send"
+msgstr ""
+
+#: telemetry.html:46
+msgid "Thank you!"
+msgstr ""
+
+#: telemetry.html:48
+msgid ""
+"This data was successfully sent and will be used to improve future "
+"installations."
+msgstr ""
+
+#: telemetry.html:50, 57
+msgid "Continue"
+msgstr ""
+
+#: telemetry.html:53
+msgid "Communication Error"
+msgstr ""
+
+#: telemetry.html:55
+msgid "The server couldn't be contacted at this time. Please try again later."
 msgstr ""

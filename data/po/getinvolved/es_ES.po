@@ -1,4 +1,4 @@
-# 
+#
 # Translators:
 # Edgar Payes <espayesgt@gmail.com>, 2016
 msgid ""
@@ -7,11 +7,12 @@ msgstr ""
 "POT-Creation-Date: 2016-02-27 12:48+0100\n"
 "PO-Revision-Date: 2017-09-22 21:35+0000\n"
 "Last-Translator: Edgar Payes <espayesgt@gmail.com>\n"
-"Language-Team: Spanish (Spain) (http://www.transifex.com/ubuntu-mate/ubuntu-mate-welcome/language/es_ES/)\n"
+"Language-Team: Spanish (Spain) (http://www.transifex.com/ubuntu-mate/ubuntu-"
+"mate-welcome/language/es_ES/)\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Report-Msgid-Bugs-To : you@example.com\n"
 
@@ -27,13 +28,17 @@ msgstr "Desarrollo"
 msgid ""
 "This is where you can get involved with Ubuntu MATE and MATE Desktop "
 "development."
-msgstr "Aquí es donde puedes participar en el desarrollo de Ubuntu MATE y MATE Desktop"
+msgstr ""
+"Aquí es donde puedes participar en el desarrollo de Ubuntu MATE y MATE "
+"Desktop"
 
 #: getinvolved.html:30
 msgid ""
 "It appears you are not connected to the Internet. Please check your "
 "connection to access this content."
-msgstr "Parece que no estás conectado a Internet. Por favor, comprueba tu conexión para acceder a este contenido."
+msgstr ""
+"Parece que no estás conectado a Internet. Por favor, comprueba tu conexión "
+"para acceder a este contenido."
 
 #: getinvolved.html:31
 msgid "Sorry, Welcome was unable to establish a connection."

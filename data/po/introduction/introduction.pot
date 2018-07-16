@@ -25,8 +25,8 @@ msgstr ""
 
 #: introduction.html:52
 msgid ""
-"Ubuntu MATE is an operating system -- the core software that runs your "
-"computer, similar to"
+"MAX is an operating system -- the core software that runs your computer, "
+"similar to"
 msgstr ""
 
 #: introduction.html:55
@@ -37,8 +37,8 @@ msgstr ""
 msgid "Apple's OS X"
 msgstr ""
 
-#: introduction.html:57, 130
-msgid "and"
+#: introduction.html:57, 201
+msgid "or"
 msgstr ""
 
 #: introduction.html:59
@@ -47,7 +47,7 @@ msgstr ""
 
 #: introduction.html:61
 msgid ""
-"Ubuntu MATE is a desktop distribution (variation) of GNU/Linux -- a "
+"MAX is a desktop distribution (variation) of Ubuntu GNU/Linux -- a "
 "dependable, secure, capable, and modern computer system that rivals all "
 "others in popularity and usage."
 msgstr ""
@@ -72,9 +72,9 @@ msgstr ""
 
 #: introduction.html:75
 msgid ""
-"Ubuntu MATE is a stable, easy-to-use operating system with a configurable "
-"desktop environment. It is ideal for those who want the most out of their "
-"computers and prefer a traditional desktop metaphor. With modest hardware "
+"MAX is a stable, easy-to-use operating system with a configurable desktop "
+"environment. It is ideal for those who want the most out of their computers "
+"and prefer a traditional desktop metaphor. With modest hardware "
 "requirements, it is suitable for modern desktops and laptops, single board "
 "computers (such as the Raspberry Pi) and older hardware alike."
 msgstr ""
@@ -87,11 +87,10 @@ msgstr ""
 
 #: introduction.html:87
 msgid ""
-"Using Ubuntu MATE provides you with the freedom to run a complete, full-"
-"featured operating system, pre-configured with most (if not all) of the "
-"applications you will need for your daily computing. Change anything about "
-"the way it looks, the way it works, or the applications it runs to suit your"
-" taste."
+"Using MAX provides you with the freedom to run a complete, full-featured "
+"operating system, pre-configured with most (if not all) of the applications "
+"you will need for your daily computing. Change anything about the way it "
+"looks, the way it works, or the applications it runs to suit your taste."
 msgstr ""
 
 #: introduction.html:97
@@ -99,7 +98,7 @@ msgid "Objectives"
 msgstr ""
 
 #: introduction.html:98
-msgid "Ubuntu MATE has a number of guiding objectives and goals:"
+msgid "MAX has a number of guiding objectives and goals:"
 msgstr ""
 
 #: introduction.html:100
@@ -147,7 +146,7 @@ msgid ""
 msgstr ""
 
 #: introduction.html:113
-msgid "What is Ubuntu MATE?"
+msgid "What is MAX?"
 msgstr ""
 
 #: introduction.html:124
@@ -159,6 +158,10 @@ msgid ""
 "based desktop operating systems in the world. Linux is at the heart of "
 "Ubuntu and makes it possible to create secure, powerful and versatile "
 "operating systems, such as"
+msgstr ""
+
+#: introduction.html:130
+msgid "and"
 msgstr ""
 
 #: introduction.html:131
@@ -251,10 +254,6 @@ msgstr ""
 msgid ""
 "MATE Desktop provides an intuitive and attractive desktop environment using "
 "traditional metaphors, which means if you've ever used"
-msgstr ""
-
-#: introduction.html:201
-msgid "or"
 msgstr ""
 
 #: introduction.html:204
