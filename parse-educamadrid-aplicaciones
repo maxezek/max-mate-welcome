@@ -1,0 +1,23 @@
+#! /usr/bin/python2
+# -*- coding:utf-8 -*-
+
+
+import requests
+from bs4 import BeautifulSoup
+
+
+
+req = requests.get("https://external.educa2.madrid.org/es/web/maxcontent/-aplicaciones")
+
+
+soup = BeautifulSoup(req.content, 'html.parser')
+
+# print soup
+
+# categories = soup.find('a', attrs={'class': 'nav-menu'})
+# print categories
+
+
+a = soup.find('div', attrs={'class': 'nav-menu'})
+for x in a.find_all('a'):
+    print x

@@ -477,8 +477,17 @@ class PreInstallation(object):
 
     def __init__(self):
         # Always ensure we have the correct variables, not any overrides.
-        self.os_version = platform.dist()[1]
-        self.codename = platform.dist()[2]
+        # self.os_version = platform.dist()[1]
+        if arg.platform_os_version:
+            self.os_version = arg.platform_os_version
+        else:
+            self.os_version = platform.dist()[1]     # → 14.04, 15.10, 16.04
+        #
+        if arg.platform_codename:
+            self.codename = arg.platform_codename
+        else:
+            self.codename = platform.dist()[2]
+        #
         dbg.stdout('Pre-Install', "System is running Ubuntu " + self.os_version + " (" + self.codename + ")", 1, 0)
 
     def process_packages(self, program_id, action, preconfigure_only=False):
@@ -791,6 +800,7 @@ class Strings(object):
         self.screenshot = str(_("Screenshot"))
         self.source = str(_("Source"))
         self.repo_main = str(_("Ubuntu Repository"))
+        self.repo_max = str(_("MAX Repository"))
         self.repo_universe = str(_("Ubuntu Community Maintained Repository"))
         self.repo_restricted = str(_("Ubuntu Proprietary Drivers Repository"))
         self.repo_multiverse = str(_("Ubuntu Non-Free Repository"))
@@ -1685,12 +1695,17 @@ class SystemState(object):
         self.arch = str(subprocess.Popen(['dpkg','--print-architecture'], stdout=subprocess.PIPE).communicate()[0]).strip('\\nb\'')
 
         # Get current version / codename of Ubuntu MATE in use.
-        self.distro = platform.dist()[0].lower() # → ubuntu
-        if arg.platform:
-            self.os_version = arg.platform
+        self.distro = platform.dist()[0].lower()  # → ubuntu
+        if arg.platform_os_version:
+            self.os_version = arg.platform_os_version
         else:
-            self.os_version = platform.dist()[1]     # → 14.04, 15.10, 16.04
-        self.codename = platform.dist()[2]       # → trusty, wily, xenial
+            self.os_version = platform.dist()[1]  # → 14.04, 15.10, 16.04
+
+        # self.codename = platform.dist()[2]  # → trusty, wily, xenial
+        if arg.platform_codename:
+            self.codename = arg.platform_codename
+        else:
+            self.codename = platform.dist()[2]
 
         # Are we running in Ubuntu MATE?
         self.is_ubuntu_mate = True
@@ -2287,7 +2302,8 @@ class DynamicApps(object):
         self.reload_index()
 
         # Variables to remember common details.
-        self.all_categories = ['Accessories', 'Education', 'Games', 'Graphics', 'Internet', 'Office', 'Programming', 'Media', 'SysTools', 'UnivAccess', 'Servers', 'MoreApps']
+        # self.all_categories = ['Accessories', 'Education', 'Games', 'Graphics', 'Internet', 'Office', 'Programming', 'Media', 'SysTools', 'UnivAccess', 'Servers', 'MoreApps']
+        self.all_categories = ['Science', 'Media']
         self.hide_non_free = pref.get('hide_non_free', False)
 
         # Indicate that operations are in progress.
@@ -2391,6 +2407,7 @@ class DynamicApps(object):
         source_partner = '<img src="' + trans.res_dir + 'img/logos/ubuntu-mono.png" width="16px" height="16px"/>&nbsp;' + string.repo_partner
         source_multiverse = '<img src="' + trans.res_dir + 'img/logos/ubuntu-mono.png" width="16px" height="16px"/>&nbsp;' + string.repo_multiverse
         source_skip = '<img src="' + trans.res_dir + 'img/logos/ubuntu-mono.png" width="16px" height="16px"/>&nbsp;' + string.repo_main
+        source_skipmax = '<img src="' + trans.res_dir + 'img/logos/max.png" width="16px" height="16px"/>&nbsp;' + string.repo_max
 
         # "Normal" packages that can be installed/removed by the user.
         if self.app_open_source:
@@ -2497,6 +2514,9 @@ class DynamicApps(object):
             for method in methods:
                 if method == 'skip':
                     self.source_info.insert(0, source_skip)
+
+                elif method == 'skipmax':
+                    self.source_info.insert(0, source_skipmax)
 
                 elif method == 'partner-repo':
                     self.source_info.insert(0, source_partner)
@@ -2645,12 +2665,13 @@ class DynamicApps(object):
                 if systemstate.arch in self.index[category][program_id]['arch']:
                     possible_apps.append(self.index[category][program_id]['img'])
 
+        dbg.stdout('Apps', "possible_apps=%s" % possible_apps, 2, 4)
         random.shuffle(possible_apps)
-        for no in range(1,18):
-            random_img = possible_apps[no]
-            dbg.stdout('Apps', str(no) + '. ' + random_img, 2, 4)
-            app.update_page('#featured-grid', 'append', '<img src="' + trans.res_dir + 'img/applications/' + random_img + '.png" id="appIcon' + str(no) + '" class="grid-hidden" />')
-        webkit.run_js("initGrid();")
+        # for no in range(1,18):
+        #     random_img = possible_apps[no]
+        #     dbg.stdout('Apps', str(no) + '. ' + random_img, 2, 4)
+        #     app.update_page('#featured-grid', 'append', '<img src="' + trans.res_dir + 'img/applications/' + random_img + '.png" id="appIcon' + str(no) + '" class="grid-hidden" />')
+        # webkit.run_js("initGrid();")
         dbg.stdout('Apps', '------------------', 2, 4)
 
     def modify_app(self, webkit, action, program_id):
@@ -3642,7 +3663,8 @@ class Arguments(object):
         self.locale = None
         self.jump_to = None
         self.font_dpi_override = None
-        self.platform = None
+        self.platform_os_version = None
+        self.platform_codename = None
 
         archs = ['i386', 'amd64', 'armhf', 'arm64', 'powerpc', 'ppc64el']
         sessions = ['guest', 'live', 'oem', 'pi', 'vbox']
@@ -3672,7 +3694,8 @@ class Arguments(object):
               print('  -b, -boutique,               Open Welcome only for the software selections.')
               print('  --software-only              ')
               print('  -v, --verbose                Show more details to stdout (for diagnosis).')
-              print('  --platform=18.04             Simulate a specific platform version.')
+              print('  --os-version=18.04           Simulate a specific platform version.')
+              print('  --codename=bionic            Simulate a specific platform codename.')
               print('')
               exit()
 
@@ -3751,8 +3774,10 @@ class Arguments(object):
                   return
               dbg.stdout('Debug', 'Overriding font DPI to ' + str(self.font_dpi_override) + '.', 0, 0)
 
-          if arg.startswith('--platform='):
-              self.platform = arg.split('--platform=')[1]
+          if arg.startswith('--os-version='):
+              self.platform_os_version = arg.split('--os-version=')[1]
+          if arg.startswith('--codename='):
+              self.platform_codename = arg.split('--codename=')[1]
 
     def override_arch(self):
         if not self.simulate_arch == None:

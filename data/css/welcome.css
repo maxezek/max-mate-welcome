@@ -80,6 +80,10 @@ button:focus {
   border: 1px solid #87A556;
 }
 
+.link {
+  vertical-align: inherit;
+}
+
 .link:hover {
   cursor: pointer !important;
   text-decoration: underline;
@@ -788,7 +792,8 @@ blockquote.terminal {
   text-align: center;
   font-family: "Ubuntu";
   font-size: 40px;
-  color: #5A6943;
+  /*color: #5A6943;*/
+  color: #4464ad;
   pointer-events: none;
 }
 
@@ -839,7 +844,8 @@ blockquote.terminal {
   font-size: 20px;
   font-weight: bold;
   vertical-align: top;
-  color: #5A6943;
+  /*color: #5A6943;*/
+  color: #304880;
   pointer-events: none;
 }
 
@@ -945,7 +951,8 @@ blockquote.terminal {
   font-family: "Ubuntu";
   font-weight: 100;
   font-size: 20px;
-  color: #5A6943;
+  /*color: #5A6943;*/
+  color: #4464ad;
 }
 
 #splash-welcome {
@@ -1419,6 +1426,17 @@ blockquote.terminal {
   opacity: 0.6;
 }
 
+
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus,
+.nav-pills > .active > button,
+.nav-pills > .active > button:hover,
+.nav-pills > .active > button:focus {
+    background-color: #4464ad;
+}
+
+
 /************************
  * Panel Selection Screen
 *************************/
@@ -1451,8 +1469,10 @@ blockquote.terminal {
 }
 
 .panel-option.active {
-    background-color: #87a556;
-    box-shadow: 0 0 10px #87a556;
+    /*background-color: #87a556;*/
+    background-color: #4464ad;
+    /*box-shadow: 0 0 10px #87a556;*/
+    box-shadow: 0 0 10px #4464ad;
     color: #fff;
     position: relative;
 }
