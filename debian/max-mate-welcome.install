@@ -1,13 +1,19 @@
-data/* usr/share/max-mate-welcome/
-hicolor/* usr/share/icons/hicolor/
-locale/* usr/share/locale/
-mate-settings-welcome.menu etc/xdg/menus/
+data/*      usr/share/max-mate-welcome/
+hicolor/*   usr/share/icons/hicolor/
+locale/*    usr/share/locale/
+
 org.max-mate.welcome.policy usr/share/polkit-1/actions/
-max-mate-software.desktop usr/share/applications/
-max-mate-welcome usr/bin/
-max-mate-welcome-repository-installer usr/lib/max-mate/
-max-mate-welcome-rpi2-partition-resize usr/lib/max-mate/
-max-mate-welcome.1 usr/share/man/man1
-max-mate-welcome.desktop etc/skel/.config/autostart/
-max-mate-welcome.desktop usr/share/applications/
-update-mate-menu-welcome /usr/sbin/
+
+update-max-menu-welcome   usr/sbin/
+max-mate-welcome          usr/bin/
+
+max-mate-welcome-repository-installer    usr/lib/max-mate/
+max-mate-welcome-rpi2-partition-resize   usr/lib/max-mate/
+
+mate-settings-welcome.menu   etc/xdg/menus/
+max-mate-welcome.1           usr/share/man/man1
+
+#max-mate-welcome.desktop             etc/skel/.config/autostart/
+max-mate-welcome.desktop             usr/share/applications/
+max-mate-software.desktop            usr/share/applications/
+max-mate-welcome-autostart.desktop   etc/xdg/autostart/

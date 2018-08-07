@@ -7,3 +7,13 @@ override_dh_prep:
 	./welcome-po.py --update-pos
 	./welcome-po.py --install
 	./edgar-allan translate-all
+
+
+override_dh_install:
+	ls debian/max-mate-welcome/usr/share/max-mate-welcome/ || true
+
+	dh_install
+	rm -rf debian/max-mate-welcome/usr/share/max-mate-welcome/po
+
+	ls debian/max-mate-welcome/usr/share/max-mate-welcome/ || true
+

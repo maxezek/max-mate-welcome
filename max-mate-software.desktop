@@ -5,5 +5,5 @@ Categories=PackageManager;System;Settings;
 Name=Software Boutique
 Comment=Discover and install software from a collection that compliments MAX MATE.
 Exec=max-mate-welcome --boutique
-Icon=software-boutique
+Icon=max-applicaciones
 StartupNotify=false

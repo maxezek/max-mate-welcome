@@ -44,6 +44,7 @@ import subprocess
 import sys
 import time
 import webbrowser
+import traceback
 
 import urllib.error
 import urllib.parse
@@ -502,6 +503,7 @@ class PreInstallation(object):
             preconfig = dynamicapps.index[category][program_id]['pre-install']
         except:
             dbg.stdout('Pre-Install', 'Missing pre-configuration data for "' + program_id + '". Refusing to continue.', 0, 1)
+            traceback.print_exc(file=sys.stderr)
             return
 
         try:
@@ -532,9 +534,9 @@ class PreInstallation(object):
         # Function to run privileged commands.
         def run_task(function):
             if os.environ.get('SNAP'):
-                subprocess.call(['pkexec', os.environ.get('SNAP') + '/usr/lib/ubuntu-mate/max-mate-welcome-repository-installer', os.path.abspath(os.path.join(data_path, 'js/applications.json')), function, category, program_id, target])
+                subprocess.call(['pkexec', os.environ.get('SNAP') + '/usr/lib/max-mate/max-mate-welcome-repository-installer', os.path.abspath(os.path.join(data_path, 'js/applications.json')), function, category, program_id, target])
             else:
-                subprocess.call(['pkexec', '/usr/lib/ubuntu-mate/max-mate-welcome-repository-installer', os.path.abspath(os.path.join(data_path, 'js/applications.json')), function, category, program_id, target])
+                subprocess.call(['pkexec', '/usr/lib/max-mate/max-mate-welcome-repository-installer', os.path.abspath(os.path.join(data_path, 'js/applications.json')), function, category, program_id, target])
 
         # Determine if any pre-configuration is specific to a codename.
         try:
@@ -569,6 +571,10 @@ class PreInstallation(object):
                     dbg.stdout('Pre-Install', 'Using the Ubuntu repository.', 0, 0)
                     continue
 
+                if method == 'skipmax':
+                    dbg.stdout('Pre-Install', 'Using the MAX repository.', 0, 0)
+                    continue
+
                 elif method == 'partner-repo':
                     dbg.stdout('Pre-Install', 'Enabling the Ubuntu partner repository.', 0, 3)
                     if not simulating:
@@ -583,67 +589,67 @@ class PreInstallation(object):
                         transaction.update_cache = True
                         queue.must_update_cache = True
 
-                elif method == 'ppa':
-                    try:
-                        ppa = preinstall[target]['enable-ppa']
-                    except:
-                        dbg.stdout('Pre-Install', 'Missing "enable-ppa" attribute. Cannot add PPA as requested.', 0, 1)
-                        return
-                    dbg.stdout('Pre-Install', 'Adding PPA: "' + ppa + '" and updating cache.', 0, 3)
-                    if not simulating:
-                        run_task('enable_ppa')
-                        transaction.update_cache = True
-                        queue.must_update_cache = True
-                    try:
-                        source_file = preinstall[target]['source-file'].replace('OSVERSION',self.os_version).replace('CODENAME',self.codename)
-                        dbg.stdout('Pre-Install', 'Updating Apt Source: "' + source_file + '.list"', 0, 3)
-                        if not simulating:
-                            transaction.source_to_update = source_file + '.list'
-                    except:
-                        dbg.stdout('Pre-Install', 'Updating entire Apt cache. (No individual source file specified)', 1, 3)
+                # elif method == 'ppa':
+                #     try:
+                #         ppa = preinstall[target]['enable-ppa']
+                #     except:
+                #         dbg.stdout('Pre-Install', 'Missing "enable-ppa" attribute. Cannot add PPA as requested.', 0, 1)
+                #         return
+                #     dbg.stdout('Pre-Install', 'Adding PPA: "' + ppa + '" and updating cache.', 0, 3)
+                #     if not simulating:
+                #         run_task('enable_ppa')
+                #         transaction.update_cache = True
+                #         queue.must_update_cache = True
+                #     try:
+                #         source_file = preinstall[target]['source-file'].replace('OSVERSION',self.os_version).replace('CODENAME',self.codename)
+                #         dbg.stdout('Pre-Install', 'Updating Apt Source: "' + source_file + '.list"', 0, 3)
+                #         if not simulating:
+                #             transaction.source_to_update = source_file + '.list'
+                #     except:
+                #         dbg.stdout('Pre-Install', 'Updating entire Apt cache. (No individual source file specified)', 1, 3)
 
-                elif method == 'manual':
-                    # Do we get the apt key from a URL?
-                    try:
-                        apt_key_url = preinstall[target]['apt-key-url'].replace('OSVERSION',self.os_version).replace('CODENAME',self.codename)
-                        dbg.stdout('Pre-Install', 'Getting Apt key from URL: "' + apt_key_url + '"', 0, 3)
-                        if not simulating:
-                            run_task('add_apt_key_from_url')
-                            queue.must_update_cache = True
-                    except:
-                        dbg.stdout('Pre-Install', 'No apt key to retrieve from a URL.', 1, 0)
+                # elif method == 'manual':
+                #     # Do we get the apt key from a URL?
+                #     try:
+                #         apt_key_url = preinstall[target]['apt-key-url'].replace('OSVERSION',self.os_version).replace('CODENAME',self.codename)
+                #         dbg.stdout('Pre-Install', 'Getting Apt key from URL: "' + apt_key_url + '"', 0, 3)
+                #         if not simulating:
+                #             run_task('add_apt_key_from_url')
+                #             queue.must_update_cache = True
+                #     except:
+                #         dbg.stdout('Pre-Install', 'No apt key to retrieve from a URL.', 1, 0)
 
-                    # Do we get the apt key from the server?
-                    try:
-                        apt_key_server = preinstall[target]['apt-key-server'][0]
-                        apt_key_key =    preinstall[target]['apt-key-server'][1]
-                        dbg.stdout('Pre-Install', 'Getting key "' + apt_key_key + '" from keyserver: "' + apt_key_server + '"', 0, 3)
-                        if not simulating:
-                            run_task('add_apt_key_from_keyserver')
-                            queue.must_update_cache = True
-                    except:
-                        dbg.stdout('Pre-Install', 'No apt key to retrieve from a key server.', 1, 0)
+                #     # Do we get the apt key from the server?
+                #     try:
+                #         apt_key_server = preinstall[target]['apt-key-server'][0]
+                #         apt_key_key =    preinstall[target]['apt-key-server'][1]
+                #         dbg.stdout('Pre-Install', 'Getting key "' + apt_key_key + '" from keyserver: "' + apt_key_server + '"', 0, 3)
+                #         if not simulating:
+                #             run_task('add_apt_key_from_keyserver')
+                #             queue.must_update_cache = True
+                #     except:
+                #         dbg.stdout('Pre-Install', 'No apt key to retrieve from a key server.', 1, 0)
 
-                    # Do we need to add an apt source file?
-                    try:
-                        source = preinstall[target]['apt-sources']
-                        source_file = preinstall[target]['source-file'].replace('OSVERSION',self.os_version).replace('CODENAME',self.codename)
-                        dbg.stdout('Pre-Install', 'Writing source file: ' + source_file + '.list', 0, 3)
-                        dbg.stdout('Pre-Install', '              -------- Start of file ------', 1, 4)
-                        for line in source:
-                            dbg.stdout('Pre-Install', '              ' + line.replace('OSVERSION',self.os_version).replace('CODENAME',self.codename), 0, 0)
-                        dbg.stdout('Pre-Install', '              -------- End of file ------', 1, 4)
-                        try:
-                            dbg.stdout('Pre-Install', 'Updating Apt Source: ' + source_file + '.list', 0, 3)
-                            if not simulating:
-                                run_task('add_apt_sources')
-                                transaction.source_to_update = source_file + '.list'
-                                transaction.update_cache = True
-                                queue.must_update_cache = True
-                        except:
-                            dbg.stdout('Pre-Install', 'Failed to add apt sources!', 0, 1)
-                    except:
-                        dbg.stdout('Pre-Install', 'No source data or source file to write.', 0, 1)
+                #     # Do we need to add an apt source file?
+                #     try:
+                #         source = preinstall[target]['apt-sources']
+                #         source_file = preinstall[target]['source-file'].replace('OSVERSION',self.os_version).replace('CODENAME',self.codename)
+                #         dbg.stdout('Pre-Install', 'Writing source file: ' + source_file + '.list', 0, 3)
+                #         dbg.stdout('Pre-Install', '              -------- Start of file ------', 1, 4)
+                #         for line in source:
+                #             dbg.stdout('Pre-Install', '              ' + line.replace('OSVERSION',self.os_version).replace('CODENAME',self.codename), 0, 0)
+                #         dbg.stdout('Pre-Install', '              -------- End of file ------', 1, 4)
+                #         try:
+                #             dbg.stdout('Pre-Install', 'Updating Apt Source: ' + source_file + '.list', 0, 3)
+                #             if not simulating:
+                #                 run_task('add_apt_sources')
+                #                 transaction.source_to_update = source_file + '.list'
+                #                 transaction.update_cache = True
+                #                 queue.must_update_cache = True
+                #         except:
+                #             dbg.stdout('Pre-Install', 'Failed to add apt sources!', 0, 1)
+                #     except:
+                #         dbg.stdout('Pre-Install', 'No source data or source file to write.', 0, 1)
 
         elif action == 'remove':
             try:
@@ -1426,20 +1432,20 @@ class AppView(WebKit2.WebView):
             systemstate.rpi_resize('do-resize', self)
         elif cmd == 'reboot-rpi':
             systemstate.rpi_resize('reboot')
-        elif cmd == 'subscribe-updates':
-            dbg.stdout('Welcome', 'Subscribing to Ubuntu MATE Welcome Updates...', 0, 3)
-            app.update_page('#update-notification', 'hide')
-            app.update_page('#update-subscribing', 'show')
-            dynamicapps.modify_app(self, 'install', 'max-mate-welcome')
-            # Verify if the PPA was successfully added.
-            if os.path.exists(systemstate.welcome_ppa_file):
-                if os.path.getsize(systemstate.welcome_ppa_file) > 0:
-                    dbg.stdout('Welcome', 'Success - Welcome PPA Added! Restarting application...', 0, 2)
-                    os.execv(__file__, sys.argv)
-            else:
-                dbg.stdout('Welcome', 'Failed - Welcome PPA not detected!', 0, 1)
-                app.update_page('#update-subscribing', 'hide')
-                app.update_page('#update-notification', 'show')
+        # elif cmd == 'subscribe-updates':
+        #     dbg.stdout('Welcome', 'Subscribing to Ubuntu MATE Welcome Updates...', 0, 3)
+        #     app.update_page('#update-notification', 'hide')
+        #     app.update_page('#update-subscribing', 'show')
+        #     dynamicapps.modify_app(self, 'install', 'max-mate-welcome')
+        #     # Verify if the PPA was successfully added.
+        #     if os.path.exists(systemstate.welcome_ppa_file):
+        #         if os.path.getsize(systemstate.welcome_ppa_file) > 0:
+        #             dbg.stdout('Welcome', 'Success - Welcome PPA Added! Restarting application...', 0, 2)
+        #             os.execv(__file__, sys.argv)
+        #     else:
+        #         dbg.stdout('Welcome', 'Failed - Welcome PPA not detected!', 0, 1)
+        #         app.update_page('#update-subscribing', 'hide')
+        #         app.update_page('#update-notification', 'show')
         elif cmd == 'init-system-info':
             systemstate.get_system_info(self)
         elif cmd.startswith('search'):
@@ -2210,7 +2216,7 @@ class SystemState(object):
 
     def rpi_resize(self, action, webkit=None):
         if action == 'do-resize':
-            subprocess.call(['pkexec', '/usr/lib/ubuntu-mate/max-mate-welcome-rpi2-partition-resize'])
+            subprocess.call(['pkexec', '/usr/lib/max-mate/max-mate-welcome-rpi2-partition-resize'])
 
             def notify(subject, body, icon):
                 Notify.init(_('Raspberry Pi Partition Resize'))
@@ -2524,21 +2530,21 @@ class DynamicApps(object):
                 elif method == 'multiverse-repo':
                     self.source_info.insert(0, source_multiverse)
 
-                elif method == 'ppa':
-                    ppa = preinstall[target]['enable-ppa']
-                    ppa_author = ppa.split(':')[1].split('/')[0]
-                    ppa_archive = ppa.split(':')[1].split('/')[1]
-                    self.source_info.insert(0, source_ppa + ' <button onclick="cmd(\'link?https://launchpad.net/~' + ppa_author + '/+archive/ubuntu/' + ppa_archive + '\')">' + ppa + '</button>')
+                # elif method == 'ppa':
+                #     ppa = preinstall[target]['enable-ppa']
+                #     ppa_author = ppa.split(':')[1].split('/')[0]
+                #     ppa_archive = ppa.split(':')[1].split('/')[1]
+                #     self.source_info.insert(0, source_ppa + ' <button onclick="cmd(\'link?https://launchpad.net/~' + ppa_author + '/+archive/ubuntu/' + ppa_archive + '\')">' + ppa + '</button>')
 
-                elif method == 'manual':
-                    apt_source = ''.join(preinstall[target]['apt-sources'])
-                    manual_text = source_manual + ' ' + string.unknown
-                    for substring in apt_source.split(' '):
-                        if substring[:4] == 'http':
-                            apt_source = substring.replace('OSVERSION',preinstallation.os_version).replace('CODENAME',preinstallation.codename)
-                            manual_text = source_manual + ' ' + apt_source
-                            break
-                    self.source_info.insert(0, manual_text)
+                # elif method == 'manual':
+                #     apt_source = ''.join(preinstall[target]['apt-sources'])
+                #     manual_text = source_manual + ' ' + string.unknown
+                #     for substring in apt_source.split(' '):
+                #         if substring[:4] == 'http':
+                #             apt_source = substring.replace('OSVERSION',preinstallation.os_version).replace('CODENAME',preinstallation.codename)
+                #             manual_text = source_manual + ' ' + apt_source
+                #             break
+                #     self.source_info.insert(0, manual_text)
         except:
             dbg.stdout('Apps', 'Failed to process pre-configuration for: ' + program_id, 0, 1)
             self.source_info = [string.unknown]
@@ -2658,20 +2664,28 @@ class DynamicApps(object):
     def populate_featured_apps(self, webkit):
         dbg.stdout('Apps', '---- Populating Featured Apps Grid ----', 2, 0)
         # Randomly generate a list of apps to feature if supported on this architecture.
+        if self.index is None:
+            dbg.stdout('Apps', '---- index is empty ----', 0, 1)
+            return
         possible_apps = []
         for category in self.all_categories:
             category_items = list(self.index[category].keys())
+            if category_items is None:
+                continue
             for program_id in category_items:
                 if systemstate.arch in self.index[category][program_id]['arch']:
                     possible_apps.append(self.index[category][program_id]['img'])
 
-        dbg.stdout('Apps', "possible_apps=%s" % possible_apps, 2, 4)
+        # dbg.stdout('Apps', "possible_apps=%s" % possible_apps, 2, 4)
         random.shuffle(possible_apps)
-        # for no in range(1,18):
-        #     random_img = possible_apps[no]
-        #     dbg.stdout('Apps', str(no) + '. ' + random_img, 2, 4)
-        #     app.update_page('#featured-grid', 'append', '<img src="' + trans.res_dir + 'img/applications/' + random_img + '.png" id="appIcon' + str(no) + '" class="grid-hidden" />')
-        # webkit.run_js("initGrid();")
+        for no in range(1,18):
+            random_img = possible_apps[no]
+            # dbg.stdout('Apps', str(no) + '. ' + random_img, 2, 4)
+            img_path = os.path.join(data_path, "img/applications/", random_img + ".png")
+            exists = os.path.exists(img_path)
+            dbg.stdout('Apps', "%s. %s (%s %s)" % (str(no), random_img, exists, img_path), 2, 4)
+            app.update_page('#featured-grid', 'append', '<img src="' + trans.res_dir + 'img/applications/' + random_img + '.png" width="16px" height="16px" id="appIcon' + str(no) + '" class="grid-hidden" />')
+        webkit.run_js("initGrid();")
         dbg.stdout('Apps', '------------------', 2, 4)
 
     def modify_app(self, webkit, action, program_id):
@@ -2714,6 +2728,9 @@ class DynamicApps(object):
 
     def is_app_installed(self, program_id):
         main_package = self.get_attribute_for_app(program_id, 'main-package')
+        dbg.stdout('Apt', "is_app_installed %s => %s" % (program_id, main_package), 1, 4)
+        if main_package is None:
+            return False
         try:
             if systemstate.apt_cache[main_package].is_installed:
                 dbg.stdout('Apt', 'Package "' + main_package + '" is present.', 1, 4)
@@ -3557,7 +3574,7 @@ class ScreenshotWindow(Gtk.Window):
 
 class Preferences(object):
     def __init__(self):
-        self.folder = os.path.join(os.path.expanduser('~'), '.config/ubuntu-mate/welcome')
+        self.folder = os.path.join(os.path.expanduser('~'), '.config/max-mate/welcome')
         self.config = os.path.join(self.folder, 'preferences.json')
         self.data = None
         self.load_prefs()
