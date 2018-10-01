@@ -1,4 +1,16 @@
-ubuntu-mate-welcome (18.04max1) max; urgency=medium
+max-mate-welcome (18.04max3) max; urgency=medium
+
+  * Leave os_version as 10.0 to show in welcome screen
+
+ -- Mario Izquierdo <hola@marioizquierdo.es>  Mon, 01 Oct 2018 10:39:50 +0200
+
+max-mate-welcome (18.04max2) max; urgency=medium
+
+  * Fix postinst/prerm menu creation
+
+ -- Mario Izquierdo <hola@marioizquierdo.es>  Mon, 01 Oct 2018 10:31:50 +0200
+
+max-mate-welcome (18.04max1) max; urgency=medium
 
   * Build in MAX 10.0
 

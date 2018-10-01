@@ -20,7 +20,7 @@ set -e
 
 case "$1" in
     configure)
-        update-mate-menu-welcome
+        update-max-menu-welcome
         update-icon-caches /usr/share/icons/mate
         update-desktop-database
         update-mime-database /usr/share/mime

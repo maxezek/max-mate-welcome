@@ -35,7 +35,7 @@ def get_translatables_from_file(input_file, trim_strs = True):
 
     # use regular expressions to iterate through all the translatables
     p= re.compile("&zwnj;(.+?)&zwnj;", re.MULTILINE | re.DOTALL)
-    lines = open(input_file, 'r')
+    lines = open(input_file, 'r', encoding="utf-8")
     content = lines.read()
     line_nos = []
     strings = []
@@ -155,7 +155,7 @@ def translate_file(in_file, in_po, out_file, verbose):
     translatables = get_translatables_from_file(in_file, trim_strs=False)
 
     # read the entire contents of the file
-    content = open(in_file, 'r').read()
+    content = open(in_file, 'r', encoding="utf-8").read()
 
     # read the po file
     po_file = polib.pofile(in_po)

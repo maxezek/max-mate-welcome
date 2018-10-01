@@ -981,7 +981,8 @@ class AppView(WebKit2.WebView):
         # Individual Page Actions
         ### Main Menu ###
         if app.current_page == 'index.html':
-            app.update_page('#os_version', 'html', systemstate.os_version)
+            # MAX leave 10.0 as os_version in screen
+            # app.update_page('#os_version', 'html', systemstate.os_version)
 
             # Buttons (IDs) to be displayed
             btns = [ 'introduction', 'features', 'gettingstarted',

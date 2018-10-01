@@ -19,7 +19,7 @@ set -e
 
 case "$1" in
     remove|upgrade|deconfigure)
-        update-mate-menu-welcome --remove
+        update-max-menu-welcome --remove
         ;;
 
     failed-upgrade)
