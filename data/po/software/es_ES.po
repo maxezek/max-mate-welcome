@@ -100,7 +100,7 @@ msgstr "Ciencia"
 
 #: software.html:49
 msgid "Loading +Apps..."
-msgstr "Cargando +Apps..."
+msgstr "Cargando +Aplicaciones..."
 
 #: software.html:59
 msgid ""

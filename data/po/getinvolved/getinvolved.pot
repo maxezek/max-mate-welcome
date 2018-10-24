@@ -21,7 +21,7 @@ msgstr ""
 
 #: getinvolved.html:26
 msgid ""
-"This is where you can get involved with Ubuntu MATE and MATE Desktop "
+"This is where you can get involved with MAX, Ubuntu MATE and MATE Desktop "
 "development."
 msgstr ""
 
@@ -39,26 +39,26 @@ msgstr ""
 msgid "Retry"
 msgstr ""
 
-#: getinvolved.html:39
+#: getinvolved.html:40
 msgid "Ubuntu MATE Launchpad"
 msgstr ""
 
-#: getinvolved.html:47
+#: getinvolved.html:50
 msgid "Ubuntu MATE Bitbucket"
 msgstr ""
 
-#: getinvolved.html:55
-msgid "MATE Desktop GitHub"
+#: getinvolved.html:57, 58, 59
+msgid "MAdrid_linuX GitHub"
 msgstr ""
 
-#: getinvolved.html:62
+#: getinvolved.html:76
 msgid "Translations"
 msgstr ""
 
-#: getinvolved.html:65
+#: getinvolved.html:79
 msgid "MATE Desktop"
 msgstr ""
 
-#: getinvolved.html:70
+#: getinvolved.html:84
 msgid "Ubuntu MATE Applications"
 msgstr ""
