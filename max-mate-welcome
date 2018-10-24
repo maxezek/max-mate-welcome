@@ -1227,13 +1227,13 @@ class AppView(WebKit2.WebView):
             app.update_page('#message-link', 'html', "<button class='btn btn-success' onclick=\"smoothPageFade(\'{0}\')\">{1}</button>".format(target, _("Continue")))
 
         ### Introduction ###
-        if app.current_page == 'introduction.html':
-            for path in ["/usr/share/backgrounds/ubuntu-mate-common/Green-Wall.png",
-                        "/usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Cold-no-logo.png",
-                        "/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Cold-no-logo.jpg"]:
-                if os.path.exists(path):
-                    app.update_page(".slogan-box", "attr", "style", "background:url(" + path + ")")
-                    break
+        # if app.current_page == 'introduction.html':
+        #     for path in ["/usr/share/backgrounds/ubuntu-mate-common/Green-Wall.png",
+        #                 "/usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Cold-no-logo.png",
+        #                 "/usr/share/backgrounds/ubuntu-mate-common/Ubuntu-Mate-Cold-no-logo.jpg"]:
+        #         if os.path.exists(path):
+        #             app.update_page(".slogan-box", "attr", "style", "background:url(" + path + ")")
+        #             break
 
         ### Panel Selection ###
         if app.current_page == 'panel-selection.html':
@@ -1723,7 +1723,8 @@ class SystemState(object):
 
         # Determine which type of session we are in.
         if os.path.exists('/usr/share/glib-2.0/schemas/zubuntu-mate-live.gschema.override') or \
-           os.path.exists('/usr/share/glib-2.0/schemas/40_ubuntu-mate-live.gschema.override'):
+           os.path.exists('/usr/share/glib-2.0/schemas/40_ubuntu-mate-live.gschema.override') or \
+           os.path.exists('/cdrom/casper/vmlinuz'):
             self.session_type = 'live'
         elif self.user_name == 'oem' and os.path.isfile(os.path.join('/','usr/','sbin/','oem-config-remove')):
             self.session_type = 'oem'
@@ -2014,7 +2015,7 @@ class SystemState(object):
                 else:
                     root_dev = root_partition[:-1]              # Generic
                 disk_dev_name = root_dev.split('/')[2]
-                dbg.stdout('Specs', 'Ubuntu MATE is installed on disk: ' + root_dev, 1, 4)
+                dbg.stdout('Specs', 'MAX is installed on disk: ' + root_dev, 1, 4)
                 rootfs = os.statvfs('/')
                 root_size = rootfs.f_blocks * rootfs.f_frsize
                 root_free = rootfs.f_bavail * rootfs.f_frsize
@@ -2199,7 +2200,7 @@ class SystemState(object):
 
         # Append advanced system information
         try:
-            inxi_output = inxi_output.replace("b'","").replace("\\n","\n")
+            inxi_output = inxi_output.replace("b'","").replace('b"','').replace("\\n","\n")
             self.inxi = inxi_output
             app.update_page('#specs-inxi', 'html', '')
             for line in inxi_output.split('\n'):
@@ -2310,7 +2311,7 @@ class DynamicApps(object):
 
         # Variables to remember common details.
         # self.all_categories = ['Accessories', 'Education', 'Games', 'Graphics', 'Internet', 'Office', 'Programming', 'Media', 'SysTools', 'UnivAccess', 'Servers', 'MoreApps']
-        self.all_categories = ['Science', 'Media']
+        self.all_categories = ['Science', 'Media', 'SysTools', 'Servers']
         self.hide_non_free = pref.get('hide_non_free', False)
 
         # Indicate that operations are in progress.

@@ -8,6 +8,9 @@ override_dh_prep:
 	./welcome-po.py --install
 	./edgar-allan translate-all
 
+	# check JSON syntax
+	python -mjson.tool data/js/applications.json >/dev/null
+
 
 override_dh_install:
 	ls debian/max-mate-welcome/usr/share/max-mate-welcome/ || true

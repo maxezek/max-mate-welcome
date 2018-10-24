@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 #
 # This script will regenerate the translations
 # for MAX MATE Welcome. Intended for debugging.
@@ -9,3 +9,5 @@ mkdir ./locale/
 mkdir ./data/i18n/
 ./welcome-po.py --install
 ./edgar-allan translate-all
+
+python -mjson.tool data/js/applications.json >/dev/null

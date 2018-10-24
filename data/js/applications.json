@@ -732,6 +732,98 @@
             },
             "working": true
         },
+        "hp-printer": {
+            "name": "Impresión y escaneado de HP",
+            "img": "hplip",
+            "main-package": "hplip-gui",
+            "launch-command": "hp-toolbox",
+            "install-packages": "hplip-gui",
+            "remove-packages": "hplip-gui",
+            "description": "Controladores de impresoras y escáneres HP",
+            "alternate-to": null,
+            "subcategory": "null",
+            "open-source": true,
+            "url-info": "",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "solaar": {
+            "name": "Solaar for Logitech Unifying Receivers",
+            "img": "solaar",
+            "main-package": "solaar",
+            "launch-command": "solaar",
+            "install-packages": "solaar",
+            "remove-packages": "solaar",
+            "description": "Administrador de dispositivos para periféricos Logitech",
+            "alternate-to": null,
+            "subcategory": "null",
+            "open-source": true,
+            "url-info": "http://pwr.github.io/Solaar/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "openrazer": {
+            "name": "OpenRazer",
+            "img": "openrazer",
+            "main-package": "openrazer-meta",
+            "launch-command": null,
+            "install-packages": "openrazer-meta",
+            "remove-packages": "openrazer-meta,python3-openrazer,openrazer-kernel-modules-dkms,openrazer-daemon,openrazer-doc",
+            "description": "Controladores hecho por la comunidad para periféricos Razer",
+            "alternate-to": null,
+            "subcategory": "null",
+            "open-source": true,
+            "url-info": "https://openrazer.github.io/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "polychromatic": {
+            "name": "Polychromatic",
+            "img": "polychromatic",
+            "main-package": "polychromatic",
+            "launch-command": "polychromatic-controller",
+            "install-packages": "polychromatic",
+            "remove-packages": "polychromatic",
+            "description": "Interfaz para manejo deperiféricos OpenRazer",
+            "alternate-to": null,
+            "subcategory": "null",
+            "open-source": true,
+            "url-info": "https://github.com/lah7/polychromatic",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
         "xscreensaver": {
             "name": "Additional screensavers",
             "img": "xscreensaver",
@@ -931,6 +1023,237 @@
             "url-ios": null,
             "arch": "i386,amd64",
             "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        }
+    },
+
+    "SysTools": {
+        "deja-dup": {
+            "name": "Déjà Dup",
+            "img": "deja-dup",
+            "main-package": "deja-dup",
+            "launch-command": "deja-dup",
+            "install-packages": "deja-dup,deja-dup-backend-cloudfiles,deja-dup-backend-gvfs,deja-dup-backend-s3,deja-dup-caja",
+            "remove-packages": "deja-dup,deja-dup-backend-cloudfiles,deja-dup-backend-gvfs,deja-dup-backend-s3,deja-dup-caja",
+            "description": [
+                "Déjà Dup es una herramienta simple de backup. Oculta la complejidad de",
+                "hacer backups a la «Manera correcta» (cifrado, offline, y regular)",
+                "y usa duplicity como motor."
+            ],
+            "alternate-to": null,
+            "subcategory": "Maintenance",
+            "open-source": true,
+            "url-info": "https://launchpad.net/deja-dup",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,arm64,armhf",
+            "releases": "artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "gufw": {
+            "name": "Firewall",
+            "img": "gufw",
+            "main-package": "gufw",
+            "launch-command": "gufw",
+            "install-packages": "gufw",
+            "remove-packages": "gufw",
+            "description": "Interfaz gráfica del cortafuegos ufw.",
+            "alternate-to": null,
+            "subcategory": "null",
+            "open-source": true,
+            "url-info": "",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "gparted": {
+            "name": "GParted",
+            "img": "gparted",
+            "main-package": "gparted",
+            "launch-command": "pkexec gparted",
+            "install-packages": "gparted,xfsprogs,reiserfsprogs,reiser4progs,jfsutils,ntfs-3g,dosfstools,mtools,kpartx,dmraid,dmsetup,gpart",
+            "remove-packages": "gparted",
+            "description": [
+                "Un avanzado editor de particiones que usa",
+                "`libparted` para detectar y manipular dispositivos y particiones."
+            ],
+            "alternate-to": null,
+            "subcategory": "Partitioning Tools",
+            "open-source": true,
+            "url-info": "http://gparted.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "hardinfo": {
+            "name": "Perfil del sistema y Comprobador rendimiento",
+            "img": "hardinfo",
+            "main-package": "hardinfo",
+            "launch-command": "hardinfo",
+            "install-packages": "hardinfo",
+            "remove-packages": "hardinfo",
+            "description": [
+                "<b>Comocido como HardInfo</b>. Una pequeña aplicación que muestra",
+                "información acerca del hardware y el sistema operativo.",
+                "Actualmente soporta dispositivos PCI, ISA PnP, USB, IDE, SCSI, serie,",
+                "y paralelo."
+            ],
+            "alternate-to": null,
+            "subcategory": "System Information",
+            "open-source": true,
+            "url-info": "http://hardinfo.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "gnome-disk-utility": {
+            "name": "GNOME Disks",
+            "img": "gnome-disk-utility",
+            "main-package": "gnome-disk-utility",
+            "launch-command": "gnome-disks",
+            "install-packages": "gnome-disk-utility",
+            "remove-packages": "gnome-disk-utility",
+            "description": "Utilidad básica para configuración de discos y particiones.",
+            "alternate-to": null,
+            "subcategory": "null",
+            "open-source": true,
+            "url-info": "",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "mate-disk-usage-analyzer": {
+            "name": "MATE Disk Usage Analyzer",
+            "img": "mate-disk-usage-analyzer",
+            "main-package": "mate-utils",
+            "launch-command": "mate-disk-usage-analyzer",
+            "install-packages": "mate-utils",
+            "remove-packages": "",
+            "description": "Analizador de espacio usado de disco.",
+            "alternate-to": null,
+            "subcategory": "null",
+            "open-source": true,
+            "url-info": "",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "mate-system-monitor": {
+            "name": "MATE System Monitor",
+            "img": "mate-system-monitor",
+            "main-package": "mate-system-monitor",
+            "launch-command": "mate-system-monitor",
+            "install-packages": "mate-system-monitor",
+            "remove-packages": "",
+            "description": "Analizador de recursos de sistema: CPU, memoria RAM...",
+            "alternate-to": null,
+            "subcategory": "null",
+            "open-source": true,
+            "url-info": "",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "psensor": {
+            "name": "Psensor",
+            "img": "psensor",
+            "main-package": "psensor",
+            "launch-command": "psensor",
+            "install-packages": "psensor",
+            "remove-packages": "psensor,psensor-common",
+            "description": [
+                "Vista y gráficos de la temperatura actual de los componentes ",
+                "conectados al sistema como placa base, CPU, GPU o discos"
+            ],
+            "alternate-to": null,
+            "subcategory": "System Information",
+            "open-source": true,
+            "url-info": "http://wpitchoune.net/blog/psensor/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        }
+    },
+    "Servers": {
+        "caja-share": {
+            "name": "Caja Share",
+            "img": "caja-share",
+            "main-package": "caja-share",
+            "launch-command": null,
+            "install-packages": "caja-share,samba",
+            "remove-packages": "caja-share,samba",
+            "description": [
+                "Una extensión que te permite",
+                "rápidamente compartir una carpeta con el gestor de archivos Caja. Usa",
+                "Samba, así tu carpeta puede ser accedida desde cualqueir sistema operativo."
+            ],
+            "alternate-to": "Windows&reg; Simple File Sharing",
+            "subcategory": "Server",
+            "open-source": true,
+            "url-info": "https://www.samba.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
             "pre-install": {
                 "all": {
                     "method": "skip"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-24 08:52+0200\n"
+"POT-Creation-Date: 2018-10-24 11:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid ""
 "closing Welcome."
 msgstr ""
 
-#: max-mate-welcome:90 max-mate-welcome:2824
+#: max-mate-welcome:90 max-mate-welcome:2825
 msgid "OK"
 msgstr ""
 
@@ -84,11 +84,11 @@ msgstr ""
 msgid "All packages have been upgraded to the latest versions."
 msgstr ""
 
-#: max-mate-welcome:269 max-mate-welcome:3385
+#: max-mate-welcome:269 max-mate-welcome:3386
 msgid "Installed"
 msgstr ""
 
-#: max-mate-welcome:270 max-mate-welcome:3385
+#: max-mate-welcome:270 max-mate-welcome:3386
 msgid "The application is now ready to use."
 msgstr ""
 
@@ -100,19 +100,19 @@ msgstr ""
 msgid "The operation was cancelled."
 msgstr ""
 
-#: max-mate-welcome:275 max-mate-welcome:3389
+#: max-mate-welcome:275 max-mate-welcome:3390
 msgid "failed to install"
 msgstr ""
 
-#: max-mate-welcome:276 max-mate-welcome:3389
+#: max-mate-welcome:276 max-mate-welcome:3390
 msgid "There was a problem installing this application."
 msgstr ""
 
-#: max-mate-welcome:279 max-mate-welcome:849 max-mate-welcome:3394
+#: max-mate-welcome:279 max-mate-welcome:849 max-mate-welcome:3395
 msgid "Removed"
 msgstr ""
 
-#: max-mate-welcome:280 max-mate-welcome:3394
+#: max-mate-welcome:280 max-mate-welcome:3395
 msgid "The application has been uninstalled."
 msgstr ""
 
@@ -120,11 +120,11 @@ msgstr ""
 msgid "was not removed."
 msgstr ""
 
-#: max-mate-welcome:285 max-mate-welcome:3398
+#: max-mate-welcome:285 max-mate-welcome:3399
 msgid "failed to remove"
 msgstr ""
 
-#: max-mate-welcome:286 max-mate-welcome:3398
+#: max-mate-welcome:286 max-mate-welcome:3399
 msgid "A problem is preventing this application from being removed."
 msgstr ""
 
@@ -541,139 +541,139 @@ msgstr ""
 msgid "Educamadrid"
 msgstr ""
 
-#: max-mate-welcome:1919
+#: max-mate-welcome:1920
 msgid "MB"
 msgstr ""
 
-#: max-mate-welcome:1920
+#: max-mate-welcome:1921
 msgid "MiB"
 msgstr ""
 
-#: max-mate-welcome:1921
+#: max-mate-welcome:1922
 msgid "GB"
 msgstr ""
 
-#: max-mate-welcome:1922
+#: max-mate-welcome:1923
 msgid "GiB"
 msgstr ""
 
-#: max-mate-welcome:1930
+#: max-mate-welcome:1931
 msgid "Could not gather data."
 msgstr ""
 
-#: max-mate-welcome:2223
+#: max-mate-welcome:2224
 msgid "Raspberry Pi Partition Resize"
 msgstr ""
 
-#: max-mate-welcome:2240
+#: max-mate-welcome:2241
 msgid "Root partition has been resized."
 msgstr ""
 
-#: max-mate-welcome:2240
+#: max-mate-welcome:2241
 msgid "The filesystem will be enlarged upon the next reboot."
 msgstr ""
 
-#: max-mate-welcome:2246 max-mate-welcome:2248 max-mate-welcome:2250
-#: max-mate-welcome:2252
+#: max-mate-welcome:2247 max-mate-welcome:2249 max-mate-welcome:2251
+#: max-mate-welcome:2253
 msgid "Don't know how to expand."
 msgstr ""
 
-#: max-mate-welcome:2246
+#: max-mate-welcome:2247
 msgid "does not exist or is not a symlink."
 msgstr ""
 
-#: max-mate-welcome:2248
+#: max-mate-welcome:2249
 msgid "is not an SD card."
 msgstr ""
 
-#: max-mate-welcome:2250
+#: max-mate-welcome:2251
 msgid "Your partition layout is not currently supported by this tool."
 msgstr ""
 
-#: max-mate-welcome:2252
+#: max-mate-welcome:2253
 msgid "is not the last partition."
 msgstr ""
 
-#: max-mate-welcome:2254
+#: max-mate-welcome:2255
 msgid "Failed to run resize script."
 msgstr ""
 
-#: max-mate-welcome:2254
+#: max-mate-welcome:2255
 msgid "The returned error code is:"
 msgstr ""
 
-#: max-mate-welcome:2479
+#: max-mate-welcome:2480
 msgid "Open Source"
 msgstr ""
 
-#: max-mate-welcome:2481
+#: max-mate-welcome:2482
 msgid "Proprietary"
 msgstr ""
 
-#: max-mate-welcome:2600
+#: max-mate-welcome:2601
 msgid ""
 "Sorry, Welcome could not feature any software for this category that is "
 "compatible on this system."
 msgstr ""
 
-#: max-mate-welcome:2825
+#: max-mate-welcome:2826
 msgid ""
 "An error occurred while launching PROGRAM_NAME. Please consider re-"
 "installing the application."
 msgstr ""
 
-#: max-mate-welcome:2826
+#: max-mate-welcome:2827
 msgid "Command:"
 msgstr ""
 
-#: max-mate-welcome:2908
+#: max-mate-welcome:2909
 msgid "Uses a new or updated source."
 msgstr ""
 
-#: max-mate-welcome:2910
+#: max-mate-welcome:2911
 msgid "Now works for various versions of Ubuntu."
 msgstr ""
 
-#: max-mate-welcome:2912
+#: max-mate-welcome:2913
 msgid "Now a snappy package."
 msgstr ""
 
-#: max-mate-welcome:2914
+#: max-mate-welcome:2915
 msgid "General maintenance."
 msgstr ""
 
-#: max-mate-welcome:2916
+#: max-mate-welcome:2917
 msgid "Broken or problematic source."
 msgstr ""
 
-#: max-mate-welcome:2918
+#: max-mate-welcome:2919
 msgid "Not yet available for some releases."
 msgstr ""
 
-#: max-mate-welcome:2920
+#: max-mate-welcome:2921
 msgid "No longer works for some releases."
 msgstr ""
 
-#: max-mate-welcome:2922
+#: max-mate-welcome:2923
 msgid "Not suitable for production machines."
 msgstr ""
 
-#: max-mate-welcome:2924
+#: max-mate-welcome:2925
 msgid "Requires further testing."
 msgstr ""
 
-#: max-mate-welcome:2926
+#: max-mate-welcome:2927
 msgid "Does not meet our standards to be featured."
 msgstr ""
 
-#: max-mate-welcome:3100
+#: max-mate-welcome:3101
 msgid "applications found."
 msgstr ""
 
-#: max-mate-welcome:3104
+#: max-mate-welcome:3105
 msgid "proprietary applications are hidden."
 msgstr ""
 
-#: max-mate-welcome:3107
+#: max-mate-welcome:3108
 msgid "Software Sources"
 msgstr ""
