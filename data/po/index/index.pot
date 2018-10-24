@@ -59,38 +59,38 @@ msgstr ""
 msgid "Software"
 msgstr ""
 
-#: index.html:59
+#: index.html:60
 msgid "Shop"
 msgstr ""
 
-#: index.html:60
+#: index.html:61
 msgid "Donate"
 msgstr ""
 
-#: index.html:68
+#: index.html:69
 msgid "Community"
 msgstr ""
 
-#: index.html:69
+#: index.html:70
 msgid "Chat Room"
 msgstr ""
 
-#: index.html:70
+#: index.html:71
 msgid "Install Now"
 msgstr ""
 
-#: index.html:75
+#: index.html:76
 msgid "Browser Selection"
 msgstr ""
 
-#: index.html:77
+#: index.html:78
 msgid "Desktop Layout"
 msgstr ""
 
-#: index.html:81
+#: index.html:82
 msgid "Raspberry Pi Information"
 msgstr ""
 
-#: index.html:94
+#: index.html:95
 msgid "Open Welcome when I log on."
 msgstr ""

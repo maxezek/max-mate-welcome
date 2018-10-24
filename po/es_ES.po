@@ -8,22 +8,24 @@
 # Robert Orzanna <robert@orzanna.de>, 2017
 # Simeon Ivanov <smstiv@gmail.com>, 2016
 # Neverest <happytoast27@gmail.com>, 2016
+# Mario Izquierdo <marioizquierdo@gmail.com>, 2018.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubuntu MATE Welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-12 10:48+0200\n"
-"PO-Revision-Date: 2018-04-23 09:22+0000\n"
-"Last-Translator: Leo Arias <yo@elopio.net>\n"
-"Language-Team: Spanish (Spain) (http://www.transifex.com/ubuntu-mate/ubuntu-"
-"mate-welcome/language/es_ES/)\n"
+"POT-Creation-Date: 2018-10-24 08:20+0200\n"
+"PO-Revision-Date: 2018-10-24 08:17+0200\n"
+"Last-Translator: Mario Izquierdo <marioizquierdo@gmail.com>\n"
+"Language-Team: Spanish <>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
-#: max-mate-welcome:88
+#: max-mate-welcome:89
 msgid ""
 "Software changes are in progress. Please allow them to complete before "
 "closing Welcome."
@@ -31,497 +33,502 @@ msgstr ""
 "Aplicando cambios en el software. Por favor, espera a que finalicen antes de "
 "cerrar la Bienvenida."
 
-#: max-mate-welcome:89 max-mate-welcome:2750
+#: max-mate-welcome:90 max-mate-welcome:2824
 msgid "OK"
 msgstr "Aceptar"
 
-#: max-mate-welcome:174 max-mate-welcome:184
+#: max-mate-welcome:175 max-mate-welcome:185
 msgid "Successfully performed fix."
 msgstr "Corrección ejecutada exitosamente."
 
-#: max-mate-welcome:174
+#: max-mate-welcome:175
 msgid "Any previously incomplete installations have been finished."
 msgstr "Fue finalizada una instalación previa incompleta."
 
-#: max-mate-welcome:177 max-mate-welcome:187
+#: max-mate-welcome:178 max-mate-welcome:188
 msgid "Failed to perform fix."
 msgstr "Error al ejecutar corrección."
 
-#: max-mate-welcome:177
+#: max-mate-welcome:178
 msgid "Errors occurred while finishing an incomplete installation."
 msgstr "Ocurrieron errores mientras se finalizaba una instalación incompleta."
 
-#: max-mate-welcome:184
+#: max-mate-welcome:185
 msgid "Packages with broken dependencies have been resolved."
 msgstr "Se resolvieron las dependencias rotas de los paquetes."
 
-#: max-mate-welcome:187
+#: max-mate-welcome:188
 msgid "Packages may still have broken dependencies."
 msgstr "Algunos paquetes pueden tener dependencias rotas."
 
-#: max-mate-welcome:196
+#: max-mate-welcome:197
 msgid "Successfully updated cache."
 msgstr "Cache actualizado exitosamente."
 
-#: max-mate-welcome:196
+#: max-mate-welcome:197
 msgid "Software is now ready to install."
 msgstr "El software está listo para ser instalado."
 
-#: max-mate-welcome:199
+#: max-mate-welcome:200
 msgid "Failed to update cache."
 msgstr "Error al actualizar caché."
 
-#: max-mate-welcome:199
+#: max-mate-welcome:200
 msgid "There may be a problem with your repository configuration."
 msgstr "Puede haber un problema con su configuración de repositorio."
 
-#: max-mate-welcome:255
+#: max-mate-welcome:256
 msgid "Welcome will stay up-to-date."
 msgstr "Bienvenida va a estar siempre actualizado."
 
-#: max-mate-welcome:256
+#: max-mate-welcome:257
 msgid ""
 "Welcome and the Software Boutique are set to receive the latest updates."
 msgstr ""
 "Bienvenida y la Boutique de software están configurados para recibir las "
 "últimas actualizaciones."
 
-#: max-mate-welcome:262
+#: max-mate-welcome:263
 msgid "Everything is up-to-date"
 msgstr "Todo está actualizado"
 
-#: max-mate-welcome:263
+#: max-mate-welcome:264
 msgid "All packages have been upgraded to the latest versions."
 msgstr "Todos los paquetes han sido actualizados a sus últimas versiones."
 
-#: max-mate-welcome:268 max-mate-welcome:3311
+#: max-mate-welcome:269 max-mate-welcome:3385
 msgid "Installed"
 msgstr "Instalado"
 
-#: max-mate-welcome:269 max-mate-welcome:3311
+#: max-mate-welcome:270 max-mate-welcome:3385
 msgid "The application is now ready to use."
 msgstr "La aplicación ya está lista para usar."
 
-#: max-mate-welcome:271
+#: max-mate-welcome:272
 msgid "was not installed."
 msgstr "no fue instalado."
 
-#: max-mate-welcome:272 max-mate-welcome:282
+#: max-mate-welcome:273 max-mate-welcome:283
 msgid "The operation was cancelled."
 msgstr "La operaciòn fue cancelada."
 
-#: max-mate-welcome:274 max-mate-welcome:3315
+#: max-mate-welcome:275 max-mate-welcome:3389
 msgid "failed to install"
 msgstr "falló al instalar"
 
-#: max-mate-welcome:275 max-mate-welcome:3315
+#: max-mate-welcome:276 max-mate-welcome:3389
 msgid "There was a problem installing this application."
 msgstr "Hubo un problema al instalar esta aplicación."
 
-#: max-mate-welcome:278 max-mate-welcome:833 max-mate-welcome:3320
+#: max-mate-welcome:279 max-mate-welcome:849 max-mate-welcome:3394
 msgid "Removed"
 msgstr "Eliminado"
 
-#: max-mate-welcome:279 max-mate-welcome:3320
+#: max-mate-welcome:280 max-mate-welcome:3394
 msgid "The application has been uninstalled."
 msgstr "La aplicaciòn ha sido desinstalada."
 
-#: max-mate-welcome:281
+#: max-mate-welcome:282
 msgid "was not removed."
 msgstr "no fue eliminado."
 
-#: max-mate-welcome:284 max-mate-welcome:3324
+#: max-mate-welcome:285 max-mate-welcome:3398
 msgid "failed to remove"
 msgstr "error al eliminar"
 
-#: max-mate-welcome:285 max-mate-welcome:3324
+#: max-mate-welcome:286 max-mate-welcome:3398
 msgid "A problem is preventing this application from being removed."
 msgstr "Un problema esta impidiendo eliminar esta aplicación."
 
-#: max-mate-welcome:288
+#: max-mate-welcome:289
 msgid "Upgraded"
 msgstr "Actualizado"
 
-#: max-mate-welcome:289
+#: max-mate-welcome:290
 msgid "This application is set to use the latest version."
 msgstr "Esta aplicación está configurada para utilizar la última versión."
 
-#: max-mate-welcome:291
+#: max-mate-welcome:292
 msgid "was not upgraded."
 msgstr "no fue actualizada."
 
-#: max-mate-welcome:292
+#: max-mate-welcome:293
 msgid "The application will continue to use the stable version."
 msgstr "Esta aplicación va a continuar usando la versión estable."
 
-#: max-mate-welcome:294
+#: max-mate-welcome:295
 msgid "failed to upgrade"
 msgstr "falló al actualizar"
 
-#: max-mate-welcome:295
+#: max-mate-welcome:296
 msgid "A problem is preventing this application from being upgraded."
 msgstr "Un problema está impidiendo actualizar esta aplicación."
 
-#: max-mate-welcome:464
+#: max-mate-welcome:465
 msgid "Blu-ray AACS database install succeeded"
 msgstr "La instalación de la base de datos de Blu-Ray AACS ha finalizado"
 
-#: max-mate-welcome:465
+#: max-mate-welcome:466
 msgid "Successfully installed the Blu-ray AACS database."
 msgstr ""
 "Se finalizó con éxito la instalación de la base de datos de Blu-Ray AACS."
 
-#: max-mate-welcome:465
+#: max-mate-welcome:466
 msgid "Installation of the Blu-ray AACS database was successful."
 msgstr ""
 "La instalación de la base de datos de Blu-Ray AACS se completó con éxito."
 
-#: max-mate-welcome:468
+#: max-mate-welcome:469
 msgid "Blu-ray AACS database install failed"
 msgstr "La instalación de la base de datos de Blu-Ray AACS ha fallado"
 
-#: max-mate-welcome:469
+#: max-mate-welcome:470
 msgid "Failed to install the Blu-ray AACS database."
 msgstr "Ha fallado la instalación de la base de datos de Blu-Ray AACS."
 
-#: max-mate-welcome:469
+#: max-mate-welcome:470
 msgid "Installation of the Blu-ray AACS database failed."
 msgstr "La instalación de la base de datos de Blu-Ray AACS ha fallado."
 
-#: max-mate-welcome:766
+#: max-mate-welcome:781
 msgid "Welcome"
 msgstr "Bienvenido"
 
-#: max-mate-welcome:767
+#: max-mate-welcome:782
 msgid "Software Boutique"
 msgstr "Boutique de Software"
 
-#: max-mate-welcome:768
+#: max-mate-welcome:783
 msgid "Close"
 msgstr "Cerrar"
 
-#: max-mate-welcome:769
+#: max-mate-welcome:784
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: max-mate-welcome:772
+#: max-mate-welcome:787
 msgid "Set to retrieve the latest software listings."
 msgstr "Recuperar las últimas listas de software."
 
-#: max-mate-welcome:773
+#: max-mate-welcome:788
 msgid "Retrieve the latest software listings."
 msgstr "Recupera las últimas listas de software."
 
-#: max-mate-welcome:774
+#: max-mate-welcome:789
 msgid "Please wait while the application is being updated..."
 msgstr "Por favor espere mientras la aplicación se está actualizando ..."
 
-#: max-mate-welcome:775
+#: max-mate-welcome:790
 msgid "Version:"
 msgstr "Versión:"
 
-#: max-mate-welcome:778
+#: max-mate-welcome:793
 msgid "This application is set to receive the latest updates."
 msgstr ""
 "Esta aplicación está configurada para recibir las últimas actualizaciones."
 
-#: max-mate-welcome:779
+#: max-mate-welcome:794
 msgid "Alternative to:"
 msgstr "Alternativo a:"
 
-#: max-mate-welcome:780
+#: max-mate-welcome:795
 msgid "Hide"
 msgstr "Esconder"
 
-#: max-mate-welcome:781
+#: max-mate-welcome:796
 msgid "Details"
 msgstr "Detalles"
 
-#: max-mate-welcome:782
+#: max-mate-welcome:797
 msgid "Install"
 msgstr "Instalar"
 
-#: max-mate-welcome:783
+#: max-mate-welcome:798
 msgid "Reinstall"
 msgstr "Reinstalar"
 
-#: max-mate-welcome:784
+#: max-mate-welcome:799
 msgid "Remove"
 msgstr "Eliminar"
 
-#: max-mate-welcome:785
+#: max-mate-welcome:800
 msgid "Upgrade"
 msgstr "Actualizar"
 
-#: max-mate-welcome:786
+#: max-mate-welcome:801
 msgid "Launch"
 msgstr "Lanzar"
 
-#: max-mate-welcome:787
+#: max-mate-welcome:802
 msgid "License"
 msgstr "Licencia"
 
-#: max-mate-welcome:788
+#: max-mate-welcome:803
 msgid "Platform"
 msgstr "Plataforma"
 
-#: max-mate-welcome:789
+#: max-mate-welcome:804
 msgid "Category"
 msgstr "Categoria"
 
-#: max-mate-welcome:790
+#: max-mate-welcome:805
 msgid "Website"
 msgstr "Sitio Web"
 
-#: max-mate-welcome:791
+#: max-mate-welcome:806
 msgid "Screenshot"
 msgstr "Captura de pantalla"
 
-#: max-mate-welcome:792 max-mate-welcome:804
+#: max-mate-welcome:807 max-mate-welcome:820
 msgid "Source"
 msgstr "Fuente"
 
-#: max-mate-welcome:793
+#: max-mate-welcome:808
 msgid "Ubuntu Repository"
 msgstr "Repositorio Ubuntu"
 
-#: max-mate-welcome:794
+#: max-mate-welcome:809
+#, fuzzy
+msgid "MAX Repository"
+msgstr "Repositorio Ubuntu"
+
+#: max-mate-welcome:810
 msgid "Ubuntu Community Maintained Repository"
 msgstr "Ubuntu Comunidad repositorio"
 
-#: max-mate-welcome:795
+#: max-mate-welcome:811
 msgid "Ubuntu Proprietary Drivers Repository"
 msgstr "Repositorio de controladores propietarios de Ubuntu"
 
-#: max-mate-welcome:796
+#: max-mate-welcome:812
 msgid "Ubuntu Non-Free Repository"
 msgstr "Ubuntu Repositorio No Libre"
 
-#: max-mate-welcome:797
+#: max-mate-welcome:813
 msgid "Canonical Partner Repository"
 msgstr "Repositorio Socios de Canonical"
 
-#: max-mate-welcome:798
+#: max-mate-welcome:814
 msgid "Unknown"
 msgstr "Desconocido"
 
-#: max-mate-welcome:799
+#: max-mate-welcome:815
 msgid "Undo Changes"
 msgstr "Deshacer cambios"
 
-#: max-mate-welcome:802
+#: max-mate-welcome:818
 msgid "External Repository"
 msgstr "Repositorio externo"
 
-#: max-mate-welcome:803
+#: max-mate-welcome:819
 msgid "Software"
 msgstr "Software"
 
-#: max-mate-welcome:807
+#: max-mate-welcome:823
 msgid "Installing..."
 msgstr "Instalando..."
 
-#: max-mate-welcome:808
+#: max-mate-welcome:824
 msgid "Removing..."
 msgstr "Borrando..."
 
-#: max-mate-welcome:809
+#: max-mate-welcome:825
 msgid "Upgrading..."
 msgstr "Actualizando..."
 
-#: max-mate-welcome:812
+#: max-mate-welcome:828
 msgid "Accessories"
 msgstr "Accesorios"
 
-#: max-mate-welcome:813
+#: max-mate-welcome:829
 msgid "Education"
 msgstr "Educación"
 
-#: max-mate-welcome:814
+#: max-mate-welcome:830
 msgid "Games"
 msgstr "Juegos"
 
-#: max-mate-welcome:815
+#: max-mate-welcome:831
 msgid "Graphics"
 msgstr "Gráficos"
 
-#: max-mate-welcome:816
+#: max-mate-welcome:832
 msgid "Internet"
 msgstr "Internet"
 
-#: max-mate-welcome:817
+#: max-mate-welcome:833
 msgid "Office"
 msgstr "Oficina"
 
-#: max-mate-welcome:818
+#: max-mate-welcome:834
 msgid "Programming"
 msgstr "Desarrollo"
 
-#: max-mate-welcome:819
+#: max-mate-welcome:835
 msgid "Sound & Video"
 msgstr "Sonido y Vídeo"
 
-#: max-mate-welcome:820
+#: max-mate-welcome:836
 msgid "System Tools"
 msgstr "Herramientas de Sistema."
 
-#: max-mate-welcome:821
+#: max-mate-welcome:837
 msgid "Universal Access"
 msgstr "Acceso Universal"
 
-#: max-mate-welcome:822
+#: max-mate-welcome:838
 msgid "Server One-Click Installation"
 msgstr "Instalación de un-clic de Servidor"
 
-#: max-mate-welcome:823
+#: max-mate-welcome:839
 msgid "Miscellaneous"
 msgstr "Miscelánea"
 
-#: max-mate-welcome:826
+#: max-mate-welcome:842
 msgid "Search"
 msgstr "Buscar"
 
-#: max-mate-welcome:827
+#: max-mate-welcome:843
 msgid "Please enter a keyword to begin."
 msgstr "Por favor ingrese una palabra clave para empezar."
 
-#: max-mate-welcome:828
+#: max-mate-welcome:844
 msgid "Please enter at least 3 characters."
 msgstr "Por favor ingrese al menos 3 caracteres."
 
-#: max-mate-welcome:831
+#: max-mate-welcome:847
 msgid "Added"
 msgstr "Agregado"
 
-#: max-mate-welcome:832
+#: max-mate-welcome:848
 msgid "Fixed"
 msgstr "Corregido"
 
-#: max-mate-welcome:836
+#: max-mate-welcome:852
 msgid "Queued for installation."
 msgstr "En cola para instalación."
 
-#: max-mate-welcome:837
+#: max-mate-welcome:853
 msgid "Queued for removal."
 msgstr "En cola para eliminación."
 
-#: max-mate-welcome:838
+#: max-mate-welcome:854
 msgid "Preparing to remove:"
 msgstr "Preparando para eliminar:"
 
-#: max-mate-welcome:839
+#: max-mate-welcome:855
 msgid "Preparing to install:"
 msgstr "Preparando para instalar:"
 
-#: max-mate-welcome:840
+#: max-mate-welcome:856
 msgid "Removing:"
 msgstr "Eliminando:"
 
-#: max-mate-welcome:841
+#: max-mate-welcome:857
 msgid "Installing:"
 msgstr "Instalando:"
 
-#: max-mate-welcome:842
+#: max-mate-welcome:858
 msgid "Updating cache..."
 msgstr "Actualizando cache..."
 
-#: max-mate-welcome:843
+#: max-mate-welcome:859
 msgid "Verifying software changes..."
 msgstr "Verificando cambios de software..."
 
-#: max-mate-welcome:844
+#: max-mate-welcome:860
 msgid "Successfully Installed"
 msgstr "Instalado exitosamente"
 
-#: max-mate-welcome:845
+#: max-mate-welcome:861
 msgid "Failed to Install"
 msgstr "Fallo al instalar"
 
-#: max-mate-welcome:846
+#: max-mate-welcome:862
 msgid "Successfully Removed"
 msgstr "Eliminado exitosamente"
 
-#: max-mate-welcome:847
+#: max-mate-welcome:863
 msgid "Failed to Remove"
 msgstr "Fallo al eliminar"
 
-#: max-mate-welcome:848
+#: max-mate-welcome:864
 msgid "To be installed"
 msgstr "A instalar"
 
-#: max-mate-welcome:849
+#: max-mate-welcome:865
 msgid "To be removed"
 msgstr "A eliminar"
 
-#: max-mate-welcome:909
+#: max-mate-welcome:952
 msgid "Scroll Up"
 msgstr "Desplazarse hacia arriba"
 
-#: max-mate-welcome:1033
+#: max-mate-welcome:1077
 msgid "Installation Guide"
 msgstr "Guía de instalación"
 
-#: max-mate-welcome:1077
+#: max-mate-welcome:1121
 msgid "Servers"
 msgstr "Servidores"
 
-#: max-mate-welcome:1139
+#: max-mate-welcome:1183
 msgid "Jan"
 msgstr "Ene"
 
-#: max-mate-welcome:1140
+#: max-mate-welcome:1184
 msgid "Feb"
 msgstr "Feb"
 
-#: max-mate-welcome:1141
+#: max-mate-welcome:1185
 msgid "Mar"
 msgstr "Mar"
 
-#: max-mate-welcome:1142
+#: max-mate-welcome:1186
 msgid "Apr"
 msgstr "Abr"
 
-#: max-mate-welcome:1143
+#: max-mate-welcome:1187
 msgid "May"
 msgstr "May"
 
-#: max-mate-welcome:1144
+#: max-mate-welcome:1188
 msgid "Jun"
 msgstr "Jun"
 
-#: max-mate-welcome:1145
+#: max-mate-welcome:1189
 msgid "Jul"
 msgstr "Jul"
 
-#: max-mate-welcome:1146
+#: max-mate-welcome:1190
 msgid "Aug"
 msgstr "Aug"
 
-#: max-mate-welcome:1147
+#: max-mate-welcome:1191
 msgid "Sep"
 msgstr "Sep"
 
-#: max-mate-welcome:1148
+#: max-mate-welcome:1192
 msgid "Oct"
 msgstr "Oct"
 
-#: max-mate-welcome:1149
+#: max-mate-welcome:1193
 msgid "Nov"
 msgstr "Nov"
 
-#: max-mate-welcome:1150
+#: max-mate-welcome:1194
 msgid "Dec"
 msgstr "Dec"
 
-#: max-mate-welcome:1163
+#: max-mate-welcome:1207
 msgid "Unsupported Distribution"
 msgstr "Distribución no admitida"
 
-#: max-mate-welcome:1164
+#: max-mate-welcome:1208
 msgid "Your mileage may wary."
 msgstr "Su experiencia puede ser diferente."
 
-#: max-mate-welcome:1165
+#: max-mate-welcome:1209
 msgid ""
 "Software Boutique is designed for Ubuntu MATE, but it appears you are "
 "running a different distribution."
@@ -529,7 +536,7 @@ msgstr ""
 "Software Boutique está diseñado para Ubuntu MATE, pero parece que está "
 "ejecutando una distribución diferente."
 
-#: max-mate-welcome:1166
+#: max-mate-welcome:1210
 msgid ""
 "While a large selection of software will work on other Ubuntu-based "
 "distributions, we cannot guarantee our featured picks will work flawlessly "
@@ -539,93 +546,93 @@ msgstr ""
 "basadas en Ubuntu, no podemos garantizar que nuestras selecciones funcionen "
 "perfectamente en su sistema."
 
-#: max-mate-welcome:1169
+#: max-mate-welcome:1213
 msgid "This message will not be shown again."
 msgstr "Este mensaje no se mostrará de nuevo."
 
-#: max-mate-welcome:1183
+#: max-mate-welcome:1227
 msgid "Continue"
 msgstr "Continuar"
 
-#: max-mate-welcome:1491
-msgid "Ubuntu MATE Website"
-msgstr "Sitio web de Ubuntu MATE"
+#: max-mate-welcome:1542
+msgid "MAdrid_linuX Website"
+msgstr "Sitio web MAdrid_linuX"
 
-#: max-mate-welcome:1496
-msgid "Donate to Ubuntu MATE"
-msgstr "Hacer una donación a Ubuntu MATE"
+#: max-mate-welcome:1544
+msgid "Educamadrid"
+msgstr "Educamadrid"
 
-#: max-mate-welcome:1862
+#: max-mate-welcome:1919
 msgid "MB"
 msgstr "MB"
 
-#: max-mate-welcome:1863
+#: max-mate-welcome:1920
 msgid "MiB"
 msgstr "MiB"
 
-#: max-mate-welcome:1864
+#: max-mate-welcome:1921
 msgid "GB"
 msgstr "GB"
 
-#: max-mate-welcome:1865
+#: max-mate-welcome:1922
 msgid "GiB"
 msgstr "GiB"
 
-#: max-mate-welcome:1873
+#: max-mate-welcome:1930
 msgid "Could not gather data."
 msgstr "No se ha podido reunir los datos."
 
-#: max-mate-welcome:2166
+#: max-mate-welcome:2223
 msgid "Raspberry Pi Partition Resize"
 msgstr "Cambio del tamaño de la partición en la Raspberry Pi"
 
-#: max-mate-welcome:2183
+#: max-mate-welcome:2240
 msgid "Root partition has been resized."
 msgstr "La partición raíz ha sido redimensionada."
 
-#: max-mate-welcome:2183
+#: max-mate-welcome:2240
 msgid "The filesystem will be enlarged upon the next reboot."
 msgstr "El sistema de archivos se ampliará en el siguiente reinicio."
 
-#: max-mate-welcome:2189 max-mate-welcome:2191 max-mate-welcome:2193
-#: max-mate-welcome:2195
+#: max-mate-welcome:2246 max-mate-welcome:2248 max-mate-welcome:2250
+#: max-mate-welcome:2252
 msgid "Don't know how to expand."
 msgstr "No sé cómo se amplia."
 
-#: max-mate-welcome:2189
+#: max-mate-welcome:2246
 msgid "does not exist or is not a symlink."
 msgstr "no existe o no es un enlace simbólico."
 
-#: max-mate-welcome:2191
+#: max-mate-welcome:2248
 msgid "is not an SD card."
 msgstr "No es una tarjeta SD."
 
-#: max-mate-welcome:2193
+#: max-mate-welcome:2250
 msgid "Your partition layout is not currently supported by this tool."
 msgstr ""
 "La tabla de particiones no es compatible actualmente con esta herramienta."
 
-#: max-mate-welcome:2195
+#: max-mate-welcome:2252
 msgid "is not the last partition."
 msgstr "no es la última partición."
 
-#: max-mate-welcome:2197
+#: max-mate-welcome:2254
 msgid "Failed to run resize script."
 msgstr "Error al ejecutar el archivo de comandos de redimensionamiento."
 
-#: max-mate-welcome:2197
+#: max-mate-welcome:2254
 msgid "The returned error code is:"
 msgstr "El código de error retornado es:"
 
-#: max-mate-welcome:2420
+#: max-mate-welcome:2479
 msgid "Open Source"
 msgstr "Código Abierto"
 
-#: max-mate-welcome:2422
+#: max-mate-welcome:2481
 msgid "Proprietary"
 msgstr "Propietario"
 
-#: max-mate-welcome:2538
+#: max-mate-welcome:2600
 msgid ""
 "Sorry, Welcome could not feature any software for this category that is "
 "compatible on this system."
@@ -633,7 +640,7 @@ msgstr ""
 "Lo sentimos, Bienvenida no puede ejecutar ningún software de esta categoría "
 "que sea compatible con el sistema."
 
-#: max-mate-welcome:2751
+#: max-mate-welcome:2825
 msgid ""
 "An error occurred while launching PROGRAM_NAME. Please consider re-"
 "installing the application."
@@ -641,61 +648,67 @@ msgstr ""
 "Se ha producido un error al lanzar PROGRAM_NAME. Por favor, considere volver "
 "a instalar la aplicación."
 
-#: max-mate-welcome:2752
+#: max-mate-welcome:2826
 msgid "Command:"
 msgstr "Comando:"
 
-#: max-mate-welcome:2834
+#: max-mate-welcome:2908
 msgid "Uses a new or updated source."
 msgstr "Usa una fuente nueva o actualizada."
 
-#: max-mate-welcome:2836
+#: max-mate-welcome:2910
 msgid "Now works for various versions of Ubuntu."
 msgstr "Ahora funciona para varias versiones de Ubuntu."
 
-#: max-mate-welcome:2838
+#: max-mate-welcome:2912
 msgid "Now a snappy package."
 msgstr "Ahora es un paquete snappy."
 
-#: max-mate-welcome:2840
+#: max-mate-welcome:2914
 msgid "General maintenance."
 msgstr "Mantenimiento general."
 
-#: max-mate-welcome:2842
+#: max-mate-welcome:2916
 msgid "Broken or problematic source."
 msgstr "Fuente rota o problemática."
 
-#: max-mate-welcome:2844
+#: max-mate-welcome:2918
 msgid "Not yet available for some releases."
 msgstr "Aún no disponible para algunas versiones."
 
-#: max-mate-welcome:2846
+#: max-mate-welcome:2920
 msgid "No longer works for some releases."
 msgstr "Ya no funciona para algunas versiones."
 
-#: max-mate-welcome:2848
+#: max-mate-welcome:2922
 msgid "Not suitable for production machines."
 msgstr "No recomendado para equipos de producción."
 
-#: max-mate-welcome:2850
+#: max-mate-welcome:2924
 msgid "Requires further testing."
 msgstr "Necesita más pruebas."
 
-#: max-mate-welcome:2852
+#: max-mate-welcome:2926
 msgid "Does not meet our standards to be featured."
 msgstr "No alcanza nuestros estándares para ser promocionado."
 
-#: max-mate-welcome:3026
+#: max-mate-welcome:3100
 msgid "applications found."
 msgstr "aplicaciones encontradas."
 
-#: max-mate-welcome:3030
+#: max-mate-welcome:3104
 msgid "proprietary applications are hidden."
 msgstr "aplicaciones propietarias están ocultas."
 
-#: max-mate-welcome:3033
+#: max-mate-welcome:3107
 msgid "Software Sources"
 msgstr "Fuentes de Software"
+
+#~ msgid "Ubuntu MATE Website"
+#~ msgstr "Sitio web de Ubuntu MATE"
+
+#~ msgid "Donate to Ubuntu MATE"
+#~ msgstr "Hacer una donación a Ubuntu MATE"
 
 #~ msgid "Thank you!"
 #~ msgstr "¡Gracias!"

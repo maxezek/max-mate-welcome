@@ -69,38 +69,38 @@ msgstr "Participa"
 msgid "Software"
 msgstr "Software"
 
-#: index.html:59
+#: index.html:60
 msgid "Shop"
 msgstr "Tienda"
 
-#: index.html:60
+#: index.html:61
 msgid "Donate"
 msgstr "Donar"
 
-#: index.html:68
+#: index.html:69
 msgid "Community"
 msgstr "Comunidad"
 
-#: index.html:69
+#: index.html:70
 msgid "Chat Room"
 msgstr "Sala de Chat"
 
-#: index.html:70
+#: index.html:71
 msgid "Install Now"
 msgstr "Instalar Ahora"
 
-#: index.html:75
+#: index.html:76
 msgid "Browser Selection"
-msgstr ""
+msgstr "Selección de navegador"
 
-#: index.html:77
+#: index.html:78
 msgid "Desktop Layout"
-msgstr ""
+msgstr "Interfaz escritorio"
 
-#: index.html:81
+#: index.html:82
 msgid "Raspberry Pi Information"
 msgstr "Información sobre Raspberry Pi"
 
-#: index.html:94
+#: index.html:95
 msgid "Open Welcome when I log on."
 msgstr "Abrir Bienvenida cuando inicio sesión"

@@ -11,10 +11,6 @@ msgstr ""
 "Language-Team:: LANGUAGE <LL@li.org>\n"
 "Report-Msgid-Bugs-To : you@example.com\n"
 
-#: software.html:18
-msgid "Software"
-msgstr ""
-
 #: software.html:20, 20
 msgid "Bulk Queue"
 msgstr ""
@@ -27,55 +23,55 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: software.html:23, 23, 347
+#: software.html:23, 23, 358
 msgid "Boutique News"
 msgstr ""
 
-#: software.html:24, 24, 378, 470
+#: software.html:24, 24, 389, 481
 msgid "Preferences"
 msgstr ""
 
-#: software.html:31, 31, 142
+#: software.html:31, 31, 143
 msgid "Accessories"
 msgstr ""
 
-#: software.html:32, 32, 155
+#: software.html:32, 32, 156
 msgid "Education"
 msgstr ""
 
-#: software.html:33, 33, 168
+#: software.html:33, 33, 169
 msgid "Games"
 msgstr ""
 
-#: software.html:34, 34, 181
+#: software.html:34, 34, 182
 msgid "Graphics"
 msgstr ""
 
-#: software.html:35, 35, 194
+#: software.html:35, 35, 195
 msgid "Internet"
 msgstr ""
 
-#: software.html:36, 36, 207
+#: software.html:36, 36, 208
 msgid "Office"
 msgstr ""
 
-#: software.html:37, 37, 220
+#: software.html:37, 37, 221
 msgid "Programming"
 msgstr ""
 
-#: software.html:38, 38, 233
+#: software.html:38, 38, 234
 msgid "Sound & Video"
 msgstr ""
 
-#: software.html:39, 39, 246
+#: software.html:39, 39, 247
 msgid "System Tools"
 msgstr ""
 
-#: software.html:40, 40, 259
+#: software.html:40, 40, 260
 msgid "Universal Access"
 msgstr ""
 
-#: software.html:41, 41, 269
+#: software.html:41, 41, 270
 msgid "Servers"
 msgstr ""
 
@@ -87,15 +83,15 @@ msgstr ""
 msgid "Fixes"
 msgstr ""
 
-#: software.html:48
-msgid "Stocking the Boutique..."
+#: software.html:44, 44, 291
+msgid "Science"
 msgstr ""
 
-#: software.html:57
-msgid "Software Boutique"
+#: software.html:49
+msgid "Loading +Apps..."
 msgstr ""
 
-#: software.html:58
+#: software.html:59
 msgid ""
 "There is an abundance of software available for Ubuntu MATE and some people "
 "find that choice overwhelming. The Boutique is a carefully curated selection"
@@ -104,303 +100,303 @@ msgid ""
 "experience."
 msgstr ""
 
-#: software.html:65
+#: software.html:66
 msgid "If you can't find what you're looking for, install one of the"
 msgstr ""
 
-#: software.html:66, 364
+#: software.html:67, 375
 msgid "Get More Apps"
 msgstr ""
 
-#: software.html:67
+#: software.html:68
 msgid "software centers"
 msgstr ""
 
-#: software.html:68
+#: software.html:69
 msgid "to explore the complete Ubuntu software catalog."
 msgstr ""
 
-#: software.html:72
+#: software.html:73
 msgid "More Apps Await."
 msgstr ""
 
-#: software.html:73
+#: software.html:74
 msgid ""
 "Connect your computer to the Internet to explore a wide selection of "
 "applications for Ubuntu MATE."
 msgstr ""
 
-#: software.html:75
+#: software.html:76
 msgid ""
 "Once online, you'll be able to download and install tried & tested software "
 "right here. Our picks ensure that the featured software integrates well on "
 "the Ubuntu MATE desktop."
 msgstr ""
 
-#: software.html:81
+#: software.html:82
 msgid ""
 "Sorry, Welcome could not establish a connection to the Ubuntu repository "
 "server. Please check your connection and try again."
 msgstr ""
 
-#: software.html:86
+#: software.html:87
 msgid "Retry Connection"
 msgstr ""
 
-#: software.html:89
+#: software.html:90
 msgid "Connection Troubleshooting"
 msgstr ""
 
-#: software.html:90
+#: software.html:91
 msgid "Connection Help"
 msgstr ""
 
-#: software.html:96
+#: software.html:97
 msgid "Get Connected."
 msgstr ""
 
-#: software.html:97
+#: software.html:98
 msgid ""
 "Here's a few things you can check, depending on the type of connection you "
 "have:"
 msgstr ""
 
-#: software.html:98
+#: software.html:99
 msgid "Wired Connection"
 msgstr ""
 
-#: software.html:100
+#: software.html:101
 msgid "Is the cable securely plugged in?"
 msgstr ""
 
-#: software.html:101
+#: software.html:102
 msgid ""
 "Is the router online and can other devices access the network? Try "
 "restarting the router."
 msgstr ""
 
-#: software.html:104
+#: software.html:105
 msgid "Wireless Connection"
 msgstr ""
 
-#: software.html:105
+#: software.html:106
 msgid "Have you entered the correct wireless password from the"
 msgstr ""
 
-#: software.html:105
+#: software.html:106
 msgid "network indicator"
 msgstr ""
 
-#: software.html:105
+#: software.html:106
 msgid "in the upper-right?"
 msgstr ""
 
-#: software.html:107
+#: software.html:108
 msgid "When disconnected, the applet looks like this:"
 msgstr ""
 
-#: software.html:109
+#: software.html:110
 msgid ""
 "Is there a physical switch that may have accidentally switched off wireless "
 "functionality?"
 msgstr ""
 
-#: software.html:111
+#: software.html:112
 msgid "Is there a soft (keyboard) switch that toggles it off?"
 msgstr ""
 
-#: software.html:113
+#: software.html:114
 msgid "You may need to hold the FN key while pressing the function key."
 msgstr ""
 
-#: software.html:114
+#: software.html:115
 msgid "Here's an example:"
 msgstr ""
 
-#: software.html:118
+#: software.html:119
 msgid "Not working at all or experiencing sluggish connections?"
 msgstr ""
 
-#: software.html:119
+#: software.html:120
 msgid ""
 "Sorry to hear that. You will need a temporary wired connection to install "
 "working drivers."
 msgstr ""
 
-#: software.html:121
+#: software.html:122
 msgid "The"
 msgstr ""
 
-#: software.html:121
+#: software.html:122
 msgid "Additional Drivers"
 msgstr ""
 
-#: software.html:121
+#: software.html:122
 msgid "tab may have them available for your system."
 msgstr ""
 
-#: software.html:122
+#: software.html:123
 msgid ""
 "Otherwise, you will need to manually install third party drivers for your "
 "hardware, or a download specific package containing the firmware. See"
 msgstr ""
 
-#: software.html:123
+#: software.html:124
 msgid "Drivers"
 msgstr ""
 
-#: software.html:123
+#: software.html:124
 msgid "in the"
 msgstr ""
 
-#: software.html:123
+#: software.html:124
 msgid "Getting Started"
 msgstr ""
 
-#: software.html:124
+#: software.html:125
 msgid "section for more details."
 msgstr ""
 
-#: software.html:125
+#: software.html:126
 msgid "Feel free to"
 msgstr ""
 
-#: software.html:125
+#: software.html:126
 msgid "ask the community"
 msgstr ""
 
-#: software.html:125
+#: software.html:126
 msgid "if you need assistance."
 msgstr ""
 
-#: software.html:129
+#: software.html:130
 msgid "Our Picks"
 msgstr ""
 
-#: software.html:130
+#: software.html:131
 msgid "OK"
 msgstr ""
 
-#: software.html:144, 157, 170, 183, 196, 209, 222, 235, 248
+#: software.html:145, 158, 171, 184, 197, 210, 223, 236, 249
 msgid "No Filter"
 msgstr ""
 
-#: software.html:146
+#: software.html:147
 msgid "Handy utilities for your computing needs."
 msgstr ""
 
-#: software.html:159
+#: software.html:160
 msgid "For study and children."
 msgstr ""
 
-#: software.html:172
+#: software.html:173
 msgid "A selection of 2D and 3D games for your enjoyment."
 msgstr ""
 
-#: software.html:185
+#: software.html:186
 msgid "For producing and editing works of art."
 msgstr ""
 
-#: software.html:198
+#: software.html:199
 msgid "For staying connected and enjoying the features of your own cloud."
 msgstr ""
 
-#: software.html:211
+#: software.html:212
 msgid "For more then just documents and spreadsheets."
 msgstr ""
 
-#: software.html:224
+#: software.html:225
 msgid "For the developers and system administrators out there."
 msgstr ""
 
-#: software.html:237
+#: software.html:238
 msgid "Multimedia software for listening and production."
 msgstr ""
 
-#: software.html:250
+#: software.html:251
 msgid "Software that makes the most out of your system resources."
 msgstr ""
 
-#: software.html:260
+#: software.html:261
 msgid "Software that makes your computer more accessible."
 msgstr ""
 
-#: software.html:270
+#: software.html:271
 msgid "One-click installations for serving the network."
 msgstr ""
 
-#: software.html:279
+#: software.html:280
 msgid "Discover More Software"
 msgstr ""
 
-#: software.html:280
+#: software.html:281
 msgid ""
 "Graphical interfaces to browse a wide selection of software available for "
 "your operating system."
 msgstr ""
 
-#: software.html:288
+#: software.html:299
 msgid "Miscellaneous Fixes"
 msgstr ""
 
-#: software.html:289
+#: software.html:300
 msgid ""
 "This section contains operations that can fix common problems should you "
 "encounter an error while upgrading or installing new software."
 msgstr ""
 
-#: software.html:296
+#: software.html:307
 msgid "Outdated Package Lists?"
 msgstr ""
 
-#: software.html:297
+#: software.html:308
 msgid "Your repository lists may be out of date, which can cause"
 msgstr ""
 
-#: software.html:297
+#: software.html:308
 msgid "Not Found"
 msgstr ""
 
-#: software.html:297
+#: software.html:308
 msgid "errors and"
 msgstr ""
 
-#: software.html:297
+#: software.html:308
 msgid "outdated version"
 msgstr ""
 
-#: software.html:298
+#: software.html:309
 msgid ""
 "information when trying to install new or newer versions of software. This "
 "is particularly the case when Ubuntu MATE connects online for the first time"
 " after installation."
 msgstr ""
 
-#: software.html:301
+#: software.html:312
 msgid "Update the repository lists:"
 msgstr ""
 
-#: software.html:305
+#: software.html:316
 msgid "Update Sources List"
 msgstr ""
 
-#: software.html:306
+#: software.html:317
 msgid "Upgrade Installed Packages"
 msgstr ""
 
-#: software.html:310
+#: software.html:321
 msgid "Broken Packages?"
 msgstr ""
 
-#: software.html:311
+#: software.html:322
 msgid "When a previous installation or removal was interrupted"
 msgstr ""
 
-#: software.html:312
+#: software.html:323
 msgid "(for instance, due to power failure or loss of Internet connection)"
 msgstr ""
 
-#: software.html:313
+#: software.html:324
 msgid ""
 "further software cannot be added or removed without properly re-configuring "
 "these broken packages. If necessary, you may need to also resolve "
@@ -408,218 +404,218 @@ msgid ""
 "run properly."
 msgstr ""
 
-#: software.html:319
+#: software.html:330
 msgid "Configure packages that were unpacked but not configured:"
 msgstr ""
 
-#: software.html:323
+#: software.html:334
 msgid "Download and install broken dependencies:"
 msgstr ""
 
-#: software.html:327
+#: software.html:338
 msgid "Configure Interrupted Packages"
 msgstr ""
 
-#: software.html:328
+#: software.html:339
 msgid "Resolve Broken Packages"
 msgstr ""
 
-#: software.html:332
+#: software.html:343
 msgid ""
 "In addition, listed below are terminal equivalent commands that otherwise "
 "appear in the"
 msgstr ""
 
-#: software.html:333
+#: software.html:344
 msgid "Software Updater"
 msgstr ""
 
-#: software.html:335
+#: software.html:346
 msgid "Upgrade all packages that have a new version available:"
 msgstr ""
 
-#: software.html:339
+#: software.html:350
 msgid "Upgrade to a new release of Ubuntu MATE:"
 msgstr ""
 
-#: software.html:348
+#: software.html:359
 msgid ""
 "Keeping you informed of the changes made to Ubuntu MATE's Software Boutique."
 msgstr ""
 
-#: software.html:353
+#: software.html:364
 msgid "Search for Applications"
 msgstr ""
 
-#: software.html:354
+#: software.html:365
 msgid "Enter a keyword to search the Software Boutique."
 msgstr ""
 
-#: software.html:356
+#: software.html:367
 msgid "Name of Application"
 msgstr ""
 
-#: software.html:361
+#: software.html:372
 msgid "No software matched your key words."
 msgstr ""
 
-#: software.html:363
+#: software.html:374
 msgid "The Boutique is just a collection of software."
 msgstr ""
 
-#: software.html:365
+#: software.html:376
 msgid "Install a software center"
 msgstr ""
 
-#: software.html:367
+#: software.html:378
 msgid "to explore the entire Ubuntu catalogue."
 msgstr ""
 
-#: software.html:370
+#: software.html:381
 msgid "Search again and include proprietary software."
 msgstr ""
 
-#: software.html:379
+#: software.html:390
 msgid "Fine-tune the Software Boutique to suit your preferred behaviors."
 msgstr ""
 
-#: software.html:384
+#: software.html:395
 msgid "Boutique Selection"
 msgstr ""
 
-#: software.html:386
+#: software.html:397
 msgid "Hide proprietary applications."
 msgstr ""
 
-#: software.html:392, 394
+#: software.html:403, 405
 msgid "Installation"
 msgstr ""
 
-#: software.html:397
+#: software.html:408
 msgid "Enable the Bulk Queue."
 msgstr ""
 
-#: software.html:398
+#: software.html:409
 msgid ""
 "Applications wait to be installed/removed, allowing you to continue "
 "browsing."
 msgstr ""
 
-#: software.html:404
+#: software.html:415
 msgid "Suppress Progress Dialog"
 msgstr ""
 
-#: software.html:405
+#: software.html:416
 msgid "Install/remove applications in the background."
 msgstr ""
 
-#: software.html:412, 414
+#: software.html:423, 425
 msgid "Advanced"
 msgstr ""
 
-#: software.html:416
+#: software.html:427
 msgid "Show technical package details."
 msgstr ""
 
-#: software.html:417
+#: software.html:428
 msgid ""
 "Displays an estimated install size, packages and the type of application"
 msgstr ""
 
-#: software.html:423
+#: software.html:434
 msgid "Show Software Sources"
 msgstr ""
 
-#: software.html:424, 469
+#: software.html:435, 480
 msgid "Manage Repositories"
 msgstr ""
 
-#: software.html:431
+#: software.html:442
 msgid "Your Queued Changes"
 msgstr ""
 
-#: software.html:432
+#: software.html:443
 msgid ""
 "Decide which software to add or remove without committing straight away."
 msgstr ""
 
-#: software.html:436
+#: software.html:447
 msgid "Apply Changes"
 msgstr ""
 
-#: software.html:437
+#: software.html:448
 msgid "Clear"
 msgstr ""
 
-#: software.html:438
+#: software.html:449
 msgid "Finished"
 msgstr ""
 
-#: software.html:441
+#: software.html:452
 msgid "Preparing to start..."
 msgstr ""
 
-#: software.html:442
+#: software.html:453
 msgid "Your changes are being applied."
 msgstr ""
 
-#: software.html:449
+#: software.html:460
 msgid "Not all changes could be applied."
 msgstr ""
 
-#: software.html:450
+#: software.html:461
 msgid "Please review the error dialog for further details."
 msgstr ""
 
-#: software.html:454
+#: software.html:465
 msgid "Nothing to see here -- There's no software in the queue yet."
 msgstr ""
 
-#: software.html:459
+#: software.html:470
 msgid "Software Sources"
 msgstr ""
 
-#: software.html:460
+#: software.html:471
 msgid ""
 "Your system and applications are obtained and kept up-to-date via the "
 "following repositories."
 msgstr ""
 
-#: software.html:462
+#: software.html:473
 msgid "Parsing lists..."
 msgstr ""
 
-#: software.html:470
+#: software.html:481
 msgid "Update Package Lists"
 msgstr ""
 
-#: software.html:485
+#: software.html:496
 msgid "Hide Proprietary Software"
 msgstr ""
 
-#: software.html:487
+#: software.html:498
 msgid "Show Terminal Commands"
 msgstr ""
 
-#: software.html:493
+#: software.html:504
 msgid "About Proprietary Software"
 msgstr ""
 
-#: software.html:495
+#: software.html:506
 msgid "Proprietary Software"
 msgstr ""
 
-#: software.html:496
+#: software.html:507
 msgid ""
 "is owned by an individual or company. There may be restrictions on its usage"
 " (like a license agreement), and provides no access to the source code."
 msgstr ""
 
-#: software.html:499
+#: software.html:510
 msgid "Free and Open Source Software"
 msgstr ""
 
-#: software.html:500
+#: software.html:511
 msgid ""
 "grants the user the freedom to share, study and modify the software without "
 "restriction. For instance, the GPL is an example of a 'Free Software' "

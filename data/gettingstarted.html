@@ -133,21 +133,23 @@
         <div class="row-fluid">
           <div class="span12">
             <h2>&zwnj;Modest System Requirements&zwnj;</h2>
-            <p>&zwnj;Ubuntu MATE works well on both high-end to slow computers,
-               optimized to be functional, while light on system resources.&zwnj;</p>
+            <!-- <p>&zwnj;Ubuntu MATE works well on both high-end to slow computers,
+               optimized to be functional, while light on system resources.&zwnj;</p> -->
+            <p>MAX funciona genial tanto en equipos modernos como en equipos lentos,
+            se ha optimizado para que sea funcional y ligero.</p>
 
             <h5>&zwnj;Minimum&zwnj;</h5>
             <ul>
               <li>&zwnj;Pentium M 1.0 gigahertz (GHz)&zwnj;</li>
               <li>&zwnj;1 gigabyte (GB) of RAM&zwnj;</li>
-              <li>&zwnj;9 gigabytes (GB) of disk space&zwnj;</li>
+              <li>&zwnj;20 gigabytes (GB) of disk space&zwnj;</li>
             </ul>
 
             <h5>&zwnj;Recommended&zwnj;</h5>
             <ul>
               <li>&zwnj;Core 2 Duo 1.6 gigahertz (GHz)&zwnj;</li>
               <li>&zwnj;2 gigabytes (GB) of RAM&zwnj;</li>
-              <li>&zwnj;16 gigabytes (GB) of disk space&zwnj;</li>
+              <li>&zwnj;40 gigabytes (GB) of disk space&zwnj;</li>
             </ul>
 
             <p>&zwnj;The operating system will run much more efficiently if your
@@ -167,11 +169,16 @@
         <div class="row-fluid">
           <div class="span12">
             <h2>&zwnj;Preparing to Install&zwnj;</h2>
-            <p>&zwnj;Ubuntu MATE is relatively simple to set up, whether you're looking to
+            <!-- <p>&zwnj;Ubuntu MATE is relatively simple to set up, whether you're looking to
             replace your existing operating system or install Ubuntu MATE alongside
             an existing one - such as &zwnj;&nbsp;<span class="fa fa-windows"></span>
             &zwnj;Microsoft Windows or another &zwnj;<span class="fa fa-linux"></span>
-            &zwnj;GNU/Linux distribution.&zwnj;</p>
+            &zwnj;GNU/Linux distribution.&zwnj;</p> -->
+            <p>MAX es muy sencillo de instalar si sólo buscas reemplazar tu sistema
+              operativo o instalar MAX junto con otro sistema operativo existente como 
+              <span class="fa fa-windows"></span> Microsoft Windows u otra 
+              distribución <span class="fa fa-linux"></span> GNU/Linux
+            </p>
 
             <h3>&zwnj;For the best results:&zwnj;</h3>
             <ul>
@@ -182,12 +189,18 @@
             </ul>
             <hr class="soften"/>
 
-            <img src="img/applications/ubiquity.png" class="left"/>
-            <p>&zwnj;The live session you are currently in right now is a good opportunity
+            <img src="img/applications/ubiquity-max.png" class="left"/>
+            <!-- <p>&zwnj;The live session you are currently in right now is a good opportunity
             to test Ubuntu MATE without modifying your computer, allowing you to
             test that all of your peripherals are working as intended before committing
             to installing it on your machine. Once you are ready, double click the
-            installation icon on the desktop.&zwnj;</p>
+            installation icon on the desktop.&zwnj;</p> -->
+            <p>La sesión en vivo en la que estás ahora mismo es una buena oportunidad para 
+               probar MAX sin modificar tu ordenador, permitiéndote comprobar que 
+               todos los periféricos están funcionando como debieran antes de llevar a cabo 
+               la instalación en tu máquina. Una vez estés listo, haz doble click sobre el 
+               icono de instalación del escritorio.
+            </p>
             <hr class="soften"/>
 
             <h3>&zwnj;Modern UEFI-based computers&zwnj;</h3>
@@ -209,7 +222,7 @@
             </p>
 
             <div class="alert alert-info">
-              &zwnj;Your system is currently running in &zwnj; <b><span id="boot-mode">???</span> &zwnj;mode&zwnj;</b>.
+              &zwnj;Your system is currently running in &zwnj; &zwnj;mode&zwnj; <b><span id="boot-mode">???</span></b>.
             </div>
 
             <hr class="soften"/>
@@ -219,8 +232,13 @@
             start swapping content from memory to the hard disk. This is known as a "paging file" in Windows.
             Performance will decrease when running low on memory and could possibly freeze if
             you completely run out of memory without anywhere to swap.&zwnj;</p>
-            <p>&zwnj;By default, a swap partition is created based on the size of your RAM. For example, if you have
-            2 GiB of RAM, then 2 GiB of hard disk space will be reserved for swap at the end of the drive.&zwnj;</p>
+            <!--<p>&zwnj;By default, a swap partition is created based on the size of your RAM. For example, if you have
+            2 GiB of RAM, then 2 GiB of hard disk space will be reserved for swap at the end of the drive.&zwnj;</p> -->
+            <p>
+              De forma predeterminada, se crea <u>un archivo de intercambio</u> en la partición donde instales MAX
+              basado en el tamaño de la memoria RAM. Por ejemplo, si usted tiene 2 GB de memoria RAM, 
+              de 2 GB de espacio en disco duro se reservará para intercambio.
+            </p>
             <p>&zwnj;Swap space that's the size of your RAM is also required if you would like to
             hibernate the system (as known as suspending to disk).&zwnj;</p>
           </div>
@@ -232,9 +250,14 @@
         <div class="row-fluid">
           <div class="span12">
             <h3>&zwnj;Dual Booting&zwnj;</h3>
-            <p>&zwnj;Should you wish to install Ubuntu MATE alongside your existing
+            <!-- <p>&zwnj;Should you wish to install Ubuntu MATE alongside your existing
             operating system, your partitions need to be shrunk. This results in
-            sections of your hard disk being split between multiple operating systems.&zwnj;</p>
+            sections of your hard disk being split between multiple operating systems.&zwnj;</p> -->
+            <p>
+              En caso de que desees instalar MAX junto con un sistema operativo 
+              existente, sus particiones que necesitan ser reducidas. Esto da lugar a que 
+              secciones de tu disco duro se dividan entre varios sistemas operativos.
+            </p>
 
             <label class="checkbox">
               <input type="checkbox" value="" id="showDualBootWin">
@@ -243,7 +266,7 @@
 
             <h5>&zwnj;To minimize the risk of data loss or failure, ensure that:&zwnj;</h5>
             <ul class="unstyled" style="margin-left:8px">
-              <li><span class="fa fa-check-circle"></span> &zwnj;There is enough free space. 10 GB minimum is recommended.&zwnj;</li>
+              <li><span class="fa fa-check-circle"></span> &zwnj;There is enough free space. 20 GB minimum is recommended.&zwnj;</li>
               <li><span class="fa fa-check-circle"></span> <b><u>&zwnj;Back up&zwnj;</u></b> &zwnj;important data to another drive.&zwnj;</li>
               <li class="dualBootWin"><span class="fa fa-windows"></span> &zwnj;Defragment the hard drive.&zwnj;</li>
               <li class="dualBootWin"><span class="fa fa-windows"></span> &zwnj;Ensure Windows has been cleanly shut down (not hibernated).&zwnj;</li>
@@ -266,11 +289,11 @@
                   <blockquote>
                     <b>&zwnj;You will see an option similar to this:&zwnj;</b>
                     <br>
-                    <img src="img/screenshots/install-split-choice.png"/>
+                    <img src="img/screenshots/install-max-windows-1.png"/>
                     <br>
                     <b>&zwnj;Followed by:&zwnj;</b>
                     <br>
-                    <img src="img/screenshots/install-split-partitions.png"/>
+                    <img src="img/screenshots/install-max-windows-2.png"/>
                   </blockquote>
                 </p>
                 <div class="alert alert-danger">
@@ -314,7 +337,7 @@
 
                 <p><b>&zwnj;You can specify these mount points:&zwnj;</b></p>
                 <ul>
-                  <li><code>/</code> - &zwnj;The base for Ubuntu MATE&zwnj;</li>
+                  <li><code>/</code> - &zwnj;The base for MAX&zwnj;</li>
                   <li><code>/boot</code> - &zwnj;Bootloader and kernels&zwnj;</li>
                   <li><code>/home</code> - &zwnj;Your personal files and folders&zwnj;</li>
                   <li><code>/tmp</code> - &zwnj;Temporary files&zwnj;</li>
@@ -339,9 +362,15 @@
                   <b>&zwnj;Simple&zwnj;</b> &zwnj;or&zwnj; <b>&zwnj;Advanced&zwnj;</b> &zwnj;method to shrink your disk.&zwnj;</p>
                 </div>
 
-                <p>&zwnj;Newer versions of Windows provide a tool to shrink the NTFS volume from within Windows.
+                <!-- <p>&zwnj;Newer versions of Windows provide a tool to shrink the NTFS volume from within Windows.
                 This is a safer bet if it's essential that Windows still boots on your computer while
-                experiencing Ubuntu MATE.&zwnj;</p>
+                experiencing Ubuntu MATE.&zwnj;</p> -->
+                <p>
+                  Las versiones más recientes de Windows proporcionan una herramienta para 
+                  reducir el volumen NTFS desde Windows. Esta es una apuesta más segura si es 
+                  esencial que Windows todavía inicie en tu equipo, mientras que experimentas 
+                  con MAX.
+                </p>
                 <blockquote>
                   1. &zwnj;Open&zwnj; <b>&zwnj;Disk Management&zwnj;</b> &zwnj;from the start menu.&zwnj;
                   <div class="center">
@@ -359,7 +388,7 @@
                   </div>
                   <br>
                   <div class="alert alert-info">
-                    &zwnj;Remember, Ubuntu MATE needs at minimum 8 GB of disk space.&zwnj;
+                    &zwnj;Remember, MAX needs at minimum 20 GB of disk space.&zwnj;
                     <b>1 GB = 1000 MB</b>
                   </div>
                 </blockquote>
