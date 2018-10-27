@@ -1,3 +1,9 @@
+max-mate-welcome (20181027max2) max; urgency=medium
+
+  * Change dekstop launcher icon
+
+ -- Mario Izquierdo <hola@marioizquierdo.es>  Sat, 27 Oct 2018 20:47:46 +0200
+
 max-mate-welcome (20181027max1) max; urgency=medium
 
   * New version (updates on gettigstarted, live mode...)
