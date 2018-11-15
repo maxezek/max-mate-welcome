@@ -1,4 +1,114 @@
 {
+    "Education": {
+        "moodle": {
+            "name": "Moodle",
+            "img": "moodle",
+            "main-package": "maxmoodle",
+            "launch-command": "max-moodle-launcher",
+            "install-packages": "maxmoodle,maxmoodle-pressed",
+            "remove-packages": "maxmoodle,maxmoodle-pressed",
+            "description": [
+                "Instalación de Moodle 3.5 para disponer de Aula Virtual",
+                "e incluso mantener una replica de la de EducaMadrid",
+                "en la red local del centro."
+            ],
+            "alternate-to": null,
+            "subcategory": "Elearning",
+            "open-source": true,
+            "url-info": "https://moodle.org/?lang=es",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "arasuite": {
+            "name": "Arasuite",
+            "img": "arasuite",
+            "main-package": "arasuite",
+            "launch-command": "arasuite",
+            "install-packages": "arasuite",
+            "remove-packages": "arasuite",
+            "description": [
+                "Software específico para trabajar con alumnos que",
+                "necesiten para comunicarse la facilidad del uso de pictos."
+            ],
+            "alternate-to": null,
+            "subcategory": "Elearning",
+            "open-source": true,
+            "url-info": "https://sourceforge.net/projects/arasuite/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "kolibri": {
+            "name": "Kolibri",
+            "img": "kolibri",
+            "main-package": "kolibri",
+            "launch-command": "firefox http://127.0.0.1:8080",
+            "install-packages": "kolibri",
+            "remove-packages": "kolibri",
+            "description": [
+                "Aplicación de educación universal, web.",
+                "Muy interesante porque permite trabajar ",
+                "offline con Khan Academy, por ejemplo."
+            ],
+            "alternate-to": null,
+            "subcategory": "Elearning",
+            "open-source": true,
+            "url-info": "https://learningequality.org/kolibri/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "junior-education": {
+            "name": "Kolibri",
+            "img": "junior-education",
+            "main-package": "junior-education",
+            "launch-command": null,
+            "install-packages": "junior-education",
+            "remove-packages": "junior-education",
+            "description": [
+                "Aplicación de educación universal, web.",
+                "Muy interesante porque permite trabajar ",
+                "offline con Khan Academy, por ejemplo."
+            ],
+            "alternate-to": null,
+            "subcategory": "Elearning",
+            "open-source": true,
+            "url-info": "https://learningequality.org/kolibri/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        }
+    },
+
     "Media": {
         "obs-studio": {
             "name": "Open Broadcaster Software",
@@ -1233,6 +1343,7 @@
             "working": true
         }
     },
+
     "Servers": {
         "caja-share": {
             "name": "Caja Share",
