@@ -865,33 +865,6 @@ class Strings(object):
         self.status_remove = str(_("To be removed"))
 
 
-class Inspector(Gtk.Window):
-    def __init__(self, view, *args, **kwargs):
-        super(Inspector, self).__init__(*args, **kwargs)
-        self.set_size_request(1200,700)
-        self.webview = view
-        # settings = WebKit2.WebSettings()   
-        # settings.set_property('enable-developer-extras', True)
-        # view.set_settings(settings)
-        self.webview.get_settings().set_property('enable-developer-extras', True)
-
-        self.webview = WebKit2.WebView()
-        self.inspector = view.get_inspector()
-
-        # self.inspector.connect("inspect-web-view", self.inspect)
-
-        self.scrolled_window = Gtk.ScrolledWindow()
-        self.add(self.scrolled_window)
-        self.scrolled_window.show()
-
-        self.webview = WebKit2.WebView()
-        self.scrolled_window.add(self.webview)
-
-    def inspect(self, inspector, view, *a, **kw):
-        self.scrolled_window.show_all()
-        self.show()
-        return self.webview
-
 ##################################
 #  WebKit + Python Communications
 ##################################
@@ -1608,7 +1581,6 @@ class WelcomeApp(object):
 
         # Build WebKit2 container
         self.webkit = AppView()
-        inspector = Inspector(self.webkit)
 
         # Load the starting page
         path = os.path.abspath(os.path.join(trans.pages_dir, load_file))
