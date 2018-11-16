@@ -2806,6 +2806,10 @@ class DynamicApps(object):
         ''' Launch an application directly from Welcome '''
         program_name = self.get_attribute_for_app(appid, 'name')
         program_command = self.get_attribute_for_app(appid, 'launch-command')
+        #
+        if program_command in ('', 'null', 'false', None):
+            return
+        #
         dbg.stdout('Apps', 'Launching "' + program_name + '... " (Command: "' + program_command + '").', 0, 3)
         try:
             subprocess.Popen(program_command.split(' '))

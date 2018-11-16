@@ -80,29 +80,210 @@
             },
             "working": true
         },
-        "junior-education": {
-            "name": "Kolibri",
-            "img": "junior-education",
-            "main-package": "junior-education",
-            "launch-command": null,
-            "install-packages": "junior-education",
-            "remove-packages": "junior-education",
+        "colobot": {
+            "name": "Colobot",
+            "img": "colobot",
+            "main-package": "colobot",
+            "launch-command": "colobot",
+            "install-packages": "colobot",
+            "remove-packages": "colobot",
             "description": [
-                "Aplicación de educación universal, web.",
-                "Muy interesante porque permite trabajar ",
-                "offline con Khan Academy, por ejemplo."
+                "Colonizar con robots es un juego educativo que",
+                "te ayuda a aprender programación, eres un astronauta",
+                "que se ayuda de robots para colonizar un planeta."
             ],
             "alternate-to": null,
-            "subcategory": "Elearning",
+            "subcategory": "Game",
             "open-source": true,
-            "url-info": "https://learningequality.org/kolibri/",
+            "url-info": "https://colobot.info/",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
             "releases": "bionic",
             "pre-install": {
                 "all": {
-                    "method": "skipmax"
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "openteacher": {
+            "name": "Openteacher",
+            "img": "openteacher",
+            "main-package": "openteacher",
+            "launch-command": "openteacher",
+            "install-packages": "openteacher",
+            "remove-packages": "openteacher",
+            "description": [
+                "Aplicación para aprender vocabulario de otro idioma."
+            ],
+            "alternate-to": null,
+            "subcategory": "Game",
+            "open-source": true,
+            "url-info": "http://openteacher.org/en/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "astro-education": {
+            "name": "Aplicaciones educativas de astronomía",
+            "img": "meta-education",
+            "main-package": "astro-education",
+            "launch-command": "",
+            "install-packages": "astro-education",
+            "remove-packages": "astro-education",
+            "description": [
+                "Aplicaciones educativas de astronomía"
+            ],
+            "alternate-to": null,
+            "subcategory": "Meta",
+            "open-source": true,
+            "url-info": "https://packages.ubuntu.com/bionic/astro-education",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "junior-education": {
+            "name": "Selección Debian Junior",
+            "img": "meta-education",
+            "main-package": "junior-education",
+            "launch-command": "",
+            "install-packages": "junior-education",
+            "remove-packages": "junior-education",
+            "description": [
+                "Colección de programas educativos para niños.",
+                "Unos vienen en la personalización de Infantil y ",
+                "Primaria de MAX y otros no."
+            ],
+            "alternate-to": null,
+            "subcategory": "Meta",
+            "open-source": true,
+            "url-info": "https://packages.ubuntu.com/bionic/junior-education",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "ubuntu-edu-preschool": {
+            "name": "Ubuntu EDU para preescolar",
+            "img": "meta-education",
+            "main-package": "ubuntu-edu-preschool",
+            "launch-command": "",
+            "install-packages": "ubuntu-edu-preschool",
+            "remove-packages": "ubuntu-edu-preschool",
+            "description": [
+                "Colección de programas educativos seleccionados",
+                "para niveles de Infantil."
+            ],
+            "alternate-to": null,
+            "subcategory": "Meta",
+            "open-source": true,
+            "url-info": "https://packages.ubuntu.com/bionic/ubuntu-edu-preschool",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "ubuntu-edu-primary": {
+            "name": "Ubuntu EDU para primaria",
+            "img": "meta-education",
+            "main-package": "ubuntu-edu-primary",
+            "launch-command": "",
+            "install-packages": "ubuntu-edu-primary",
+            "remove-packages": "ubuntu-edu-primary",
+            "description": [
+                "Colección de programas educativos seleccionados",
+                "para niveles de Primaria."
+            ],
+            "alternate-to": null,
+            "subcategory": "Meta",
+            "open-source": true,
+            "url-info": "https://packages.ubuntu.com/bionic/ubuntu-edu-primary",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "ubuntu-edu-secundary": {
+            "name": "Ubuntu EDU para secundaria",
+            "img": "meta-education",
+            "main-package": "ubuntu-edu-secundary",
+            "launch-command": "",
+            "install-packages": "ubuntu-edu-secundary",
+            "remove-packages": "ubuntu-edu-secundary",
+            "description": [
+                "Colección de programas educativos seleccionados",
+                "para niveles de Secundaria."
+            ],
+            "alternate-to": null,
+            "subcategory": "Meta",
+            "open-source": true,
+            "url-info": "https://packages.ubuntu.com/bionic/ubuntu-edu-secundary",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "ubuntu-edu-terciary": {
+            "name": "Ubuntu EDU para educación post-obligatoria",
+            "img": "meta-education",
+            "main-package": "ubuntu-edu-terciary",
+            "launch-command": "",
+            "install-packages": "ubuntu-edu-terciary",
+            "remove-packages": "ubuntu-edu-terciary",
+            "description": [
+                "Colección de programas educativos seleccionados",
+                "para niveles de educación post-obligatoria."
+            ],
+            "alternate-to": null,
+            "subcategory": "Meta",
+            "open-source": true,
+            "url-info": "https://packages.ubuntu.com/bionic/ubuntu-edu-terciary",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
                 }
             },
             "working": true
