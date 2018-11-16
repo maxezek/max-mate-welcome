@@ -2283,7 +2283,8 @@ class DynamicApps(object):
         self.reload_index()
 
         # Variables to remember common details.
-        self.all_categories = ['Accessories', 'Education', 'Games', 'Graphics', 'Internet', 'Office', 'Programming', 'Media', 'SysTools', 'UnivAccess', 'Servers', 'MoreApps']
+        #self.all_categories = ['Accessories', 'Education', 'Games', 'Graphics', 'Internet', 'Office', 'Programming', 'Media', 'SysTools', 'UnivAccess', 'Servers', 'MoreApps']
+        self.all_categories = ['Accessories', 'Education', 'Games', 'Graphics', 'Internet', 'Office', 'Programming', 'Media', 'SysTools', 'UnivAccess', 'Servers']
         # self.all_categories = ['Science', 'Media', 'SysTools', 'Servers']
         self.hide_non_free = pref.get('hide_non_free', False)
 
@@ -2509,6 +2510,10 @@ class DynamicApps(object):
 
                 elif method == 'multiverse-repo':
                     self.source_info.insert(0, source_multiverse)
+
+                else:
+                    dbg.stdout('Apps', ' Skipping unsupperted method application: ' + self.app_name, 2, 4)
+                    return 2
 
                 # elif method == 'ppa':
                 #     ppa = preinstall[target]['enable-ppa']
@@ -2863,6 +2868,9 @@ class DynamicApps(object):
             app.update_page('.app-entry', 'hide')
 
             for category in self.all_categories:
+                if category not in self.index:
+                    dbg.stdout('Apps', ' ------ NO in index ' + category + ' ------', 2, 0)
+                    continue
                 category_items = list(self.index[category].keys())
                 for program_id in category_items:
                     app_subcategory = self.index[category][program_id]['subcategory'].replace(' ','-')

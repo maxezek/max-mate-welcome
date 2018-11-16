@@ -706,6 +706,576 @@
         }
     },
 
+    "Internet": {
+        "adobeflash": {
+            "name": "Adobe&reg; Flash&reg; Player",
+            "img": "adobeflash",
+            "main-package": "flashplugin-installer",
+            "launch-command": null,
+            "install-packages": "flashplugin-installer",
+            "remove-packages": "flashplugin-installer",
+            "description": [
+                "Plugin flash para navegadores"
+            ],
+            "alternate-to": null,
+            "subcategory": "Plug-in",
+            "open-source": false,
+            "url-info": "http://www.adobe.com/products/flashplayer.html",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "firefox": {
+            "name": "Firefox",
+            "img": "firefox",
+            "main-package": "firefox",
+            "launch-command": "firefox",
+            "install-packages": "firefox",
+            "remove-packages": "firefox",
+            "description": [
+                "Firefox delivers safe, easy web browsing. A familiar user",
+                "interface, enhanced security features including protection",
+                "from online identity theft, and integrated search let you",
+                "get the most out of the web.  If you are a <b>Netflix</b>",
+                "subscriber then Firefox fully supports Netflix."
+            ],
+            "alternate-to": null,
+            "subcategory": "Navegador",
+            "open-source": true,
+            "url-info": "https://www.mozilla.org/firefox",
+            "url-android": "https://play.google.com/store/apps/details?id=org.mozilla.firefox",
+            "url-ios": "https://itunes.apple.com/us/app/firefox-web-browser/id989804926",
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "chromium": {
+            "name": "Chromium",
+            "img": "chromium",
+            "main-package": "chromium-browser",
+            "launch-command": "chromium-browser",
+            "install-packages": "chromium-browser,chromium-codecs-ffmpeg-extra",
+            "remove-packages": "chromium-browser,chromium-codecs-ffmpeg-extra",
+            "description": [
+                "Navegador libre basado en Google Chrome"
+            ],
+            "alternate-to": null,
+            "subcategory": "Navegador",
+            "open-source": true,
+            "url-info": "https://www.chromium.org/Home",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "vivaldi": {
+            "name": "Vivaldi",
+            "img": "vivaldi",
+            "main-package": "vivaldi-stable",
+            "launch-command": "vivaldi",
+            "install-packages": "vivaldi-stable",
+            "remove-packages": "vivaldi-stable",
+            "description": [
+                "Navegador web con motor webkit"
+            ],
+            "alternate-to": null,
+            "subcategory": "Navegador",
+            "open-source": false,
+            "url-info": "https://vivaldi.net",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmaxppa",
+                    "notes": "FIXME pendiente de empaquetar en MAX"
+                }
+            },
+            "working": true
+        },
+
+        "caja-dropbox": {
+            "name": "Caja Dropbox",
+            "img": "dropbox",
+            "main-package": "caja-dropbox",
+            "launch-command": "caja-dropbox",
+            "install-packages": "caja-dropbox",
+            "remove-packages": "caja-dropbox",
+            "description": [
+                "Instalador de Dropbox&#8482; compatible con el",
+                "gestor de archivos «caja»"
+            ],
+            "alternate-to": null,
+            "subcategory": "Sincronización",
+            "open-source": false,
+            "url-info": "https://www.dropbox.com/",
+            "url-android": "https://play.google.com/store/apps/details?id=com.dropbox.android",
+            "url-ios": "https://itunes.apple.com/us/app/dropbox/id327630330",
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "filezilla": {
+            "name": "FileZilla",
+            "img": "filezilla",
+            "main-package": "filezilla",
+            "launch-command": "filezilla",
+            "install-packages": "filezilla",
+            "remove-packages": "filezilla",
+            "description": [
+                "Completo cliente FTP con una interfaz sencilla"
+            ],
+            "alternate-to": null,
+            "subcategory": "Gestor descargas",
+            "open-source": true,
+            "url-info": "https://filezilla-project.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "gajim": {
+            "name": "Gajim",
+            "img": "gajim",
+            "main-package": "gajim",
+            "launch-command": "gajim",
+            "install-packages": "gajim,python-appindicator",
+            "remove-packages": "gajim",
+            "description": [
+                "Cliente de chat jabber"
+            ],
+            "alternate-to": null,
+            "subcategory": "Mensajería",
+            "open-source": true,
+            "url-info": "https://gajim.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "gobby": {
+            "name": "Gobby",
+            "img": "gobby",
+            "main-package": "gobby",
+            "launch-command": "gobby",
+            "install-packages": "gobby",
+            "remove-packages": "gobby",
+            "description": [
+                "Editor colaborativo en red"
+            ],
+            "alternate-to": null,
+            "subcategory": "Colaboración",
+            "open-source": true,
+            "url-info": "https://gobby.github.io",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "hexchat": {
+            "name": "Hexchat",
+            "img": "hexchat",
+            "main-package": "hexchat",
+            "launch-command": "hexchat",
+            "install-packages": "hexchat",
+            "remove-packages": "hexchat",
+            "description": [
+                "Cliente gráfico de chat IRC"
+            ],
+            "alternate-to": null,
+            "subcategory": "Mensajería",
+            "open-source": true,
+            "url-info": "https://hexchat.github.io/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "liferea": {
+            "name": "Liferea",
+            "img": "liferea",
+            "main-package": "liferea",
+            "launch-command": "liferea",
+            "install-packages": "liferea",
+            "remove-packages": "liferea",
+            "description": [
+                "Lector de noticias RSS/Atom"
+            ],
+            "alternate-to": null,
+            "subcategory": "Navegador",
+            "open-source": true,
+            "url-info": "https://lzone.de/liferea/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "owncloud-client": {
+            "name": "ownCloud Client",
+            "img": "owncloud",
+            "main-package": "owncloud-client-caja",
+            "launch-command": "owncloud",
+            "install-packages": "owncloud-client,owncloud-client-caja",
+            "remove-packages": "owncloud-client,owncloud-client-caja",
+            "description": [
+                "Herramienta para sincronizar archivos ownCloud."
+            ],
+            "alternate-to": null,
+            "subcategory": "Sincronización",
+            "open-source": true,
+            "url-info": "https://owncloud.org/",
+            "url-android": "https://play.google.com/store/apps/details?id=com.owncloud.android",
+            "url-ios": "https://itunes.apple.com/gb/app/owncloud/id543672169",
+            "arch": "i386,amd64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "pidgin": {
+            "name": "Pidgin",
+            "img": "pidgin",
+            "main-package": "pidgin",
+            "launch-command": "pidgin",
+            "install-packages": "pidgin,pidgin-libnotify,pidgin-otr",
+            "remove-packages": "pidgin,pidgin-libnotify,pidgin-otr",
+            "description": [
+                "Aplicación de chat compatible con AIM, MSN,",
+                "Yahoo, ICQ, IRC, Jabber"
+            ],
+            "alternate-to": null,
+            "subcategory": "Mensajería",
+            "open-source": true,
+            "url-info": "https://pidgin.im/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "remmina": {
+            "name": "Remmina",
+            "img": "remmina",
+            "main-package": "remmina",
+            "launch-command": "remmina",
+            "install-packages": "remmina,remmina-plugin-rdp,remmina-plugin-vnc,remmina-plugin-nx,remmina-plugin-xdmcp",
+            "remove-packages": "remmina,remmina-plugin-rdp,remmina-plugin-vnc,remmina-plugin-nx,remmina-plugin-xdmcp",
+            "description": [
+                "Aplicación de acceso remoto al escritorio,",
+                "soporta VNC, XDMCP, RDP."
+            ],
+            "alternate-to": "Microsoft&reg; Remote Desktop",
+            "subcategory": "Acceso remoto",
+            "open-source": true,
+            "url-info": "http://remmina.sourceforge.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "skypeforlinux": {
+            "name": "Skype for Linux Preview",
+            "img": "skypeforlinux",
+            "main-package": "skypeforlinux",
+            "launch-command": "skypeforlinux",
+            "install-packages": "skypeforlinux",
+            "remove-packages": "skypeforlinux",
+            "description": [
+                "Aplicación de comunicaciones, llamadas voz. vídeo y chat"
+            ],
+            "alternate-to": null,
+            "subcategory": "Mensajería",
+            "open-source": false,
+            "url-info": "http://www.skype.com",
+            "url-android": "https://play.google.com/store/apps/details?id=com.skype.raider",
+            "url-ios": "https://itunes.apple.com/gb/app/skype-for-iphone/id304878510",
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "sparkleshare": {
+            "name": "SparkleShare",
+            "img": "sparkleshare",
+            "main-package": "sparkleshare",
+            "launch-command": "sparkleshare open",
+            "install-packages": "sparkleshare",
+            "remove-packages": "sparkleshare",
+            "description": [
+                "Sincronización de archivos con un servidor remoto"
+            ],
+            "alternate-to": null,
+            "subcategory": "Sincronización",
+            "open-source": true,
+            "url-info": "http://sparkleshare.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "syncthing": {
+            "name": "Syncthing",
+            "img": "syncthing",
+            "main-package": "syncthing",
+            "launch-command": "syncthing",
+            "install-packages": "syncthing",
+            "remove-packages": "syncthing",
+            "description": [
+                "Sincronizador que permite crear tu propia nube y",
+                "sincronizar entre multiples plataformas incluido android."
+            ],
+            "alternate-to": null,
+            "subcategory": "Sincronización",
+            "open-source": true,
+            "url-info": "https://syncthing.net/",
+            "url-android": "https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid",
+            "url-ios": null,
+            "arch": "i386,amd64,armhf",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "thunderbird": {
+            "name": "Thunderbird",
+            "img": "thunderbird",
+            "main-package": "thunderbird",
+            "launch-command": "thunderbird",
+            "install-packages": "thunderbird",
+            "remove-packages": "thunderbird",
+            "description": [
+                "Gestor de correo POP3, IMAP y lector de noticias RSS"
+            ],
+            "alternate-to": "Microsoft&reg; Outlook",
+            "subcategory": "Email",
+            "open-source": true,
+            "url-info": "https://www.mozilla.org/en-US/thunderbird/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "torbrowser-launcher": {
+            "name": "Tor Browser",
+            "img": "torbrowser-launcher",
+            "main-package": "torbrowser-launcher",
+            "launch-command": "torbrowser-launcher",
+            "install-packages": "torbrowser-launcher",
+            "remove-packages": "torbrowser-launcher",
+            "description": [
+                "Navegador anónimo red TOR"
+            ],
+            "alternate-to": null,
+            "subcategory": "Navegador",
+            "open-source": true,
+            "url-info": "https://www.torproject.org/projects/torbrowser.html",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "transmission": {
+            "name": "Transmission",
+            "img": "transmission",
+            "main-package": "transmission-gtk",
+            "launch-command": "transmission-gtk",
+            "install-packages": "transmission-gtk",
+            "remove-packages": "transmission-gtk",
+            "description": [
+                "Cliente bittorrent"
+            ],
+            "alternate-to": null,
+            "subcategory": "Gestor descargas",
+            "open-source": true,
+            "url-info": "https://transmissionbt.com/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "wireshark": {
+            "name": "Wireshark",
+            "img": "wireshark",
+            "main-package": "wireshark-gtk",
+            "launch-command": "wireshark-gtk",
+            "install-packages": "wireshark-gtk",
+            "remove-packages": "wireshark-gtk,wireshark-common",
+            "description": [
+                "Analizador de redes"
+            ],
+            "alternate-to": null,
+            "subcategory": "Analizador",
+            "open-source": true,
+            "url-info": "https://www.wireshark.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "x2goclient":{
+            "name": "X2Go Client",
+            "img": "x2go",
+            "main-package": "x2goclient",
+            "launch-command": "x2goclient",
+            "install-packages": "x2goclient",
+            "remove-packages": "x2goclient",
+            "description": [
+                "A graphical client for the X2Go",
+                "Server. You can use it to start new X2Go remote sessions or",
+                "reconnect to running sessions.",
+                "<ul><li><a onclick=jumpOneClickServers(2)>One-click server install available</a></li></ul>"
+            ],
+            "alternate-to": null,
+            "subcategory": "Remote Access",
+            "open-source": true,
+            "url-info": "http://wiki.x2go.org/doku.php",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmaxppa",
+                    "notes": "FIXME pendiente de empaquetar en MAX"
+                }
+            },
+            "working": true
+        },
+        "zenmap": {
+            "name": "Zenmap",
+            "img": "zenmap",
+            "main-package": "zenmap",
+            "launch-command": "zenmap",
+            "install-packages": "zenmap",
+            "remove-packages": "zenmap",
+            "description": [
+                "Interfaz gráfico para Nmap, analizador de red,",
+                "equipos y puertos"
+            ],
+            "alternate-to": null,
+            "subcategory": "Analizador",
+            "open-source": true,
+            "url-info": "https://nmap.org/zenmap/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        }
+    },
+
+
+
     "Media": {
         "obs-studio": {
             "name": "Open Broadcaster Software",
