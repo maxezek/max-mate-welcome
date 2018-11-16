@@ -2057,6 +2057,210 @@
         }
     },
 
+    "Programming": {
+        "d-feet": {
+            "name": "d-feet",
+            "img": "d-feet",
+            "main-package": "d-feet",
+            "launch-command": "d-feet",
+            "install-packages": "d-feet",
+            "remove-packages": "d-feet",
+            "description": [
+                "Depurador D-Bus gráfico"
+            ],
+            "alternate-to": null,
+            "subcategory": "Debugger",
+            "open-source": true,
+            "url-info": "https://wiki.gnome.org/Apps/DFeet",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "geany": {
+            "name": "Geany",
+            "img": "geany",
+            "main-package": "geany",
+            "launch-command": "geany",
+            "install-packages": "geany,geany-plugins",
+            "remove-packages": "geany,geany-plugins",
+            "description": [
+                "Pequeño y ligero entorno de desarrollo"
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "http://www.geany.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "git-cola": {
+            "name": "Git-Cola",
+            "img": "git-cola",
+            "main-package": "git-cola",
+            "launch-command": "git-cola",
+            "install-packages": "git,git-cola",
+            "remove-packages": "git-cola",
+            "description": [
+                "Interfaz gráfico de GIT, un sistema de control de versiones"
+            ],
+            "alternate-to": null,
+            "subcategory": "Version Control",
+            "open-source": true,
+            "url-info": "https://git-cola.github.io/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "glade": {
+            "name": "Glade",
+            "img": "glade",
+            "main-package": "glade",
+            "launch-command": "glade",
+            "install-packages": "glade",
+            "remove-packages": "glade",
+            "description": [
+                "Editor de interfaces gráficas GTK+"
+            ],
+            "alternate-to": null,
+            "subcategory": "Design and Tools",
+            "open-source": true,
+            "url-info": "https://glade.gnome.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "meld": {
+            "name": "Meld",
+            "img": "meld",
+            "main-package": "meld",
+            "launch-command": "meld",
+            "install-packages": "meld",
+            "remove-packages": "meld",
+            "description": [
+                "Comparador de archivos visual e intuitivo"
+            ],
+            "alternate-to": null,
+            "subcategory": "Design and Tools",
+            "open-source": true,
+            "url-info": "http://meldmerge.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+
+        "mysql-workbench": {
+            "name": "MySQL Workbench",
+            "img": "mysql-workbench",
+            "main-package": "mysql-workbench",
+            "launch-command": "mysql-workbench",
+            "install-packages": "mysql-workbench",
+            "remove-packages": "mysql-workbench",
+            "description": [
+                "Modelado de bases de datos MySQL"
+            ],
+            "alternate-to": null,
+            "subcategory": "Database",
+            "open-source": true,
+            "url-info": "https://www.mysql.com/products/workbench/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "pgadmin3": {
+            "name": "pgAdmin III",
+            "img": "pgadmin3",
+            "main-package": "pgadmin3",
+            "launch-command": "pgadmin3",
+            "install-packages": "pgadmin3",
+            "remove-packages": "pgadmin3",
+            "description": [
+                "Diseño de base de datos PostgreSQL"
+            ],
+            "alternate-to": null,
+            "subcategory": "Database",
+            "open-source": true,
+            "url-info": "http://www.pgadmin.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "poedit": {
+            "name": "Poedit",
+            "img": "poedit",
+            "main-package": "poedit",
+            "launch-command": "poedit",
+            "install-packages": "poedit",
+            "remove-packages": "poedit",
+            "description": [
+                "Editor de catálogos de traducción (archivos .po)"
+            ],
+            "alternate-to": null,
+            "subcategory": "Translation",
+            "open-source": true,
+            "url-info": "https://poedit.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        }
+    },
+
     "Media": {
         "obs-studio": {
             "name": "Open Broadcaster Software",
