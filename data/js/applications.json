@@ -290,6 +290,422 @@
         }
     },
 
+    "Graphics": {
+        "openscad": {
+            "name": "Openscad",
+            "img": "openscad",
+            "main-package": "openscad",
+            "install-packages": "openscad",
+            "remove-packages": "openscad",
+            "launch-command": "openscad",
+            "description": [
+                "Software para el modelado de piezas en 3D.",
+                "FreeCAD tiene un módulo de integración para trabajar con él."
+            ],
+            "alternate-to": null,
+            "subcategory": "3D",
+            "open-source": true,
+            "url-info": "http://www.openscad.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "darktable": {
+            "name": "Darktable",
+            "img": "darktable",
+            "main-package": "darktable",
+            "install-packages": "darktable",
+            "remove-packages": "darktable",
+            "launch-command": "darktable",
+            "description": [
+                "Programa de edición de fotografías que admite el",
+                "formato en 'crudo' RAW."
+            ],
+            "alternate-to": null,
+            "subcategory": "Fotografía",
+            "open-source": true,
+            "url-info": "https://www.darktable.org",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "pinta": {
+            "name": "Pinta",
+            "img": "pinta",
+            "main-package": "pinta",
+            "install-packages": "pinta",
+            "remove-packages": "pinta",
+            "launch-command": "pinta",
+            "description": [
+                "El Paint de Linux con más funciones que este."
+            ],
+            "alternate-to": null,
+            "subcategory": "Editor",
+            "open-source": true,
+            "url-info": "https://pinta-project.com",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "krita": {
+            "name": "Krita",
+            "img": "krita",
+            "main-package": "krita",
+            "install-packages": "krita",
+            "remove-packages": "krita",
+            "launch-command": "krita",
+            "description": [
+                "Es un programa profesional de pintura digital,",
+                "gratuito y hecho con código libre, ha sido creado",
+                "por los mismos artistas que desean hacer estas",
+                "herramientas accesibles para todos."
+            ],
+            "alternate-to": null,
+            "subcategory": "Editor",
+            "open-source": true,
+            "url-info": "https://krita.org",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "blender": {
+            "name": "Blender",
+            "img": "blender",
+            "main-package": "blender",
+            "launch-command": "blender",
+            "install-packages": "blender",
+            "remove-packages": "blender",
+            "description": [
+                "Aplicación de modelado iluminación, renderizado, animación",
+                "y creación de gráficos 3D."
+            ],
+            "alternate-to": "Adobe&reg; After Effects, Autodesk 3ds Max",
+            "subcategory": "3D",
+            "open-source": true,
+            "url-info": "https://www.blender.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "dia": {
+            "name": "Dia",
+            "img": "dia",
+            "main-package": "dia",
+            "launch-command": "dia",
+            "install-packages": "dia,dia-common",
+            "remove-packages": "dia,dia-common",
+            "description": [
+                "Editor de diagramas y gráficos"
+            ],
+            "alternate-to": "Microsoft&reg; Office Visio&reg;",
+            "subcategory": "Dibujo",
+            "open-source": true,
+            "url-info": "https://wiki.gnome.org/action/show/Apps/Dia",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "entangle": {
+            "name": "Entangle",
+            "img": "entangle",
+            "main-package": "entangle",
+            "launch-command": "entangle",
+            "install-packages": "entangle",
+            "remove-packages": "entangle",
+            "description": [
+                "INterfaz gráfica para el disparo automático en",
+                "cámaras fotográficas, Esta aplicación permite:<ul>",
+                "<li>Disparar una foto</li>",
+                "<li>Vista previa de la escena</li>",
+                "<li>Descarga automática</li>",
+                "<li>Control de configuración remoto</li>"
+            ],
+            "alternate-to": null,
+            "subcategory": "Fotografía",
+            "open-source": true,
+            "url-info": "https://entangle-photo.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "shotwell": {
+            "name": "Shotwell",
+            "img": "shotwell",
+            "main-package": "shotwell",
+            "launch-command": "shotwell",
+            "install-packages": "shotwell",
+            "remove-packages": "shotwell,shotwell-common",
+            "description": [
+                "Organizador de fotografías, permite importar desde",
+                "cámara o tarjeta, organizar, etiquetar y exportar fotografías"
+            ],
+            "alternate-to": "Lightroom",
+            "subcategory": "Fotografía",
+            "open-source": true,
+            "url-info": "https://wiki.gnome.org/Apps/Shotwell",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                 "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "gimp": {
+            "name": "GIMP",
+            "img": "gimp",
+            "main-package": "gimp",
+            "launch-command": "gimp",
+            "install-packages": "gimp,gimp-data-extras,gimp-gap,gimp-plugin-registry",
+            "remove-packages": "gimp,gimp-data-extras,gimp-gap,gimp-plugin-registry",
+            "description": [
+                "Editor de imágenes avanzado"
+            ],
+            "alternate-to": "Adobe&reg; Photoshop",
+            "subcategory": "Editor",
+            "open-source": true,
+            "url-info": "http://www.gimp.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "gpick": {
+            "name": "Gpick",
+            "img": "gpick",
+            "main-package": "gpick",
+            "launch-command": "gpick",
+            "install-packages": "gpick",
+            "remove-packages": "gpick",
+            "description": [
+                "Selector de color avanzado"
+            ],
+            "alternate-to": null,
+            "subcategory": "Editor",
+            "open-source": true,
+            "url-info": "https://github.com/thezbyg/gpick",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "inkscape": {
+            "name": "Inkscape",
+            "img": "inkscape",
+            "main-package": "inkscape",
+            "launch-command": "inkscape",
+            "install-packages": "inkscape",
+            "remove-packages": "inkscape",
+            "description": [
+                "Editor vectorial (archivos SVG)"
+            ],
+            "alternate-to": "Adobe&reg; Illustrator",
+            "subcategory": "Editor",
+            "open-source": true,
+            "url-info": "https://inkscape.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "luminance-hdr": {
+            "name": "Luminance HDR",
+            "img": "luminance-hdr",
+            "main-package": "luminance-hdr",
+            "launch-command": "luminance-hdr",
+            "install-packages": "luminance-hdr",
+            "remove-packages": "luminance-hdr",
+            "description": [
+                "Interfaz para tratamiento de imágenes HDR"
+            ],
+            "alternate-to": "Photomatix",
+            "subcategory": "Fotografía",
+            "open-source": true,
+            "url-info": "http://qtpfsgui.sourceforge.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "mypaint": {
+            "name": "MyPaint",
+            "img": "mypaint",
+            "main-package": "mypaint",
+            "launch-command": "mypaint",
+            "install-packages": "mypaint,mypaint-data,mypaint-data-extras",
+            "remove-packages": "mypaint,mypaint-data,mypaint-data-extras",
+            "description": [
+                "Programa de dibujo para tarjetas digitalizadoras"
+            ],
+            "alternate-to": null,
+            "subcategory": "Editor",
+            "open-source": true,
+            "url-info": "http://mypaint.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "rapid-photo-downloader": {
+            "name": "Rapid Photo Downloader",
+            "img": "rapid-photo-downloader",
+            "main-package": "rapid-photo-downloader",
+            "launch-command": "rapid-photo-downloader",
+            "install-packages": "rapid-photo-downloader",
+            "remove-packages": "rapid-photo-downloader",
+            "description": [
+                "Importador de fotografías desde cámaras,",
+                "tarjetas de memoria u otros dispositivos"
+            ],
+            "alternate-to": null,
+            "subcategory": "Fotografía",
+            "open-source": true,
+            "url-info": "http://www.damonlynch.net/rapid/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "scribus": {
+            "name": "Scribus",
+            "img": "scribus",
+            "main-package": "scribus",
+            "launch-command": "scribus",
+            "install-packages": "scribus",
+            "remove-packages": "scribus",
+            "description": [
+                "Aplicaciónde maquetación de páginas"
+            ],
+            "alternate-to": "Adobe&reg; InDesign",
+            "subcategory": "Editor",
+            "open-source": true,
+            "url-info": "http://www.scribus.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "sweethome3d": {
+            "name": "Sweet Home 3D",
+            "img": "sweethome3d",
+            "main-package": "sweethome3d",
+            "launch-command": "sweethome3d",
+            "install-packages": "sweethome3d,sweethome3d-furniture",
+            "remove-packages": "sweethome3d,sweethome3d-furniture",
+            "description": [
+                "Aplicación de diseño de interiores"
+            ],
+            "alternate-to": null,
+            "subcategory": "3D",
+            "open-source": true,
+            "url-info": "http://www.sweethome3d.com/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        }
+    },
+
     "Media": {
         "obs-studio": {
             "name": "Open Broadcaster Software",
