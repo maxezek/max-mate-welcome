@@ -66,7 +66,7 @@ try:
 except ImportError:
     proctitle_available = False
 
-__VERSION__ = '20181027'
+__VERSION__ = '20181116'
 
 ##################################
 #  Miscellaneous
@@ -2284,7 +2284,7 @@ class DynamicApps(object):
 
         # Variables to remember common details.
         #self.all_categories = ['Accessories', 'Education', 'Games', 'Graphics', 'Internet', 'Office', 'Programming', 'Media', 'SysTools', 'UnivAccess', 'Servers', 'MoreApps']
-        self.all_categories = ['Accessories', 'Education', 'Games', 'Graphics', 'Internet', 'Office', 'Programming', 'Media', 'SysTools', 'UnivAccess', 'Servers']
+        self.all_categories = ['Accessories', 'Education', 'Games', 'Graphics', 'Internet', 'Office', 'Programming', 'Media', 'Science', 'SysTools', 'UnivAccess', 'Servers']
         # self.all_categories = ['Science', 'Media', 'SysTools', 'Servers']
         self.hide_non_free = pref.get('hide_non_free', False)
 
