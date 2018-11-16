@@ -1274,7 +1274,560 @@
         }
     },
 
-
+    "Games": {
+        "playonlinux": {
+            "name": "PlayOnLinux",
+            "img": "playonlinux",
+            "main-package": "playonlinux",
+            "launch-command": "playonlinux",
+            "install-packages": "playonlinux",
+            "remove-packages": "playonlinux",
+            "description": [
+                "Asistente para gestión de juegos Windows en Linux con WINE"
+            ],
+            "alternate-to": null,
+            "subcategory": "Game Management",
+            "open-source": true,
+            "url-info": "https://www.playonlinux.com/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "lutris": {
+            "name": "Lutris",
+            "img": "lutris",
+            "main-package": "lutris",
+            "launch-command": "lutris",
+            "install-packages": "lutris",
+            "remove-packages": "lutris",
+            "description": [
+                "Plataforma para instalar y gestionar juegos en Linux"
+            ],
+            "alternate-to": null,
+            "subcategory": "Game Management",
+            "open-source": true,
+            "url-info": "http://lutris.net",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "0ad": {
+            "name": "0 A.D",
+            "img": "0ad",
+            "main-package": "0ad",
+            "launch-command": "0ad",
+            "install-packages": "0ad",
+            "remove-packages": "0ad,0ad-data",
+            "description": [
+                "Juego de estrategia"
+            ],
+            "alternate-to": null,
+            "subcategory": "Real-time Strategy",
+            "open-source": true,
+            "url-info": "http://play0ad.com/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "chromiumbsu": {
+            "name": "Chromium B.S.U",
+            "img": "chromium-bsu",
+            "main-package": "chromium-bsu",
+            "launch-command": "chromium-bsu",
+            "install-packages": "chromium-bsu,chromium-bsu-data",
+            "remove-packages": "chromium-bsu,chromium-bsu-data",
+            "description": [
+                "Juego arcade de marcianitos"
+            ],
+            "alternate-to": null,
+            "subcategory": "Shooter",
+            "open-source": true,
+            "url-info": "http://chromium-bsu.sourceforge.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "extremetuxracer": {
+            "name": "Extreme Tux Racer",
+            "img": "extremetuxracer",
+            "main-package": "extremetuxracer",
+            "launch-command": "extremetuxracer",
+            "install-packages": "extremetuxracer,extremetuxracer-data",
+            "remove-packages": "extremetuxracer,extremetuxracer-data",
+            "description": [
+                "Juego de carreras protagonizado por Tux"
+            ],
+            "alternate-to": null,
+            "subcategory": "Racing",
+            "open-source": true,
+            "url-info": "http://sourceforge.net/projects/extremetuxracer/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "flightgear": {
+            "name": "Flightgear",
+            "img": "flightgear",
+            "main-package": "flightgear",
+            "launch-command": "flightgear",
+            "install-packages": "flightgear",
+            "remove-packages": "flightgear",
+            "description": [
+                "Simulador aéreo, pilota un avión «like a boss»"
+            ],
+            "alternate-to": null,
+            "subcategory": "Simulation",
+            "open-source": true,
+            "url-info": "http://www.flightgear.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "freeciv": {
+            "name": "Freeciv",
+            "img": "freeciv",
+            "main-package": "freeciv",
+            "launch-command": "freeciv",
+            "install-packages": "freeciv,freeciv-client-extras,freeciv-client-gtk,freeciv-data,freeciv-sound-standard",
+            "remove-packages": "freeciv,freeciv-client-extras,freeciv-client-gtk,freeciv-data,freeciv-sound-standard",
+            "description": [
+                "Juego inspirado en la historia de la civilización humana."
+            ],
+            "alternate-to": "Sid Meier\u2019s Civilization",
+            "subcategory": "Strategy",
+            "open-source": true,
+            "url-info": "http://www.freeciv.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "frozenbubble": {
+            "name": "Frozen-Bubble",
+            "img": "frozen-bubble",
+            "main-package": "frozen-bubble",
+            "launch-command": "frozen-bubble",
+            "install-packages": "frozen-bubble,frozen-bubble-data",
+            "remove-packages": "frozen-bubble,frozen-bubble-data",
+            "description": [
+                "Clon del popular juego Puzzle Booble"
+            ],
+            "alternate-to": null,
+            "subcategory": "Puzzle",
+            "open-source": true,
+            "url-info": "http://frozen-bubble.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "aisleriot": {
+            "name": "Multi juegos",
+            "img": "aisleriot",
+            "main-package": "gnome-cards-data",
+            "launch-command": null,
+            "install-packages": "aisleriot,gnome-cards-data,gnome-mahjongg,gnome-mines,gnome-sudoku,branding-ubuntu",
+            "remove-packages": "aisleriot,gnome-cards-data,gnome-mahjongg,gnome-mines,gnome-sudoku,branding-ubuntu",
+            "description": [
+                "Colección de múltiples juegos (cartas, ",
+                "Mahjongg, busc minas sudoku)"
+            ],
+            "alternate-to": null,
+            "subcategory": "Card and Board Games",
+            "open-source": true,
+            "url-info": "https://wiki.gnome.org/action/show/Attic/Games",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "hedgewars": {
+            "name": "Hedgewars",
+            "img": "hedgewars",
+            "main-package": "hedgewars",
+            "launch-command": "hedgewars",
+            "install-packages": "hedgewars,hedgewars-data",
+            "remove-packages": "hedgewars,hedgewars-data",
+            "description": [
+                "Juego por turnos de artillería"
+            ],
+            "alternate-to": null,
+            "subcategory": "Puzzle",
+            "open-source": true,
+            "url-info": "http://www.hedgewars.org",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true,
+            "notes": "no packages for armhf on xenial"
+        },
+        "minetest": {
+            "name": "Minetest",
+            "img": "minetest",
+            "main-package": "minetest",
+            "launch-command": "minetest",
+            "install-packages": "minetest",
+            "remove-packages": "minetest",
+            "description": [
+                "Juego multijugador de bloques"
+            ],
+            "alternate-to": "Minecraft",
+            "subcategory": "Open World",
+            "open-source": false,
+            "url-info": "https://www.minetest.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "neverball": {
+            "name": "Neverball",
+            "img": "neverball",
+            "main-package": "neverball",
+            "launch-command": "neverball",
+            "install-packages": "neverball,neverball-data",
+            "remove-packages": "neverball,neverball-data",
+            "description": [
+                "Juego 3D de control de inclinación de una pelota"
+            ],
+            "alternate-to": null,
+            "subcategory": "Puzzle",
+            "open-source": true,
+            "url-info": "http://neverball.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "neverputt": {
+            "name": "Neverputt",
+            "img": "neverputt",
+            "main-package": "neverputt",
+            "launch-command": "neverputt",
+            "install-packages": "neverputt,neverputt-data",
+            "remove-packages": "neverputt,neverputt-data",
+            "description": [
+                "Golf 3D en miniatura"
+            ],
+            "alternate-to": null,
+            "subcategory": "Sports",
+            "open-source": true,
+            "url-info": "https://apps.ubuntu.com/cat/applications/neverputt/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "nexuiz": {
+            "name": "Nexuiz Classic",
+            "img": "nexuiz",
+            "main-package": "nexuiz",
+            "launch-command": "nexuiz",
+            "install-packages": "nexuiz,nexuiz-data,nexuiz-music",
+            "remove-packages": "nexuiz,nexuiz-data,nexuiz-music",
+            "description": [
+                "Juego 3D en primera persona para disparar"
+            ],
+            "alternate-to": null,
+            "subcategory": "Shooter",
+            "open-source": true,
+            "url-info": "http://www.alientrap.org/games/nexuiz",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "pysolfc": {
+            "name": "PySolFC",
+            "img": "pysolfc",
+            "main-package": "pysolfc",
+            "launch-command": "pysolfc",
+            "install-packages": "pysolfc,pysolfc-cardsets",
+            "remove-packages": "pysolfc,pysolfc-cardsets",
+            "description": [
+                "Colección de más de 1000 juegos tipo solitario"
+            ],
+            "alternate-to": null,
+            "subcategory": "Card and Board Games",
+            "open-source": true,
+            "url-info": "http://pysolfc.sourceforge.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "redeclipse": {
+            "name": "Red Eclipse",
+            "img": "redeclipse",
+            "main-package": "redeclipse",
+            "launch-command": "redeclipse",
+            "install-packages": "redeclipse",
+            "remove-packages": "redeclipse,redeclipse-common,redeclipse-data",
+            "description": [
+                "Juego de disparos en primera persona"
+            ],
+            "alternate-to": null,
+            "subcategory": "Shooter",
+            "open-source": true,
+            "url-info": "http://www.redeclipse.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "steam": {
+            "name": "Steam",
+            "img": "steam",
+            "main-package": "steam:i386",
+            "launch-command": "steam",
+            "install-packages": "steam:i386",
+            "remove-packages": "steam:i386",
+            "description": [
+                "plataforma de juegos Steam"
+            ],
+            "alternate-to": null,
+            "subcategory": "Game Management",
+            "open-source": false,
+            "url-info": "http://store.steampowered.com/",
+            "url-android": "https://play.google.com/store/apps/details?id=com.valvesoftware.android.steam.community&hl=en",
+            "url-ios": "https://itunes.apple.com/gb/app/steam-mobile/id495369748",
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "multiverse-repo"
+                }
+            },
+            "working": true
+        },
+        "steam-devices": {
+            "name": "Steam",
+            "img": "steam",
+            "main-package": "steam-devices",
+            "launch-command": "steam",
+            "install-packages": "steam:i386,steam-devices",
+            "remove-packages": "steam:i386",
+            "description": [
+                "Plataforma de juegos steam, soporte de dispositivos"
+            ],
+            "alternate-to": null,
+            "subcategory": "Game Management",
+            "open-source": false,
+            "url-info": "http://store.steampowered.com/",
+            "url-android": "https://play.google.com/store/apps/details?id=com.valvesoftware.android.steam.community&hl=en",
+            "url-ios": "https://itunes.apple.com/gb/app/steam-mobile/id495369748",
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "multiverse-repo"
+                }
+            },
+            "working": true
+        },
+        "supertuxkart": {
+            "name": "SuperTuxKart",
+            "img": "supertuxkart",
+            "main-package": "supertuxkart",
+            "launch-command": "supertuxkart",
+            "install-packages": "supertuxkart",
+            "remove-packages": "supertuxkart",
+            "description": [
+                "Juego 3D de carreras de karts"
+            ],
+            "alternate-to": null,
+            "subcategory": "Racing",
+            "open-source": true,
+            "url-info": "http://supertuxkart.sourceforge.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "teeworlds": {
+            "name": "Teeworlds",
+            "img": "teeworlds",
+            "main-package": "teeworlds",
+            "launch-command": "teeworlds",
+            "install-packages": "teeworlds,teeworlds-data",
+            "remove-packages": "teeworlds,teeworlds-data",
+            "description": [
+                "Juego online de plataformas 2D"
+            ],
+            "alternate-to": null,
+            "subcategory": "Shooter",
+            "open-source": true,
+            "url-info": "https://www.teeworlds.com",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64,armhf,arm64",
+            "releases": "xenial,artful,bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "warzone2100": {
+            "name": "Warzone 2100",
+            "img": "warzone2100",
+            "main-package": "warzone2100",
+            "launch-command": "warzone2100",
+            "install-packages": "warzone2100,warzone2100-data,warzone2100-music",
+            "remove-packages": "warzone2100,warzone2100-data,warzone2100-music",
+            "description": [
+                "Juego 3D de estrategia en tiempo real"
+            ],
+            "alternate-to": null,
+            "subcategory": "Strategy",
+            "open-source": true,
+            "url-info": "https://wz2100.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "wesnoth": {
+            "name": "The Battle for Wesnoth",
+            "img": "wesnoth",
+            "main-package": "wesnoth",
+            "launch-command": "wesnoth",
+            "install-packages": "wesnoth,wesnoth-music",
+            "remove-packages": "wesnoth,wesnoth-music",
+            "description": [
+                "Juego táctico de turnos"
+            ],
+            "alternate-to": null,
+            "subcategory": "Strategy",
+            "open-source": true,
+            "url-info": "http://wesnoth.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        }
+    },
 
     "Media": {
         "obs-studio": {
