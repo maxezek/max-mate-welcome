@@ -2563,6 +2563,208 @@
                 }
             },
             "working": true
+        },
+        "atom": {
+            "name": "Atom",
+            "img": "atom",
+            "main-package": "atom",
+            "launch-command": "atom",
+            "install-packages": "atom",
+            "remove-packages": "atom",
+            "description": [
+                "Moderno y flexible editor de textos para desarrolladores."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "http://atom.io",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "brackets": {
+            "name": "Brackets",
+            "img": "brackets",
+            "main-package": "brackets",
+            "launch-command": "brackets",
+            "install-packages": "brackets",
+            "remove-packages": "brackets",
+            "description": [
+                "Moderno editor para diseño web."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "http://brackets.io",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "remarkable": {
+            "name": "Remarkable",
+            "img": "remarkable",
+            "main-package": "remarkable",
+            "launch-command": "remarkable",
+            "install-packages": "remarkable",
+            "remove-packages": "remarkable",
+            "description": [
+                "El mejor editor 'Markdown' para Linux."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "https://remarkableapp.github.io/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "pilasengine": {
+            "name": "Pilas engine",
+            "img": "pilasengine",
+            "main-package": "python-pilas",
+            "launch-command": "python-pilas",
+            "install-packages": "python-pilas",
+            "remove-packages": "python-pilas",
+            "description": [
+                "Crea tus propios videojuegos de manera didáctica y divertida."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "http://pilas-engine.com.ar",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "pilasbloques": {
+            "name": "Pilas engine",
+            "img": "pilas-engine-bloques",
+            "main-package": "pilas-engine-bloques",
+            "launch-command": "pilas-engine-bloques",
+            "install-packages": "pilas-engine-bloques",
+            "remove-packages": "pilas-engine-bloques",
+            "description": [
+                "Aprende a programar realizando pequeñños desafios."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "http://pilas-engine.com.ar",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "sonicpi": {
+            "name": "Sonic Pi",
+            "img": "sonic-pi",
+            "main-package": "sonic-pi",
+            "launch-command": "sonic-pi",
+            "install-packages": "sonic-pi",
+            "remove-packages": "sonic-pi",
+            "description": [
+                "El sintetizador programable para música en directo."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "https://sonic-pi.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "snap4arduino": {
+            "name": "Snap4Arduino",
+            "img": "snap4arduino",
+            "main-package": "snap4arduino",
+            "launch-command": "snap4arduino",
+            "install-packages": "snap4arduino",
+            "remove-packages": "snap4arduino",
+            "description": [
+                "Programa en Arduino por medio de bloques."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "http://snap4arduino.rocks/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "icestudio": {
+            "name": "Icestudio",
+            "img": "icestudio",
+            "main-package": "icestudio",
+            "launch-command": "icestudio",
+            "install-packages": "icestudio",
+            "remove-packages": "icestudio",
+            "description": [
+                "Increible editor de prgramación hardware. Diseño de",
+                "sistemas digitales en FPGA con mínima dificultad.",
+                "Forma de trabajo al estilo Scratch."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "https://github.com/FPGAwars/icestudio",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
         }
     },
 

@@ -66,7 +66,7 @@ try:
 except ImportError:
     proctitle_available = False
 
-__VERSION__ = '20181116'
+__VERSION__ = '20181120'
 
 ##################################
 #  Miscellaneous
@@ -779,7 +779,7 @@ class Strings(object):
 
         # General
         self.welcome = str(_("Welcome"))
-        self.boutique = str(_("Software Boutique"))
+        self.boutique = str(_("+Aplicaciones"))
         self.close = str(_("Close"))
         self.cancel = str(_("Cancel"))
 
