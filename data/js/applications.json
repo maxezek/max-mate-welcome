@@ -1826,10 +1826,10 @@
         "owncloud-client": {
             "name": "ownCloud Client",
             "img": "owncloud",
-            "main-package": "owncloud-client-caja",
+            "main-package": "caja-owncloud",
             "launch-command": "owncloud",
-            "install-packages": "owncloud-client,owncloud-client-caja",
-            "remove-packages": "owncloud-client,owncloud-client-caja",
+            "install-packages": "owncloud-client,caja-owncloud",
+            "remove-packages": "owncloud-client,caja-owncloud",
             "description": [
                 "Herramienta para sincronizar archivos ownCloud."
             ],
