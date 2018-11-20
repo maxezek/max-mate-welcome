@@ -1023,7 +1023,7 @@
             "working": true
         },
         "steam-devices": {
-            "name": "Steam",
+            "name": "Soporte dispositivos Steam",
             "img": "steam",
             "main-package": "steam-devices",
             "launch-command": "steam",
