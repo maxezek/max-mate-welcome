@@ -1,3 +1,9 @@
+max-mate-welcome (20181122max1) max; urgency=medium
+
+  * New version, add lost icons, MoreApps
+
+ -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Thu, 22 Nov 2018 07:44:01 +0100
+
 max-mate-welcome (20181116max1) max; urgency=medium
 
   * Build in MAX 10.0

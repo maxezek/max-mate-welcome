@@ -66,7 +66,7 @@ try:
 except ImportError:
     proctitle_available = False
 
-__VERSION__ = '20181120'
+__VERSION__ = '20181122'
 
 ##################################
 #  Miscellaneous
@@ -2408,6 +2408,10 @@ class DynamicApps(object):
         html_buffer += '</div><div class="span10">'
         html_buffer += '<p><b class="' + css_class + '-text">' + self.app_name + '</b></p>'
 
+        img_path = os.path.join(data_path, "img/applications/", self.app_img + ".png")
+        if not os.path.exists(img_path):
+            dbg.stdout('Apps', " name=%s NO EXISTS img=%s" % (self.app_name, img_path), 2, 4)
+
         # When queue mode is enabled, show the "plan" text here.
         html_buffer += '<h5 class="queue-plan ' + css_class + '-plan" hidden></h5>'
 
@@ -2512,7 +2516,7 @@ class DynamicApps(object):
                     self.source_info.insert(0, source_multiverse)
 
                 else:
-                    dbg.stdout('Apps', ' Skipping unsupperted method application: ' + self.app_name, 2, 4)
+                    dbg.stdout('Apps', ' Skipping unsupported method application: ' + self.app_name, 2, 4)
                     return 2
 
                 # elif method == 'ppa':
@@ -2591,7 +2595,7 @@ class DynamicApps(object):
             dbg.stdout('Apps', 'Application index not loaded. Cannot populate categories.', 0, 1)
             return
 
-        # dbg.stdout('Apps', " Populate categories=%s" % self.all_categories, 2, 0)
+        dbg.stdout('Apps', " Populate categories=%s" % self.all_categories, 2, 0)
         # Get the app data from each category and list them.
         for category in self.all_categories:
             # dbg.stdout('Apps', ' ------ Processing: ' + category + ' ------', 2, 0)
