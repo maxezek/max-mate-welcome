@@ -299,7 +299,7 @@ msgid ""
 "scanner and printer management all included in MAX. And this is just the "
 "start. The"
 msgstr ""
-"Naturalemente también encontrarás un cortafuegos, una aplicación para copias "
+"Naturalmente también encontrarás un cortafuegos, una aplicación para copias "
 "de seguridad, gestión de escáner e impresora para documentos/fotos todo "
 "incluido en MAX. Y esto es solo el principio. Las sección de"
 
