@@ -1,9 +1,10 @@
 [Desktop Entry]
-Terminal=false
 Type=Application
-Categories=PackageManager;System;Settings;
-Name=Software Boutique
-Comment=Discover and install software from a collection that compliments MAX MATE.
+Name=+Aplicaciones
+Comment=Discover and install more software for MAX
+Comment[es]=Descubre e instala nuevo software para MAX
 Exec=max-mate-welcome --boutique
+Terminal=false
 Icon=max-applicaciones
 StartupNotify=false
+Categories=PackageManager;System;Settings;

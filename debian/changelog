@@ -1,3 +1,9 @@
+max-mate-welcome (20181122max2) max; urgency=medium
+
+  * Change description in '+Aplicaciones' menu launcher
+
+ -- Mario Izquierdo <hola@marioizquierdo.es>  Mon, 26 Nov 2018 08:08:13 +0100
+
 max-mate-welcome (20181122max1) max; urgency=medium
 
   * New version, add lost icons, MoreApps
