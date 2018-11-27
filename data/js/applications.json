@@ -2133,7 +2133,6 @@
         }
     },
 
-
     "Office": {
         "calibre": {
             "name": "Calibre",
@@ -2672,7 +2671,7 @@
             "install-packages": "pilas-engine-bloques",
             "remove-packages": "pilas-engine-bloques",
             "description": [
-                "Aprende a programar realizando pequeñños desafios."
+                "Aprende a programar realizando pequeños desafios."
             ],
             "alternate-to": null,
             "subcategory": "IDEs",
@@ -3553,6 +3552,133 @@
             "pre-install": {
                 "all": {
                     "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "qelectrotech": {
+            "name": "Qelectrotech",
+            "img": "qelectrotech",
+            "main-package": "qelectrotech",
+            "launch-command": "qelectrotech",
+            "install-packages": "qelectrotech,qelectrotech-data,qelectrotech-examples",
+            "remove-packages": "qelectrotech,qelectrotech-data,qelectrotech-examples",
+            "description": [
+                "Editor de esquemas electrónicos."
+            ],
+            "alternate-to": null,
+            "subcategory": "Electrónica",
+            "open-source": true,
+            "url-info": "http://qelectrotech.org",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "simulide": {
+            "name": "Simulide",
+            "img": "simulide",
+            "main-package": "simulide",
+            "launch-command": "simulide",
+            "install-packages": "simulide",
+            "remove-packages": "simulide",
+            "description": [
+                "Simulador de circuitos electrónicos en tiempo real.",
+                "Soporta simulación de PIC y AVR (Arduino)"
+            ],
+            "alternate-to": null,
+            "subcategory": "Electrónica",
+            "open-source": true,
+            "url-info": "https://sourceforge.net/projects/simulide",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "qucs": {
+            "name": "Qucs",
+            "img": "qucs",
+            "main-package": "qucs",
+            "launch-command": "qucs",
+            "install-packages": "qucs",
+            "remove-packages": "qucs",
+            "description": [
+                "Simulador de circuitos electrónicos en tiempo real."
+            ],
+            "alternate-to": null,
+            "subcategory": "Electrónica",
+            "open-source": true,
+            "url-info": "https://sourceforge.net/projects/simulide",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "fritzing": {
+            "name": "Fritzing",
+            "img": "fritzing",
+            "main-package": "fritzing",
+            "launch-command": "fritzing",
+            "install-packages": "fritzing,fritzing-data,fritzing-parts",
+            "remove-packages": "fritzing,fritzing-data,fritzing-parts",
+            "description": [
+                "Aplicación de diseño de circuitos electrónicos."
+            ],
+            "alternate-to": null,
+            "subcategory": "Electrónica",
+            "open-source": true,
+            "url-info": "http://fritzing.org",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "kicad": {
+            "name": "Kicad",
+            "img": "kicad",
+            "main-package": "kicad",
+            "launch-command": "kicad",
+            "install-packages": "kicad,kicad-demos,kicad-libraries",
+            "remove-packages": "kicad,kicad-demos,kicad-libraries",
+            "description": [
+                "Aplicación de diseño de circuitos electrónicos,",
+                "esquemáticos y placas PCB."
+            ],
+            "alternate-to": null,
+            "subcategory": "Electrónica",
+            "open-source": true,
+            "url-info": "http://www.kicad-pcb.org",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
                 }
             },
             "working": true
