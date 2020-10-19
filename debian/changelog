@@ -1,3 +1,9 @@
+max-mate-welcome (20181122max5) max; urgency=medium
+
+  * Build in MAX 11.0
+
+ -- Mario Izquierdo <hola@marioizquierdo.es>  Mon, 19 Oct 2020 23:21:59 +0200
+
 max-mate-welcome (20181122max4) max; urgency=medium
 
   * Add some electronic apps
