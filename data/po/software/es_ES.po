@@ -509,7 +509,7 @@ msgstr "Ingrese una palabra clave a buscar en la Boutique de Software"
 
 #: software.html:367
 msgid "Name of Application"
-msgstr "Nombre de la aplicaión"
+msgstr "Nombre de la aplicación"
 
 #: software.html:372
 msgid "No software matched your key words."

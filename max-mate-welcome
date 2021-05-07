@@ -36,7 +36,6 @@ import inspect
 import json
 import locale
 import os
-import platform
 import random
 import signal
 import socket
@@ -44,7 +43,8 @@ import subprocess
 import sys
 import time
 import webbrowser
-import traceback
+import re
+import math
 
 import urllib.error
 import urllib.parse
@@ -66,7 +66,7 @@ try:
 except ImportError:
     proctitle_available = False
 
-__VERSION__ = '20181122'
+__VERSION__ = '20210507'
 
 ##################################
 #  Miscellaneous
@@ -478,17 +478,8 @@ class PreInstallation(object):
 
     def __init__(self):
         # Always ensure we have the correct variables, not any overrides.
-        # self.os_version = platform.dist()[1]
-        if arg.platform_os_version:
-            self.os_version = arg.platform_os_version
-        else:
-            self.os_version = platform.dist()[1]     # → 14.04, 15.10, 16.04
-        #
-        if arg.platform_codename:
-            self.codename = arg.platform_codename
-        else:
-            self.codename = platform.dist()[2]
-        #
+        self.os_version = subprocess.run(['lsb_release','-rs'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip('\n')
+        self.codename = subprocess.run(['lsb_release','-cs'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip('\n')
         dbg.stdout('Pre-Install', "System is running Ubuntu " + self.os_version + " (" + self.codename + ")", 1, 0)
 
     def process_packages(self, program_id, action, preconfigure_only=False):
@@ -954,7 +945,7 @@ class AppView(WebKit2.WebView):
         # Individual Page Actions
         ### Main Menu ###
         if app.current_page == 'index.html':
-            # MAX leave 10.0 as os_version in screen
+            # MAX leave 11.0 as os_version in screen
             # app.update_page('#os_version', 'html', systemstate.os_version)
 
             # Buttons (IDs) to be displayed
@@ -1072,7 +1063,9 @@ class AppView(WebKit2.WebView):
             dynamicapps.update_app_status(self, 'keyboard-japanese')
             dynamicapps.update_app_status(self, 'keyboard-korean')
             dynamicapps.update_app_status(self, 'caja-share')
-            dynamicapps.update_app_status(self, 'libdvdcss2')
+            dynamicapps.update_app_status(self, 'libdvdcss2-v4')
+            dynamicapps.update_app_status(self, 'libdvdcss2-v7')
+            dynamicapps.update_app_status(self, 'libdvdcss2-v8')
             dynamicapps.update_app_status(self, 'xscreensaver')
             dynamicapps.update_app_status(self, 'xthemes')
             dynamicapps.update_app_status(self, 'wallpapers')
@@ -1596,6 +1589,11 @@ class WelcomeApp(object):
         b = Gtk.VBox(homogeneous=False, spacing=0)
         b.pack_start(sw, expand=True, fill=True, padding=0)
 
+        # If debugging, show the inspector window
+        if arg.inspector:
+            self.webkit.get_settings().set_property("enable-developer-extras", True)
+            inspector = self.webkit.get_inspector()
+            inspector.show()
         # Add the box to the parent window and show
         w.add(b)
         w.connect('delete-event', goodbye)
@@ -1675,21 +1673,18 @@ class SystemState(object):
         self.arch = str(subprocess.Popen(['dpkg','--print-architecture'], stdout=subprocess.PIPE).communicate()[0]).strip('\\nb\'')
 
         # Get current version / codename of Ubuntu MATE in use.
-        self.distro = platform.dist()[0].lower()  # → ubuntu
-        if arg.platform_os_version:
-            self.os_version = arg.platform_os_version
-        else:
-            self.os_version = platform.dist()[1]  # → 14.04, 15.10, 16.04
-
-        # self.codename = platform.dist()[2]  # → trusty, wily, xenial
-        if arg.platform_codename:
-            self.codename = arg.platform_codename
-        else:
-            self.codename = platform.dist()[2]
+        self.distro = subprocess.run(['lsb_release','-is'], stdout=subprocess.PIPE).stdout.decode('utf-8').lower().strip('\n')
+        self.os_version = subprocess.run(['lsb_release','-rs'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip('\n')
+        self.codename = subprocess.run(['lsb_release','-cs'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip('\n')
+        #self.distro = distro.id().lower()                       # → ubuntu
+        #self.os_version = distro.version(pretty=False)          # → 14.04, 15.10, 16.04
+        #self.codename = distro.codename().split(' ')[0].lower() # → xenial, bionic
+        #self.distro = platform.dist()[0].lower() # → ubuntu
+        #self.os_version = platform.dist()[1]     # → 14.04, 15.10, 16.04
+        #self.codename = platform.dist()[2]       # → xenial, bionic
 
         # Are we running in Ubuntu MATE?
         self.is_ubuntu_mate = True
-        self.is_ubuntu_mate = False
         # if not self.apt_cache['ubuntu-mate-desktop'].is_installed or not self.apt_cache['ubuntu-mate-core'].is_installed:
         #     if os.environ.get('DESKTOP_SESSION') != "mate":
         #         self.is_ubuntu_mate = False
@@ -1862,7 +1857,8 @@ class SystemState(object):
         # TODO: Support dual graphic cards.
         dbg.stdout('Specs', 'Detecting graphics vendor... ', 1, 3)
         try:
-            output = subprocess.Popen('lspci | grep VGA', stdout=subprocess.PIPE, shell='True').communicate()[0]
+            lspci_app = which('lspci')
+            output = subprocess.Popen(lspci_app + ' | grep VGA', stdout=subprocess.PIPE, shell='True').communicate()[0]
             output = output.decode(encoding='UTF-8')
         except:
             # When 'lspci' does not find a VGA controller (this is the case for the RPi 2)
@@ -1877,6 +1873,8 @@ class SystemState(object):
         elif output.find('Intel') != -1:
             self.graphics_vendor = 'Intel'
         elif output.find('VirtualBox') != -1:
+            self.graphics_vendor = 'VirtualBox'
+        elif output.find('VMware') != -1:
             self.graphics_vendor = 'VirtualBox'
         else:
             self.graphics_vendor = 'Unknown'
@@ -2348,6 +2346,10 @@ class DynamicApps(object):
         self.app_url_android = self.index[category][program_id]['url-android']
         self.app_url_ios = self.index[category][program_id]['url-ios']
         self.app_arch = self.index[category][program_id]['arch']
+        try:
+            self.app_session = self.index[category][program_id]['session']
+        except KeyError:
+            self.app_session = None
         self.app_releases = self.index[category][program_id]['releases']
         self.app_working = self.index[category][program_id]['working']
 
@@ -2364,21 +2366,29 @@ class DynamicApps(object):
         supported = False
         supported_arch = False
         supported_release = False
+        supported_session = False
 
         for architecture in self.app_arch.split(','):
             if architecture == systemstate.arch:
                 supported_arch = True
+
+        if self.app_session is not None:
+          for session in self.app_session.split(','):
+            if session == systemstate.session_type :
+              supported_session = True
+        elif self.app_session is None:
+            supported_session = True
 
         # Only list the program if it's available for the current release.
         for release in self.app_releases.split(','):
             if release == systemstate.codename:
                 supported_release = True
 
-        if supported_arch and supported_release:
+        if supported_arch and supported_release and supported_session:
             supported = True
 
         if not supported:
-            dbg.stdout('Apps', ' Skipping unsupported: ' + self.app_name + ' (Only for architectures: ' + self.app_arch + ' and releases: ' + self.app_releases + ')', 2, 4)
+            dbg.stdout('Apps', ' Skipping unsupported: ' + self.app_name + ' (Only for architectures: ' + self.app_arch + ' and releases: ' + self.app_releases + ' and sessio: ' + str(self.app_session) + ')', 2, 4)
             return 1
 
         # If the app has made it this far, it can be added to the grid.
@@ -2694,6 +2704,9 @@ class DynamicApps(object):
         #   -   Upgrade a package (on an individual basis)
         if queue.is_enabled() and app.current_page == 'software.html' and not action == "upgrade":
             queue.add_item(program_id, action)
+
+            if pref.get("queue-hint-runonce", False) == False:
+                app.webkit.run_js("show_queue_hint()")
 
         else:
             # Indicate changes are in progress.
@@ -3048,7 +3061,7 @@ class DynamicApps(object):
         # Start Searching!
         dbg.stdout('Apps', 'Searching for: ' + terms, 1, 4)
         app.update_page('#navigation-sub-title', 'html', string.search + ': ' + terms)
-        terms.lower()
+        terms = terms.lower()
         app.update_page('#search-results', 'hide')
         app.update_page('#search-results', 'html', ' ')
         total_results = 0
@@ -3285,14 +3298,14 @@ class ChangesQueue(object):
         if queue == 'install':
             self.install_queue.append(program_id)
             self.ui_add_card(program_id, 'install')
-            plan_html = '<span class="fa fa-download"></span> ' + string.queue_install
+            plan_html = '<div class="alert alert-success"><span class="fa fa-download"></span> ' + string.queue_install + '</div>'
             plan_css = 'install'
             app.update_page('#navigation-queue', 'jAnimateOnce', 'queue-glow-add')
 
         elif queue == 'remove':
             self.remove_queue.append(program_id)
             self.ui_add_card(program_id, 'remove')
-            plan_html = '<span class="fa fa-trash"></span> ' + string.queue_remove
+            plan_html = '<div class="alert alert-danger"><span class="fa fa-trash"></span> ' + string.queue_remove + '</div>'
             plan_css = 'remove'
             app.update_page('#navigation-queue', 'jAnimateOnce', 'queue-glow-remove')
 
@@ -3312,7 +3325,7 @@ class ChangesQueue(object):
         app.update_page('.'+css_class+'-remove', 'hide')
         app.update_page('.'+css_class+'-upgrade', 'hide')
         app.update_page('.'+css_class+'-undo', 'show')
-        app.update_page('.'+css_class+'-plan', 'slideDown', 'fast')
+        app.update_page('.'+css_class+'-plan', 'fadeIn', 'fast')
         app.update_page('.'+css_class+'-plan', 'html', plan_html)
         app.update_page('.'+css_class+'-plan', 'addClass', plan_css)
 
@@ -3688,8 +3701,7 @@ class Arguments(object):
         self.locale = None
         self.jump_to = None
         self.font_dpi_override = None
-        self.platform_os_version = None
-        self.platform_codename = None
+        self.inspector = False
 
         archs = ['i386', 'amd64', 'armhf', 'arm64', 'powerpc', 'ppc64el']
         sessions = ['guest', 'live', 'oem', 'pi', 'vbox']
@@ -3707,7 +3719,7 @@ class Arguments(object):
               print('  --force-arch=ARCH            Simulate a specific architecture.')
               print('                                -- Examples: i386, amd64, armhf, amd64')
               print('  --force-codename=CODENAME    Simulate a specific release.')
-              print('                                -- Examples: trusty, wily, xenial')
+              print('                                -- Examples: xenial, bionic')
               print('  --force-net                  Simulate a working internet connection.')
               print('  --force-no-net               Simulate no internet connection.')
               print('  --force-session=TYPE         Simulate a specific type of session.')
@@ -3723,6 +3735,10 @@ class Arguments(object):
               print('  --codename=bionic            Simulate a specific platform codename.')
               print('')
               exit()
+
+          if arg == '--inspect':
+              dbg.stdout('Debug', 'Inspector enabled.', 0, 0)
+              self.inspector = True
 
           if arg == '--autostart' or arg == '-a':
               dbg.stdout('Debug', 'Autostart mode enabled.', 0, 0)
