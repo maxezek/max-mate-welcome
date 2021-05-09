@@ -478,8 +478,15 @@ class PreInstallation(object):
 
     def __init__(self):
         # Always ensure we have the correct variables, not any overrides.
-        self.os_version = subprocess.run(['lsb_release','-rs'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip('\n')
-        self.codename = subprocess.run(['lsb_release','-cs'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip('\n')
+        if arg.platform_os_version:
+            self.os_version = arg.platform_os_version
+        else:
+            self.os_version = subprocess.run(['lsb_release','-rs'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip('\n')
+
+        if arg.platform_codename:
+            self.codename = arg.platform_codename
+        else:
+            self.codename = subprocess.run(['lsb_release','-cs'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip('\n')
         dbg.stdout('Pre-Install', "System is running Ubuntu " + self.os_version + " (" + self.codename + ")", 1, 0)
 
     def process_packages(self, program_id, action, preconfigure_only=False):
@@ -1674,8 +1681,15 @@ class SystemState(object):
 
         # Get current version / codename of Ubuntu MATE in use.
         self.distro = subprocess.run(['lsb_release','-is'], stdout=subprocess.PIPE).stdout.decode('utf-8').lower().strip('\n')
-        self.os_version = subprocess.run(['lsb_release','-rs'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip('\n')
-        self.codename = subprocess.run(['lsb_release','-cs'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip('\n')
+        if arg.platform_os_version:
+            self.os_version = arg.platform_os_version
+        else:
+            self.os_version = subprocess.run(['lsb_release','-rs'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip('\n')
+
+        if arg.platform_codename:
+            self.codename = arg.platform_codename
+        else:
+            self.codename = subprocess.run(['lsb_release','-cs'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip('\n')
         #self.distro = distro.id().lower()                       # → ubuntu
         #self.os_version = distro.version(pretty=False)          # → 14.04, 15.10, 16.04
         #self.codename = distro.codename().split(' ')[0].lower() # → xenial, bionic
@@ -1684,7 +1698,7 @@ class SystemState(object):
         #self.codename = platform.dist()[2]       # → xenial, bionic
 
         # Are we running in Ubuntu MATE?
-        self.is_ubuntu_mate = True
+        self.is_ubuntu_mate = False
         # if not self.apt_cache['ubuntu-mate-desktop'].is_installed or not self.apt_cache['ubuntu-mate-core'].is_installed:
         #     if os.environ.get('DESKTOP_SESSION') != "mate":
         #         self.is_ubuntu_mate = False
@@ -2372,6 +2386,10 @@ class DynamicApps(object):
             if architecture == systemstate.arch:
                 supported_arch = True
 
+        if not supported_arch:
+            dbg.stdout('Apps', ' Skipping unsupported ARCH: ' + self.app_name + ' (Only for architectures: ' + self.app_arch + '!=' + ' ' + systemstate.arch + ')', 2, 4)
+            return 1
+
         if self.app_session is not None:
           for session in self.app_session.split(','):
             if session == systemstate.session_type :
@@ -2384,7 +2402,12 @@ class DynamicApps(object):
             if release == systemstate.codename:
                 supported_release = True
 
-        if supported_arch and supported_release and supported_session:
+        if not supported_release:
+            dbg.stdout('Apps', ' Skipping unsupported RELEASE: ' + self.app_name + ' (Only for releases: ' + self.app_releases + '!=' + ' ' + systemstate.codename + ')', 2, 4)
+            return 1
+
+        # if supported_arch and supported_release and supported_session:
+        if supported_arch and supported_release:
             supported = True
 
         if not supported:
@@ -3702,6 +3725,9 @@ class Arguments(object):
         self.jump_to = None
         self.font_dpi_override = None
         self.inspector = False
+        # override from cmdline
+        self.platform_os_version = None
+        self.platform_codename = None
 
         archs = ['i386', 'amd64', 'armhf', 'arm64', 'powerpc', 'ppc64el']
         sessions = ['guest', 'live', 'oem', 'pi', 'vbox']
