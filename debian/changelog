@@ -1,3 +1,10 @@
+max-mate-welcome (20210507max2) max; urgency=medium
+
+  * Build in MAX 11.0
+  * Change all apps bionic => focal, set is_ubuntu_mate to False, fix override os_version and codename
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Sat, 29 May 2021 18:06:48 +0200
+
 max-mate-welcome (20210507max1) max; urgency=medium
 
   * Sync from 21.04.0 ubuntu-mate-welcome (remove platform package, add inspector)
